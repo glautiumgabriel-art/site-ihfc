@@ -10,7 +10,8 @@ const P = {
   gisele: "Gisele Gomes (fisioterapia)",
   natielli: "Natielli Batista (massoterapia)",
   neuza: "Maria Neuza (podologia)",
-  matheus: "Dr. Mateus Silva Brito (tricologia)",
+  matheus: "Dr. Mateus Brito (tricologia)",
+  duda: "Maria Eduarda Brisola (estética)",
   equipe: "Equipe IHFC",
 };
 
@@ -20,7 +21,7 @@ const QUEIXAS = [
     intro: "Pode ser melasma: uma mancha crônica ligada a hormônios, sol, calor e genética. Não tem cura definitiva, mas tem controle com método.",
     itens: [
       ["Protocolo Revitalli", "Gerenciamento de pele aplicado há 8 anos no IHFC: etapas no consultório e passo a passo em casa, com retornos programados.", [P.glautium]],
-      ["Peelings", "Renovam a camada superficial da pele e ajudam a clarear manchas e uniformizar o tom.", [P.glautium, P.ionara]],
+      ["Peelings", "Renovam a camada superficial da pele e ajudam a clarear manchas e uniformizar o tom.", [P.glautium, P.ionara, P.duda]],
       ["Laser e luz intensa pulsada", "Tratam manchas de sol, vasinhos do rosto e vermelhidão, com pouca interferência na rotina.", [P.ionara]],
       ["Avaliação dermatológica", "Investiga a causa da mancha e garante que o tratamento comece numa pele saudável.", [P.ionara]],
     ] },
@@ -140,7 +141,6 @@ const QUEIXAS = [
       ["Escleroterapia com espuma", "Para vasos um pouco mais calibrosos.", [P.ionara]],
       ["Flacidez de braços e coxas", "Bioestimulador, Endolaser e radiofrequência.", [P.ionara]],
       ["Clareamento de áreas", "Axilas, virilha e entre pernas.", [P.jessica]],
-      ["Depilação a laser", "Redução duradoura dos pelos.", [P.equipe]],
     ] },
   { area: "corpo", img: "ihfc-emagrecimento", q: "Não consigo emagrecer", tag: "Emagrecimento com saúde",
     intro: "Obesidade é uma doença crônica e merece tratamento sério, com consulta, exames e acompanhamento de perto.",
@@ -157,9 +157,9 @@ const QUEIXAS = [
     itens: [
       ["Tratamento da acne", "Avaliação médica, tratamento clínico e procedimentos.", [P.ionara]],
       ["Protocolo Revitalli", "Melhora a textura e o relevo das cicatrizes de acne.", [P.glautium]],
-      ["Microagulhamento e radiofrequência", "Estimulam colágeno: cicatrizes, poros e textura.", [P.glautium, P.ionara]],
+      ["Microagulhamento e radiofrequência", "Estimulam colágeno: cicatrizes, poros e textura.", [P.glautium, P.ionara, P.duda]],
       ["Laser CO₂ fracionado", "Rejuvenescimento intenso para cicatrizes e rugas finas.", [P.ionara]],
-      ["Limpeza de pele protocolada", "Específica para o seu tipo de pele, com peeling de diamante e LED.", [P.equipe]],
+      ["Limpeza de pele protocolada", "Específica para o seu tipo de pele, com peeling de diamante e LED.", [P.duda]],
     ] },
   { area: "saude", img: "ihfc-cabelo-implante", q: "Cabelo caindo ou ralo", tag: "Cabelo · tricologia",
     intro: "Queda de cabelo tem causa: genética, hormônios, estresse, alimentação ou doenças do couro cabeludo. E tem tratamento.",
