@@ -10,7 +10,7 @@ const P = {
   gisele: "Gisele Gomes (fisioterapia)",
   natielli: "Natielli Batista (massoterapia)",
   neuza: "Maria Neuza (podologia)",
-  matheus: "Dr. Matheus (tricologia)",
+  matheus: "Dr. Mateus Silva Brito (tricologia)",
   equipe: "Equipe IHFC",
 };
 

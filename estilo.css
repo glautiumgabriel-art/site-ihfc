@@ -211,3 +211,4 @@ button.dor:hover .dor-ver{color:var(--ouro-claro);letter-spacing:.02em}
 .jd-lista span{font-size:.74rem;letter-spacing:.06em;color:var(--ouro)}
 .jd-nota{font-size:.78rem;color:var(--suave);margin-bottom:1.4rem}
 @media(max-width:600px){.dor{aspect-ratio:16/11}.dor q{font-size:1.35rem}.dor-txt{padding:18px}}
+.pessoa img.sem-foto{object-fit:contain;padding:28%;background:var(--preto3);border:1px solid var(--linha);opacity:.8}
