@@ -2,7 +2,9 @@
 
 Situação em 25/10/2026: o domínio ihfc.com.br está registrado na Super Domínios e "estacionado" (servidores ns1/ns2.sdparking.com.br, página "Em breve"). O site fica hospedado de graça no GitHub Pages (conta glautiumgabriel-art, repositório `site-ihfc`).
 
-## 1. GitHub (Claude faz, com o OK do Dr.)
+**Conta da Super Domínios:** e-mail **ihfcjequie@gmail.com** (titular IHFC, CNPJ 39.698.984/0001-61, conforme Registro.br em 25/10/2026). Domínio registrado em 23/10/2025 e **vencido em 23/10/2026**: renovar antes de mexer no DNS.
+
+## 1. GitHub (feito em 25/10/2026: repositório glautiumgabriel-art/site-ihfc + Pages ligado) (Claude faz, com o OK do Dr.)
 - Criar o repositório público `glautiumgabriel-art/site-ihfc` e enviar esta pasta (já é um repositório git com o arquivo `CNAME` = www.ihfc.com.br).
 - Ligar o GitHub Pages: ramo `main`, pasta `/`, domínio próprio `www.ihfc.com.br`, HTTPS obrigatório.
 

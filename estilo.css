@@ -181,3 +181,33 @@ footer img{height:30px;width:auto}
 .tec span{border:1px solid var(--linha);border-radius:999px;padding:8px 16px;font-size:.84rem;color:var(--creme2)}
 .apoio{margin-top:2.4rem;color:var(--suave);font-size:.9rem}
 .apoio b{color:var(--creme);font-weight:500}
+
+/* queixas clicáveis */
+.filtros{display:flex;flex-wrap:wrap;gap:10px;margin-top:2.2rem}
+.filtro{font:inherit;font-size:.84rem;color:var(--creme2);background:transparent;border:1px solid var(--linha);border-radius:999px;padding:9px 18px;cursor:pointer;transition:.2s}
+.filtro:hover{border-color:var(--ouro)}
+.filtro.ativo{background:var(--ouro);border-color:var(--ouro);color:#1a140c;font-weight:500}
+.grade-dores{margin-top:1.6rem}
+button.dor{font:inherit;color:inherit;border:0;padding:0;text-align:left;cursor:pointer;width:100%;display:block}
+button.dor[hidden]{display:none}
+button.dor:focus-visible{outline:2px solid var(--ouro);outline-offset:3px}
+.dor-ver{display:inline-block;margin-top:.9rem;font-size:.8rem;color:var(--creme);border-bottom:1px solid var(--ouro);padding-bottom:2px;transition:.25s}
+button.dor:hover .dor-ver{color:var(--ouro-claro);letter-spacing:.02em}
+.janela-dor{border:0;padding:0;background:transparent;max-width:min(760px,calc(100% - 24px));width:100%;max-height:calc(100dvh - 24px);margin:auto;color:var(--texto)}
+.janela-dor::backdrop{background:rgba(8,6,4,.78);backdrop-filter:blur(4px)}
+.janela-dor[open]{animation:jdEntra .35s ease}
+@keyframes jdEntra{from{opacity:0;transform:translateY(24px) scale(.98)}to{opacity:1;transform:none}}
+.jd-caixa{position:relative;background:var(--preto2);border:1px solid var(--linha);border-radius:22px;overflow:hidden;display:flex;flex-direction:column;max-height:calc(100dvh - 24px)}
+.jd-foto{width:100%;height:190px;object-fit:cover;flex:none;mask-image:linear-gradient(180deg,#000 40%,transparent)}
+.jd-fechar{position:absolute;top:12px;right:12px;width:42px;height:42px;border-radius:50%;border:1px solid var(--linha);background:rgba(14,12,10,.7);color:var(--creme);font-size:1.6rem;line-height:1;cursor:pointer}
+.jd-fechar:hover{border-color:var(--ouro);color:var(--ouro)}
+.jd-corpo{padding:0 clamp(20px,4vw,40px) 32px;overflow-y:auto;margin-top:-40px;position:relative}
+.jd-titulo{font-size:clamp(1.8rem,4vw,2.5rem);font-style:italic;margin:.5rem 0 .8rem}
+.jd-intro{color:var(--creme2);font-size:.96rem}
+.jd-lista{list-style:none;margin:1.6rem 0;display:grid;gap:10px}
+.jd-lista li{border:1px solid var(--linha);border-radius:14px;padding:16px 18px;background:var(--preto3)}
+.jd-lista h4{font-family:var(--serif);font-size:1.3rem;font-weight:500;color:var(--creme)}
+.jd-lista p{font-size:.88rem;color:var(--suave);margin:.3rem 0 .6rem}
+.jd-lista span{font-size:.74rem;letter-spacing:.06em;color:var(--ouro)}
+.jd-nota{font-size:.78rem;color:var(--suave);margin-bottom:1.4rem}
+@media(max-width:600px){.dor{aspect-ratio:16/11}.dor q{font-size:1.35rem}.dor-txt{padding:18px}}

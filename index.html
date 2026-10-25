@@ -60,17 +60,8 @@
     <span class="eyebrow surge">Encontre o seu cuidado</span>
     <h2 class="surge">Comece pelo que <em>te incomoda</em>.</h2>
     <p class="lead surge">Escolha abaixo o que mais se parece com a sua queixa. Daqui pra frente é com a gente: descobrimos a causa e te ajudamos a resolver.</p>
-    <div class="grade-dores">
-      <article class="dor surge"><img src="img/ihfc-pele-manchas.webp" alt="" loading="lazy"><div class="dor-txt"><q>Mancha escura no rosto que não sai</q><p>Pode ser melasma. Tratamos com o protocolo Revitalli: consultório, cuidados em casa e retornos.</p><small>Pele · Dr. Glautium</small></div></article>
-      <article class="dor surge"><img src="img/ihfc-papada-contorno.webp" alt="" loading="lazy"><div class="dor-txt"><q>Papada mesmo sendo magra</q><p>Nem sempre é gordura: pode ser flacidez ou o queixo posicionado para trás. Cada causa tem um caminho.</p><small>Contorno · Dr. Glautium</small></div></article>
-      <article class="dor surge"><img src="img/ihfc-flacidez.webp" alt="" loading="lazy"><div class="dor-txt"><q>Meu rosto está caindo</q><p>Perda de colágeno e sustentação. Fios, bioestimuladores e tecnologias para firmeza.</p><small>Flacidez · Dr. Glautium</small></div></article>
-      <article class="dor surge"><img src="img/ihfc-rugas.webp" alt="" loading="lazy"><div class="dor-txt"><q>Pareço cansada ou brava</q><p>Linhas de expressão na testa e nos olhos suavizadas sem tirar a sua expressão.</p><small>Rugas · Dr. Glautium</small></div></article>
-      <article class="dor surge"><img src="img/ihfc-labios.webp" alt="" loading="lazy"><div class="dor-txt"><q>Boca fina, sem contorno</q><p>Contorno, hidratação e volume na medida do seu rosto, sem exagero.</p><small>Lábios · Dr. Glautium</small></div></article>
-      <article class="dor surge"><img src="img/ihfc-sorriso.webp" alt="" loading="lazy"><div class="dor-txt"><q>Tenho vergonha de sorrir</q><p>Cor, forma e alinhamento: lentes, clareamento, alinhadores e implantes.</p><small>Sorriso · Dr. Hudson e Dra. Juliana</small></div></article>
-      <article class="dor surge"><img src="img/ihfc-corpo-barriga.webp" alt="" loading="lazy"><div class="dor-txt"><q>Barriga que não sai com dieta</q><p>Gordura localizada, flacidez ou diástase: avaliação médica e plano para o seu corpo.</p><small>Corpo · Dra. Ionara</small></div></article>
-      <article class="dor surge"><img src="img/ihfc-pernas-vasinhos.webp" alt="" loading="lazy"><div class="dor-txt"><q>Vasinhos nas pernas</q><p>Microvasos tratados com técnicas de escleroterapia, com acompanhamento.</p><small>Pernas · Dra. Ionara e Dra. Jéssica</small></div></article>
-      <article class="dor surge"><img src="img/ihfc-emagrecimento.webp" alt="" loading="lazy"><div class="dor-txt"><q>Não consigo emagrecer</q><p>Emagrecimento com acompanhamento médico e nutricional, sem fórmula milagrosa.</p><small>Emagrecimento · Dra. Ionara e Sabrina</small></div></article>
-    </div>
+    <div class="filtros surge" id="filtros-dores" role="toolbar" aria-label="Filtrar por área"></div>
+    <div class="grade-dores" id="grade-dores"></div>
   </div>
 </section>
 
@@ -210,8 +201,24 @@
   </div>
 </footer>
 
+<dialog class="janela-dor" id="janela-dor" aria-labelledby="jd-titulo">
+  <div class="jd-caixa">
+    <img class="jd-foto" src="" alt="">
+    <button class="jd-fechar" type="button" aria-label="Fechar">×</button>
+    <div class="jd-corpo">
+      <span class="eyebrow jd-tag"></span>
+      <h3 class="jd-titulo" id="jd-titulo"></h3>
+      <p class="jd-intro"></p>
+      <ul class="jd-lista"></ul>
+      <p class="jd-nota">Cada caso é avaliado individualmente: na consulta, o profissional indica o que faz sentido para você. Resultados variam de pessoa para pessoa.</p>
+      <a class="btn btn-ouro jd-zap" href="#" target="_blank" rel="noopener">Agendar avaliação sobre isso</a>
+    </div>
+  </div>
+</dialog>
+
 <a class="zap btn btn-ouro" href="https://wa.me/5573981507715?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20consulta." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.4 14.1c-.2.6-1.3 1.2-1.8 1.3-.5 0-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8 0-1.4.7-2 1-2.3.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.6-.3.4c-.1.1-.3.3-.1.5.2.3.7 1.2 1.6 2 1.1.9 2 1.2 2.3 1.4.3.1.4.1.6-.1l.8-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg>Clique aqui e agende sua consulta</a>
 
+<script src="queixas.js"></script>
 <script>
 const topo=document.getElementById('topo');
 addEventListener('scroll',()=>topo.classList.toggle('sol',scrollY>40),{passive:true});
