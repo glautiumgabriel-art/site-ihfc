@@ -5,7 +5,7 @@ import os, re
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # registros sem fonte válida (web ou sem origem anotada) e o do "Dr. Mateus" errado
-TIRAR = ['CRM-BA 49804', 'CRM-BA 16679', 'CRO-BA 23283', 'CRO-BA 27601', 'CRN-5 20406', 'CRBM 15493']
+TIRAR = ['CRM-BA 49804', 'CRM-BA 16679', 'CRO-BA 23283', 'CRO-BA 27601', 'CRN-5 20406', 'CRBM 42499']
 
 arqs = [f for f in os.listdir('.') if f.endswith(('.html', '.js'))]
 arqs += ['_trabalho/gerar_frentes.py', '_trabalho/inicio_policlinica.py']
