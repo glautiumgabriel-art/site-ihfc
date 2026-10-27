@@ -8,7 +8,7 @@ const P = {
   jessica: "Dra. Jéssica Lopes",
   sabrina: "Sabrina Amparo (nutrição)",
   gisele: "Gisele Gomes (fisioterapia)",
-  natielli: "Natieli Batista (massoterapia)",
+  natielli: "Natieli Batista (enfermagem e massoterapia terapêutica)",
   neuza: "Maria Neuza (podologia)",
   matheus: "Dr. Mateus (tricologia)",
   duda: "Maria Eduarda Brisola (estética)",

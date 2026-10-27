@@ -36,3 +36,6 @@ Dado confirmado volta a aparecer assim: editar `_trabalho/gerar_frentes.py`, edi
 - Jaiane: não mexido; esperar o texto dela.
 
 - 27/10 19:20: o Dr. confirmou que o retrato de touca e as 2 fotos de terno são a mesma pessoa, o Dr. Mateus da clínica. A foto de terno continua no site. Isso indica que o "Dr. Mateus Brito, CRM-BA 49804" achado na web é ele mesmo; o CRM só volta quando o Dr. Mateus confirmar o nome completo e o número.
+
+## 27/10 19h: confirmado pelo Dr.
+Ionara CRM-BA 16679, Juliana CRO-BA 27601, Hudson CRO-BA 23283, Sabrina CRN-5 20406, Jéssica CRBM 42499 (vale o do post dela, não o 15493 do Simples). Natieli: enfermagem, feridas e massoterapia terapêutica. Dr. Mateus segue sem número. Tudo de volta no site.
