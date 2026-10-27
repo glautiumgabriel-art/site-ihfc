@@ -55,7 +55,7 @@ P['02-escolha-guiada'] = ('Escolha guiada em 3 toques', '''
 <div class="fim"><span>← voltar</span><a class="btn ouro">Continuar</a></div></div></div>''')
 
 eq = [('glautium-gabriel', 'Dr. Glautium Gabriel', 'Face · cirurgia'), ('jessica-lopes', 'Dra. Jéssica Lopes', 'Face · estética'),
-      ('ionara-caroso', 'Dra. Ionara Caroso', 'Corpo'), ('mateus-brito', 'Dr. Mateus Brito', 'Cabelo')]
+      ('ionara-caroso', 'Dra. Ionara Caroso', 'Corpo'), ('dr-mateus', 'Dr. Mateus', 'Cabelo')]
 cards = ''.join(f'<div class="p"><img src="{I}ihfc-equipe-{a}.webp"><h3>{n}</h3><small>{r}</small></div>' for a, n, r in eq)
 P['03-equipe-por-area'] = ('Equipe com filtro por área', f'''
 <style>h2{{font-size:58px;margin:14px 0 24px}} .chips{{display:flex;gap:10px;margin-bottom:30px}} .chips span{{border:1px solid var(--linha);border-radius:99px;padding:9px 18px;color:var(--creme2);font-size:13px}}
