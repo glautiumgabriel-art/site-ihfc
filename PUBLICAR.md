@@ -26,3 +26,18 @@ Em até algumas horas: https://www.ihfc.com.br abre o site, com cadeado (HTTPS).
 
 ## Atualizar o site depois
 Editar os arquivos aqui, `git commit` e `git push`; o GitHub Pages publica sozinho em ~1 minuto.
+
+## v4 em prévia (27/10/2026)
+Situação real em 27/10: domínio renovado até **23/10/2027** (Registro.br) e site no ar com HTTPS. Nada a pagar.
+
+Páginas novas (todas com `noindex` até o OK do Dr.):
+- Prévia da nova página inicial: https://www.ihfc.com.br/novo.html
+- Procedimentos completos: procedimentos.html · Dr. Glautium: dr-glautium.html · Revista: essencia.html
+- Uma página por frente (gerador `_trabalho/gerar_frentes.py`, editar lá): papada-e-rosto, sorriso, implante, corpo, tricologia, nutricao, pele. WhatsApp com PALAVRA-CHAVE no início da mensagem (lista em `_trabalho/links-whatsapp-por-frente.md`).
+- Já valendo: privacidade.html (Meta: URL da política e da exclusão de dados = privacidade.html#exclusao) e links.html (bio do Instagram e QR).
+- Revista no site: só páginas sem antes/depois, sem nome de remédio e sem espaço de foto vazio.
+
+### Quando o Dr. aprovar
+1. `novo.html` vira `index.html` (guardar o antigo como `_trabalho/index-v3.html`).
+2. Em todos os .html e no gerador: trocar `novo.html` por `./` e apagar a linha `<meta name="robots" content="noindex">`.
+3. `git commit` + `git push`; conferir https://www.ihfc.com.br.
