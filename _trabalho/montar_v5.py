@@ -8,7 +8,7 @@ cab = h[:h.index('<header id="topo">')]
 zap = re.search(r'<a class="zap btn btn-ouro".*?</a>', h, re.S).group(0)
 pessoas = re.findall(r'<div class="pessoa surge"><img src="([^"]+)" alt="([^"]+)"[^>]*><h3>[^<]*</h3><p>([^<]*)</p>', h)
 contato = re.search(r'<section class="contato" id="contato">.*?</section>', h, re.S).group(0)
-apoio = re.search(r'<p class="apoio surge">(.*?)</p>', h).group(1)
+assessores = re.search(r'<section class="assessores" id="assessores">.*?</section>', h, re.S).group(0).replace(' surge', '')
 rodape = re.search(r'<footer>.*?</footer>', h, re.S).group(0)
 WA = 'https://wa.me/5573981507715?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20avalia%C3%A7%C3%A3o.'
 
@@ -56,6 +56,7 @@ pg = f'''{cab.replace('<link rel="stylesheet" href="estilo.css">', '<link rel="s
     <ul>
       <li><a href="#areas">Áreas</a></li>
       <li><a href="#equipe">Equipe</a></li>
+      <li><a href="#assessores">Assessores</a></li>
       <li><a href="procedimentos.html">Procedimentos</a></li>
       <li><a href="#contato">Contato</a></li>
     </ul>
@@ -88,9 +89,10 @@ pg = f'''{cab.replace('<link rel="stylesheet" href="estilo.css">', '<link rel="s
     <h2>Quem cuida <em>de você</em>.</h2>
     <div class="v5-equipe">{equipe}</div>
     <p class="v5-dica">Arraste para o lado →</p>
-    <p class="v5-apoio">{apoio}</p>
   </div>
 </section>
+
+{assessores}
 
 <section class="v5-bloco" style="padding-top:0">
   <div class="wrap v5-mais">

@@ -293,3 +293,12 @@ a.dor{display:block;cursor:pointer}
 a.dor:focus-visible{outline:2px solid var(--ouro);outline-offset:3px}
 a.dor:hover .dor-ver{color:var(--ouro-claro)}
 a.dor q{quotes:none;font-style:normal;font-size:1.8rem}
+
+/* Assessores e Equipe (27/10/2026) */
+.assessores{padding-top:0}
+.apoio-grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:18px;margin-top:1.6rem}
+.apoio-pessoa{text-align:center}
+.apoio-pessoa img,.apoio-pessoa .inicial{width:112px;height:112px;border-radius:50%;object-fit:cover;object-position:center 18%;margin:0 auto 12px;display:block;border:1px solid var(--linha)}
+.apoio-pessoa .inicial{display:grid;place-items:center;background:var(--preto3);color:var(--ouro-claro);font-family:var(--serif);font-size:2rem}
+.apoio-pessoa h3{font-size:1.2rem}
+.apoio-pessoa p{font-size:.8rem;color:var(--suave);line-height:1.4;margin-top:4px}
