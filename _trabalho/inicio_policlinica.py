@@ -33,10 +33,10 @@ portas = [
     ("papada-e-rosto.html", "img/ihfc-rosto-fino.webp", "Face", "Papada, contorno, rugas, lábios e cirurgias do rosto e do pescoço.", "Dr. Glautium · Dra. Jéssica"),
     ("corpo.html", "img/ihfc-corpo-barriga.webp", "Corpo", "Gordura localizada, flacidez, celulite, vasinhos e emagrecimento acompanhado.", "Dra. Ionara · Dra. Jéssica"),
     ("sorriso.html", "img/ihfc-sorriso.webp", "Sorriso", "Clareamento, lentes, alinhadores, implantes e odontologia para a família.", "Dr. Hudson · Dra. Juliana"),
-    ("tricologia.html", "img/ihfc-cabelo.webp", "Cabelo", "Queda de cabelo investigada pela causa e implante capilar.", "Dr. Mateus Brito"),
+    ("tricologia.html", "img/ihfc-cabelo.webp", "Cabelo", "Queda de cabelo investigada pela causa e implante capilar.", "Dr. Mateus"),
     ("nutricao.html", "img/ihfc-nutricao.webp", "Nutrição", "Plano alimentar possível para a sua rotina, com bioimpedância.", "Sabrina Amparo"),
     ("pele.html", "img/ihfc-pele-manchas.webp", "Estética", "Limpeza de pele, peelings, manchas, acne e o protocolo Revitalli.", "Maria Eduarda · equipe"),
-    ("procedimentos.html#bem-estar", "img/ihfc-bem-estar.webp", "Bem-estar", "Fisioterapia, drenagem, massoterapia e podologia.", "Gisele · Natielli · Neuza"),
+    ("procedimentos.html#bem-estar", "img/ihfc-bem-estar.webp", "Bem-estar", "Fisioterapia, drenagem, massoterapia e podologia.", "Gisele · Natieli · Neuza"),
 ]
 cards = "".join(f'''      <a class="dor" href="{href}"><img src="{img}" alt="" loading="lazy"><div class="dor-txt"><q>{t}</q><p>{d}</p><small>{q}</small><span class="dor-ver">Conhecer {t.lower()}</span></div></a>
 ''' for href, img, t, d, q in portas)

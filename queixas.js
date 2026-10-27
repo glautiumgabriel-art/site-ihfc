@@ -8,9 +8,9 @@ const P = {
   jessica: "Dra. Jéssica Lopes",
   sabrina: "Sabrina Amparo (nutrição)",
   gisele: "Gisele Gomes (fisioterapia)",
-  natielli: "Natielli Batista (massoterapia)",
+  natielli: "Natieli Batista (massoterapia)",
   neuza: "Maria Neuza (podologia)",
-  matheus: "Dr. Mateus Brito (tricologia)",
+  matheus: "Dr. Mateus (tricologia)",
   duda: "Maria Eduarda Brisola (estética)",
   equipe: "Equipe IHFC",
 };
