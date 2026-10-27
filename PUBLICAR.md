@@ -41,3 +41,6 @@ Páginas novas (todas com `noindex` até o OK do Dr.):
 1. `novo.html` vira `index.html` (guardar o antigo como `_trabalho/index-v3.html`).
 2. Em todos os .html e no gerador: trocar `novo.html` por `./` e apagar a linha `<meta name="robots" content="noindex">`.
 3. `git commit` + `git push`; conferir https://www.ihfc.com.br.
+
+## v5 enxuta (27/10, pedido do Dr.: "muito poluído e grande")
+Prévia: https://www.ihfc.com.br/v5.html (gerada por `_trabalho/montar_v5.py` a partir do novo.html). Se aprovada, ela vira a index.html no lugar da v4: guardar o index antigo em `_trabalho/`, trocar `v5.html` por `./`, tirar o noindex e publicar.
