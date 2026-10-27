@@ -8,6 +8,7 @@ cab = h[:h.index('<header id="topo">')]
 zap = re.search(r'<a class="zap btn btn-ouro".*?</a>', h, re.S).group(0)
 pessoas = re.findall(r'<div class="pessoa surge"><img src="([^"]+)" alt="([^"]+)"[^>]*><h3>[^<]*</h3><p>([^<]*)</p>', h)
 contato = re.search(r'<section class="contato" id="contato">.*?</section>', h, re.S).group(0)
+apoio = re.search(r'<p class="apoio surge">(.*?)</p>', h).group(1)
 rodape = re.search(r'<footer>.*?</footer>', h, re.S).group(0)
 WA = 'https://wa.me/5573981507715?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20avalia%C3%A7%C3%A3o.'
 
@@ -44,6 +45,8 @@ css = '''<style>
 .v5-mais a{display:flex;justify-content:space-between;align-items:center;padding:20px 22px;border:1px solid var(--linha);border-radius:16px;color:var(--creme);text-decoration:none;font-family:var(--serif);font-size:1.3rem}
 .v5-mais a:after{content:"→";color:var(--ouro);font-family:Inter,sans-serif}
 .v5-mais a:hover{border-color:var(--ouro)}
+.v5-apoio{margin-top:1.4rem;color:var(--creme2);font-size:.92rem;max-width:36rem}
+.v5-apoio b{color:var(--creme);font-weight:500}
 .v5-dica{font-size:.8rem;color:var(--suave);margin-top:.4rem}
 </style>
 '''
@@ -85,6 +88,7 @@ pg = f'''{cab.replace('<link rel="stylesheet" href="estilo.css">', '<link rel="s
     <h2>Quem cuida <em>de você</em>.</h2>
     <div class="v5-equipe">{equipe}</div>
     <p class="v5-dica">Arraste para o lado →</p>
+    <p class="v5-apoio">{apoio}</p>
   </div>
 </section>
 
