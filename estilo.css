@@ -65,15 +65,15 @@ header.sol{background:rgba(14,12,10,.88);backdrop-filter:blur(12px);border-botto
 
 /* sobre */
 .sobre{display:grid;grid-template-columns:1fr 1.05fr;gap:clamp(32px,6vw,90px);align-items:center}
-.sobre-fotos{position:relative}
+.sobre-fotos{display:grid;grid-template-columns:2fr 1fr;gap:12px;align-items:end}
 .sobre-fotos img{border-radius:20px;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top}
-.sobre-fotos .mini{position:absolute;right:-24px;bottom:-30px;width:48%;aspect-ratio:1;border:6px solid var(--preto);border-radius:18px;object-position:center}
+.sobre-fotos .mini{aspect-ratio:3/4;border-radius:18px;object-position:center} /* ao lado, nunca por cima do rosto (L-325) */
 .sobre ul{list-style:none;margin:1.6rem 0 2rem;display:grid;gap:12px}
 .sobre li{padding-left:28px;position:relative;color:var(--creme2)}
 .sobre li::before{content:"";position:absolute;left:0;top:.7em;width:14px;height:1px;background:var(--ouro)}
 .assinatura{font-family:var(--serif);font-size:1.4rem;color:var(--creme)}
 .assinatura small{display:block;font-family:var(--sans);font-size:.78rem;color:var(--suave);margin-top:.2rem}
-@media(max-width:860px){.sobre{grid-template-columns:1fr}.sobre-fotos .mini{right:8px}}
+@media(max-width:860px){.sobre{grid-template-columns:1fr}}
 
 /* jornada */
 .jornada{background:var(--creme);color:#3a3128}

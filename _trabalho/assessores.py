@@ -5,7 +5,7 @@ import os, re
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 EQUIPE = [  # (id da foto, nome, função) — lista do Dr., 27/10 22h20
-    ('jaiane-santos', 'Jaiane Santos', 'Gestora em saúde pública e privada · MBA em sistema gerencial e organizacional'),
+    ('jaiane-santos-v2', 'Jaiane Santos', 'Gestora em saúde pública e privada · MBA em sistema gerencial e organizacional'),
     ('luisa', 'Luísa', 'Recepção'),
     ('sabrina', 'Sabrina', 'Equipe IHFC'),
     ('sara', 'Sara', 'Financeiro'),
