@@ -2,7 +2,7 @@
 import os, re, glob
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 REG = {'Dra. Ionara Caroso': 'CRM-BA 16679', 'Dra. Juliana Coelho Moreno': 'CRO-BA 27601',
-       'Dr. Hudson D. Soares': 'CRO-BA 23283', 'Sabrina Amparo': 'CRN-5 20406', 'Dra. Jéssica Lopes': 'CRBM 42499'}
+       'Dr. Hudson D. Soares': 'CRO-BA 23283', 'Sabrina Amparo': 'CRN-5 20406', 'Dra. Jéssica Lopes': 'CRBM 15493'}
 for a in glob.glob('*.html') + ['queixas.js', '_trabalho/gerar_frentes.py']:
     s = open(a, encoding='utf-8').read(); o = s
     for nome, r in REG.items():

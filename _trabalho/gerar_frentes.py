@@ -67,7 +67,7 @@ FRENTES = [
                 ("Suor excessivo", "Toxina para axilas e mãos."),
                 ("Drenagem e fisioterapia", "Para recuperar melhor e potencializar o tratamento.")],
          quem=[("img/ihfc-equipe-ionara-caroso.webp", "Dra. Ionara Caroso", "Médica · estética, corpo e dermatologia", "CRM-BA 16679"),
-               ("img/ihfc-equipe-jessica-lopes.webp", "Dra. Jéssica Lopes", "Biomédica esteta · bioestimuladores e microvasos", "CRBM 42499"),
+               ("img/ihfc-equipe-jessica-lopes.webp", "Dra. Jéssica Lopes", "Biomédica esteta · bioestimuladores e microvasos", "CRBM 15493"),
                ("img/ihfc-equipe-gisele.webp", "Gisele Gomes", "Fisioterapeuta", "CREFITO-7 441870-F")],
          botao="Quero uma avaliação corporal", texto="Quero uma avaliação corporal.",
          ponte=[("nutricao.html", "Nutrição"), ("pele.html", "Pele")]),

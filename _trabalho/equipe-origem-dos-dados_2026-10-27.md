@@ -39,3 +39,5 @@ Dado confirmado volta a aparecer assim: editar `_trabalho/gerar_frentes.py`, edi
 
 ## 27/10 19h: confirmado pelo Dr.
 Ionara CRM-BA 16679, Juliana CRO-BA 27601, Hudson CRO-BA 23283, Sabrina CRN-5 20406, Jéssica CRBM 42499 (vale o do post dela, não o 15493 do Simples). Natieli: enfermagem, feridas e massoterapia terapêutica. Dr. Mateus segue sem número. Tudo de volta no site.
+
+- 27/10 noite: ficha do Simples conferida pela Sara: Jéssica Lopes Santos = CRBM 15493 (não 42499). Trocado em todo o site.
