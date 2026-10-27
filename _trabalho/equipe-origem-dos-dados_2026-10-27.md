@@ -34,3 +34,5 @@ Dado confirmado volta a aparecer assim: editar `_trabalho/gerar_frentes.py`, edi
   ⚠ As 2 fotos de terno parecem a MESMA pessoa da foto da web que foi tirada; o retrato Hairzy (de touca) parece OUTRA pessoa. Confirmar com o Dr. qual é o Dr. Mateus. Se for o de terno, o CRM-BA 49804 da web pode estar certo; mesmo assim, só volta com confirmação.
 - Natieli Batista dos Santos: Enfermeira, COREN-BA 000.983.427-ENF (fonte: documento enviado pelo Dr.). Nas listas de bem-estar ela continua junto com massoterapia/drenagem: confirmar se faz isso também.
 - Jaiane: não mexido; esperar o texto dela.
+
+- 27/10 19:20: o Dr. confirmou que o retrato de touca e as 2 fotos de terno são a mesma pessoa, o Dr. Mateus da clínica. A foto de terno continua no site. Isso indica que o "Dr. Mateus Brito, CRM-BA 49804" achado na web é ele mesmo; o CRM só volta quando o Dr. Mateus confirmar o nome completo e o número.
