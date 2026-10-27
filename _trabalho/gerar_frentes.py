@@ -136,7 +136,11 @@ def pagina(f):
 <title>{f["titulo"]} · IHFC Jequié</title>
 <meta name="description" content="{f["dor"]}">
 <meta property="og:title" content="{f["titulo"]} · IHFC Jequié">
-<meta property="og:image" content="{f["foto"]}">
+<meta property="og:url" content="https://www.ihfc.com.br/{f["arq"]}">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:image" content="https://www.ihfc.com.br/img/ihfc-compartilhar-1200x630.jpg">
+<link rel="canonical" href="https://www.ihfc.com.br/{f["arq"]}">
 <link rel="icon" href="img/ihfc-favicon-32.png" sizes="32x32">
 <link rel="apple-touch-icon" href="img/ihfc-icone-180.png">
 <link rel="manifest" href="manifest.webmanifest">
