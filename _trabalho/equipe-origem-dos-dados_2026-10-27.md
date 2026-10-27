@@ -28,3 +28,9 @@ Para confirmar com o Dr. ou com cada profissional:
 - origem das fotos da Ionara e da Maria Eduarda.
 
 Dado confirmado volta a aparecer assim: editar `_trabalho/gerar_frentes.py`, editar index/novo/procedimentos e publicar.
+
+## Atualização 27/10 (ORACULO, 2ª mensagem)
+- Dr. Mateus: agora "Dr. Mateus · Tricologia e implante capilar", sem registro e sem @. Foto trocada pela **de terno sorrindo** enviada pelo Dr. (recorte sem a marca Hairzy).
+  ⚠ As 2 fotos de terno parecem a MESMA pessoa da foto da web que foi tirada; o retrato Hairzy (de touca) parece OUTRA pessoa. Confirmar com o Dr. qual é o Dr. Mateus. Se for o de terno, o CRM-BA 49804 da web pode estar certo; mesmo assim, só volta com confirmação.
+- Natieli Batista dos Santos: Enfermeira, COREN-BA 000.983.427-ENF (fonte: documento enviado pelo Dr.). Nas listas de bem-estar ela continua junto com massoterapia/drenagem: confirmar se faz isso também.
+- Jaiane: não mexido; esperar o texto dela.
