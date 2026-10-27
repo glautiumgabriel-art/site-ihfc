@@ -287,3 +287,9 @@ button.dor:hover .dor-ver{color:var(--ouro-claro);letter-spacing:.02em}
   body.tem-menu.menu-aberto .nav ul a{display:block;padding:12px 4px;font-size:1rem;border-bottom:1px solid var(--linha)}
   body.tem-menu.menu-aberto header{background:rgba(14,12,10,.97)}
 }
+
+/* portas por área na página inicial (v4) */
+a.dor{display:block;cursor:pointer}
+a.dor:focus-visible{outline:2px solid var(--ouro);outline-offset:3px}
+a.dor:hover .dor-ver{color:var(--ouro-claro)}
+a.dor q{quotes:none;font-style:normal;font-size:1.8rem}
