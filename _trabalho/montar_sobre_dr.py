@@ -3,6 +3,7 @@ Texto-base: _conhecimento/marketing-clinica/autoridade-google/sobre-o-dr_texto-e
 Mantém a URL dr-glautium.html (já está no menu, nos links e no sitemap). Person, nunca Physician (ele é dentista).
 Gera dr-glautium-previa.html (noindex) para aprovação; ao aprovar, rodar com --publicar."""
 import os, sys, json
+PUBLICAR = '--publicar' in sys.argv  # na publicação só entra o que o Dr. já aprovou
 from PIL import Image
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 URL = 'https://www.ihfc.com.br/dr-glautium.html'
@@ -17,7 +18,7 @@ SAMEAS = ['https://www.instagram.com/dr.glautiumgabriel/']  # outros perfis entr
 
 pessoa = {
     "@context": "https://schema.org", "@type": "Person", "@id": URL + "#pessoa",
-    "name": "Glautium Gabriel", "honorificPrefix": "Dr.", "description": BIO,
+    "name": "Glautium Gabriel", "honorificPrefix": "Dr.",
     "jobTitle": "Cirurgião e Traumatologista Bucomaxilofacial e Especialista em Harmonização Orofacial",
     "url": URL, "image": "https://www.ihfc.com.br/img/ihfc-dr-glautium-gabriel_retrato.jpg",
     "hasCredential": {"@type": "EducationalOccupationalCredential", "credentialCategory": "Registro profissional",
@@ -30,6 +31,8 @@ pessoa = {
                              "addressLocality": "Jequié", "addressRegion": "BA", "addressCountry": "BR"}},
     "sameAs": SAMEAS,
 }
+if not PUBLICAR:  # bio ainda aguarda o OK do Dr.
+    pessoa["description"] = BIO
 if FORMACAO:
     pessoa["alumniOf"] = [{"@type": "CollegeOrUniversity", "name": i} for _, i, _ in FORMACAO]
 
@@ -42,7 +45,7 @@ h = h.replace('<meta property="og:type" content="website">', '<meta property="og
 h = h.replace('<span class="eyebrow">Diretor e responsável técnico do IHFC</span>', '<span class="eyebrow">Fundador, diretor e responsável técnico do IHFC</span>')
 if 'application/ld+json' not in h:
     h = h.replace('</head>', '<script type="application/ld+json">\n' + json.dumps(pessoa, ensure_ascii=False, indent=1) + '\n</script>\n</head>', 1)
-if 'class="bio-dr"' not in h:
+if not PUBLICAR and 'class="bio-dr"' not in h:
     h = h.replace('<section class="seguranca">', f'<section class="bio-dr" style="padding-bottom:0"><div class="wrap"><span class="eyebrow surge">Sobre</span><p class="lead surge" style="max-width:44rem">{BIO}</p></div></section>\n\n<section class="seguranca">', 1)
 if FORMACAO and 'id="formacao"' not in h:
     itens = ''.join(f'<li><b>{c}</b>{i}, {a}</li>' for c, i, a in FORMACAO)

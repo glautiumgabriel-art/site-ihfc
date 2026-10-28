@@ -26,7 +26,7 @@ secao = ('<section class="assessores" id="assessores">\n  <div class="wrap">\n'
          '    <div class="apoio-grade surge">' + ''.join(cartao(*e) for e in EQUIPE) + '</div>\n'
          '  </div>\n</section>\n')
 
-for a in ['index.html', 'novo.html']:
+for a in ['novo.html']:  # a index.html é gerada pelo montar_v5.py
     s = open(a, encoding='utf-8').read()
     s = re.sub(r'\s*<div class="pessoa surge"><img src="img/ihfc-equipe-jaiane-santos\.webp".*?</div>', '', s)  # sai dos profissionais
     s = re.sub(r'\s*<p class="apoio surge">.*?</p>', '', s)

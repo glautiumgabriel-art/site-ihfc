@@ -154,7 +154,7 @@ def pagina(f):
 <!-- gerado por _trabalho/gerar_frentes.py: editar lá, não aqui -->
 <header id="topo">
   <div class="wrap nav">
-    <a href="novo.html" aria-label="IHFC, página inicial"><img src="img/ihfc-logo-branco.png" alt="IHFC"></a>
+    <a href="./" aria-label="IHFC, página inicial"><img src="img/ihfc-logo-branco.png" alt="IHFC"></a>
     <ul>{menu(f["arq"])}</ul>
     <a class="btn btn-ouro" href="{link}" target="_blank" rel="noopener">Agendar</a>
   </div>

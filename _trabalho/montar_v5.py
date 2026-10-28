@@ -117,4 +117,7 @@ addEventListener('scroll',()=>topo.classList.toggle('sol',scrollY>40),{{passive:
 </html>
 '''
 open('v5.html', 'w', encoding='utf-8').write(pg)
+# aprovada pelo Dr. em 27/10 18h31: a v5 é a página inicial oficial
+oficial = pg.replace('href="v5.html', 'href="./').replace('<meta name="robots" content="noindex">\n', '')
+open('index.html', 'w', encoding='utf-8').write(oficial)
 print('ok', len(pessoas), 'pessoas,', len(pg) // 1024, 'KB')
