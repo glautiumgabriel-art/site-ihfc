@@ -30,12 +30,12 @@ const QUEIXAS = [
     itens: [
       ["Enzimas para papada", "Reduzem a gordura localizada sob o queixo, sem cirurgia.", [P.glautium]],
       ["Endolaser de papada", "Fibra de laser sob a pele que retrai os tecidos e reduz pequenos acúmulos de gordura, sem cortes.", [P.glautium]],
-      ["Lipo de papada", "Pequena lipoaspiração sob o queixo, por microincisões e com anestesia local.", [P.glautium]],
+      ["Lipo de papada", "Pequena lipoaspiração sob o queixo, por microincisões.", [P.glautium]],
       ["Mentoplastia", "Projeta o queixo com ácido hialurônico ou cirurgia, equilibrando o perfil.", [P.glautium]],
       ["Cervicoplastia e platismoplastia", "Tratam o excesso de pele e as bandas do músculo do pescoço.", [P.glautium]],
     ] },
   { area: "rosto", img: "ihfc-flacidez", q: "Meu rosto está caindo", tag: "Flacidez · sustentação",
-    intro: "Com o tempo o corpo produz menos colágeno e os tecidos cedem. O plano costuma combinar sustentação imediata e estímulo de colágeno.",
+    intro: "Com o tempo o corpo produz menos colágeno e os tecidos cedem. O plano pode combinar sustentação e estímulo de colágeno, conforme a avaliação.",
     itens: [
       ["Fios de sustentação", "Fios absorvíveis com pequenas garras reposicionam os tecidos, com efeito lifting logo após o procedimento.", [P.glautium]],
       ["Bioestimulador de colágeno", "Estimula o seu próprio colágeno: a firmeza aparece aos poucos, de forma natural.", [P.glautium]],
@@ -45,7 +45,7 @@ const QUEIXAS = [
   { area: "rosto", img: "ihfc-rugas", q: "Pareço cansada ou brava", tag: "Rugas · linhas de expressão",
     intro: "As linhas da testa, entre as sobrancelhas e ao redor dos olhos podem ser suavizadas sem tirar a sua expressão.",
     itens: [
-      ["Toxina botulínica", "Relaxa os músculos das linhas de expressão: testa, glabela e pés de galinha. Efeito em poucos dias, com retorno para ajuste.", [P.glautium]],
+      ["Toxina botulínica", "Relaxa os músculos das linhas de expressão: testa, glabela e pés de galinha. Com retorno para ajuste.", [P.glautium]],
       ["Elevação das sobrancelhas", "Microdoses de toxina para um olhar mais aberto e descansado.", [P.glautium]],
       ["Skinbooster", "Microinjeções de ácido hialurônico fluido que hidratam a pele por dentro e devolvem o viço.", [P.glautium]],
       ["Bioestimulador de colágeno", "Melhora a qualidade e a firmeza da pele, complementando a toxina.", [P.glautium]],
@@ -53,7 +53,7 @@ const QUEIXAS = [
   { area: "rosto", img: "ihfc-rosto-fino", q: "Rosto redondo, bochecha gordinha", tag: "Contorno · bochechas",
     intro: "Quando o volume está concentrado nas bochechas, há caminhos com e sem cirurgia. Em rostos finos, a avaliação é decisiva.",
     itens: [
-      ["Bichectomia", "Remove parte das bolas de Bichat por dentro da boca, com anestesia local e sem cicatriz aparente.", [P.glautium]],
+      ["Bichectomia", "Remove parte das bolas de Bichat por dentro da boca.", [P.glautium]],
       ["Toxina no masseter", "Afina o ângulo da mandíbula e alivia o bruxismo.", [P.glautium]],
       ["Enzimas e lipo de papada", "Completam o contorno quando também há gordura sob o queixo.", [P.glautium]],
     ] },
@@ -100,7 +100,7 @@ const QUEIXAS = [
     itens: [
       ["Planejamento digital do sorriso", "Fotos, vídeos e escaneamento para desenhar o novo sorriso.", [P.hudson, P.juliana]],
       ["Lentes de contato dental", "Lâminas ultrafinas de porcelana para cor, forma e espaços.", [P.hudson, P.juliana]],
-      ["Facetas em resina", "Escultura direta sobre os dentes, em poucas sessões.", [P.hudson, P.juliana]],
+      ["Facetas em resina", "Escultura direta sobre os dentes.", [P.hudson, P.juliana]],
       ["Clareamento dental", "No consultório, caseiro ou combinado.", [P.hudson, P.juliana]],
       ["Alinhadores invisíveis", "Placas transparentes e removíveis para alinhar os dentes.", [P.hudson, P.juliana]],
       ["Gengivoplastia e toxina", "Recontorno da gengiva ou microdoses de toxina para o sorriso gengival.", [P.hudson, P.juliana, P.glautium]],
@@ -112,7 +112,7 @@ const QUEIXAS = [
     intro: "\"Barriga\" costuma reunir três questões: gordura localizada, pele flácida e diástase (afastamento dos músculos, comum após a gestação).",
     itens: [
       ["Criolipólise", "Resfriamento controlado que elimina parte das células de gordura, sem cortes.", [P.ionara]],
-      ["Mini lipo", "Cânulas finas por microincisões, com anestesia local, para pequenas áreas de gordura.", [P.ionara]],
+      ["Mini lipo", "Cânulas finas por microincisões, para pequenas áreas de gordura.", [P.ionara]],
       ["Endolaser corporal", "Retrai a pele e reduz gordura localizada por dentro.", [P.ionara]],
       ["Bioestimulador e radiofrequência", "Tratam a flacidez da pele do abdome.", [P.ionara]],
       ["Fisioterapia para diástase", "Exercícios, drenagem e ultracavitação no pós-parto.", [P.gisele]],
@@ -130,7 +130,7 @@ const QUEIXAS = [
   { area: "corpo", img: "ihfc-corpo-seios", q: "Seio caído, peito masculino", tag: "Seios e peitoral",
     intro: "Em flacidez leve a moderada, há caminhos sem cortes. Queda acentuada ou desejo de mais volume pedem avaliação com cirurgião plástico.",
     itens: [
-      ["Endolaser mamário", "Retrai os tecidos e estimula colágeno, com recuperação rápida.", [P.ionara]],
+      ["Endolaser mamário", "Retrai os tecidos e estimula colágeno.", [P.ionara]],
       ["Colo", "Bioestimulador e skinbooster para firmeza e textura.", [P.ionara]],
       ["Peitoral masculino", "Endolaser e mini lipo para a gordura localizada no peito.", [P.ionara]],
     ] },
@@ -166,7 +166,7 @@ const QUEIXAS = [
     itens: [
       ["Avaliação tricológica", "Exame do couro cabeludo e dos fios, com tricoscopia e exames quando necessário.", [P.matheus]],
       ["Tratamento clínico", "Medicações, intradermoterapia capilar e cuidados em casa.", [P.matheus, P.ionara]],
-      ["Implante capilar", "Fios da nuca levados para as áreas com falhas, com anestesia local.", [P.matheus]],
+      ["Implante capilar", "Fios da nuca levados para as áreas com falhas.", [P.matheus]],
     ] },
   { area: "saude", img: "ihfc-dermatologia", q: "Pinta estranha, suor excessivo", tag: "Dermatologia · saúde da pele",
     intro: "Antes de ser estética, pele é saúde. Consultas regulares ajudam a prevenir e diagnosticar cedo o câncer de pele.",
@@ -177,7 +177,7 @@ const QUEIXAS = [
       ["Rosácea e check-up da pele", "Controle da vermelhidão e avaliação completa.", [P.ionara]],
     ] },
   { area: "saude", img: "ihfc-podologia", q: "Unha encravada, calo, fungo", tag: "Pés · podologia",
-    intro: "A podologia trata unhas, pele e pequenas alterações dos pés, com instrumentos esterilizados e, quando preciso, anestesia.",
+    intro: "A podologia trata unhas, pele e pequenas alterações dos pés, com instrumentos esterilizados.",
     itens: [
       ["Unha encravada e órtese", "Alívio da dor e correção, quase sempre sem cirurgia, evitando que volte.", [P.neuza]],
       ["Fungos nas unhas", "Laser e protocolos tópicos.", [P.neuza]],
@@ -197,7 +197,7 @@ const QUEIXAS = [
   { area: "bemestar", img: "ihfc-bem-estar", q: "Inchaço, pós-operatório, tensão", tag: "Bem-estar · fisioterapia e massagem",
     intro: "O cuidado com o corpo continua entre uma sessão e outra: circulação, recuperação e momentos de pausa.",
     itens: [
-      ["Drenagem e pós-operatório", "Reduz o inchaço e acelera a recuperação depois de procedimentos.", [P.gisele, P.natielli]],
+      ["Drenagem e pós-operatório", "Drenagem no pós-operatório, conforme a orientação de quem fez o procedimento.", [P.gisele, P.natielli]],
       ["Liberação miofascial", "Alívio de tensões e dores musculares.", [P.gisele]],
       ["Massagem relaxante", "Velas, pedras quentes e bambu para desacelerar.", [P.natielli]],
       ["Massagem modeladora", "Ajuda no contorno e na retenção de líquidos.", [P.natielli]],

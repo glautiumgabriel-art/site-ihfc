@@ -14,8 +14,11 @@ BIO = ("Dr. Glautium Gabriel é Cirurgião e Traumatologista Bucomaxilofacial e 
        "(CRO-BA 16384) e fundador do IHFC, em Jequié-BA. Como bucomaxilo, atua em cirurgias estéticas da face, queiloplastia "
        "(lábio duplo), câncer bucal e disfunção da ATM (DTM), incluindo a dor orofacial; não faz tratamentos dentários. "
        "Antes de qualquer procedimento faz uma avaliação completa: explica o que faz sentido para cada caso, o que não faz "
-       "e os riscos, e acompanha o paciente depois.")
+       "e os riscos, e acompanha o paciente depois. Nas cirurgias, segue um protocolo rígido de segurança: consulta "
+       "pré-cirúrgica e, durante o procedimento, monitorização completa (eletrocardiograma, pulso e respiração), com "
+       "óxido nitroso na indução e medicação sedativa.")
 # v3 (27/10 noite): bio curta da IMAGEM E AUTORIDADE com as palavras do Dr. ("não faço nada relacionado a dente")
+# v4 (28/10 00h25): segurança só com as palavras do Dr.; nada de anestesia, tempo ou frequência inventados (L-362)
 # bio v2: base da IMAGEM E AUTORIDADE + áreas ditas pelo Dr. em 27/10 ("sou BUCO apenas para cirurgias estéticas da face,
 # queiloplastia, lábio duplo, DTM/ATM, câncer bucal, dor/enxaqueca"); aguarda o OK dele junto com esta prévia
 AREAS_BUCO = ["Cirurgias estéticas da face", "Queiloplastia (lábio duplo)", "DTM e disfunção da ATM",
