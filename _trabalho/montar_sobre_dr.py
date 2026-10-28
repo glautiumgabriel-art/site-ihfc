@@ -10,13 +10,33 @@ URL = 'https://www.ihfc.com.br/dr-glautium.html'
 Image.open('img/ihfc-equipe-glautium-gabriel.webp').convert('RGB').save('img/ihfc-dr-glautium-gabriel_retrato.jpg', quality=88)
 
 FORMACAO = []  # (curso, instituição, ano): só o que o Dr. confirmar
-BIO = ("Dr. Glautium Gabriel é Cirurgião e Traumatologista Bucomaxilofacial e Especialista em Harmonização Orofacial "
-       "(CRO-BA 16384) e fundador do IHFC, em Jequié-BA. Como bucomaxilo, atua em cirurgias estéticas da face, queiloplastia "
-       "(lábio duplo), câncer bucal e disfunção da ATM (DTM), incluindo a dor orofacial; não faz tratamentos dentários. "
-       "Antes de qualquer procedimento faz uma avaliação completa: explica o que faz sentido para cada caso, o que não faz "
-       "e os riscos, e acompanha o paciente depois. Nas cirurgias, segue um protocolo rígido de segurança: consulta "
-       "pré-cirúrgica e, durante o procedimento, monitorização completa (eletrocardiograma, pulso e respiração), com "
-       "óxido nitroso na indução e medicação sedativa.")
+V5 = '--v5' in sys.argv  # na publicação, só com o OK do Dr. na v5
+# v5 (28/10 19h): o Dr. reprovou a v4 ("não faz tratamento dentário" sem necessidade; frase sem sentido).
+# Nunca dizer o que ele NÃO faz; revisão cruzada ChatGPT + Gemini em _trabalho/revisao-sobre-dr_v5_*.txt (L-nova)
+BIO = ("Dr. Glautium Gabriel é Cirurgião e Traumatologista Bucomaxilofacial, Especialista em Harmonização Orofacial "
+       "(CRO-BA 16384) e fundador do IHFC, em Jequié-BA. Atua em cirurgias estéticas da face, queiloplastia (correção do "
+       "lábio duplo), disfunção temporomandibular (DTM, da articulação da mandíbula), dor na face e na boca (dor orofacial), lesões da boca "
+       "e câncer bucal.")
+SEGURANCA = ("Consulta pré-cirúrgica e, durante a cirurgia, monitorização completa (eletrocardiograma, pulso e respiração), "
+             "com óxido nitroso na indução e medicação sedativa.")
+TROCAS_V5 = [
+    ('Indicação certa, <em>no paciente certo</em>.', 'Do primeiro contato <em>ao retorno</em>.'),
+    ('ele olha o rosto pela estrutura: osso, músculo, gordura e pele. É esse olhar que decide o que fazer, quanto fazer e, às vezes, o que não fazer.', 'ele avalia o rosto pela estrutura: osso, músculo, gordura e pele, e planeja cada caso a partir dela.'),
+    (' Sem essa conversa, nada é marcado.', ''),
+    ('<div class="proc"><h3>Às vezes a resposta é “não”</h3><p>Se o procedimento não vai entregar o que você procura, ou se outro caminho é melhor, ele diz. Indicar bem vale mais que fazer mais.</p></div>',
+     f'<div class="proc"><h3>Nas cirurgias</h3><p>{SEGURANCA}</p></div>'),
+    ('O cirurgião bucomaxilofacial estuda a face por dentro. Conhecer onde passam vasos, nervos e camadas é o que dá precisão à harmonização.',
+     'O cirurgião bucomaxilofacial estuda a anatomia da face: onde passam vasos, nervos e as camadas do rosto.'),
+    ('\n      <div class="proc"><h3>Por etapas</h3><p>Começa com quantidades pequenas, observa como o seu rosto responde e reavalia. Se uma etapa já resolver, não é preciso completar o volume planejado.</p></div>', ''),
+    ('<li><b>Lábio duplo</b> ou excesso no lábio que incomoda ao sorrir: a queiloplastia corrige.</li>',
+     '<li><b>Lábio duplo</b> que incomoda ao sorrir ou ao falar.</li>'),
+    ('<li><b>Dor no rosto ou enxaqueca</b> que piora ao mastigar, ao acordar ou com o ranger dos dentes.</li>',
+     '<li><b>Dor no rosto, na mandíbula ou dor de cabeça</b> que piora ao mastigar, ao acordar ou com o ranger dos dentes.</li>'),
+    ('que não some em duas semanas: o diagnóstico precoce do câncer bucal faz diferença.</li>', 'que não some em duas semanas.</li>'),
+    ('<li><b>Contorno do rosto e do pescoço</b> que pede cirurgia estética da face, como a lipo de papada.</li>',
+     '<li><b>Papada e contorno do rosto e do pescoço</b> que incomodam.</li>'),
+    ('queiloplastia, DTM e ATM, dor orofacial, bruxismo, biópsias e câncer bucal.', 'queiloplastia, DTM (disfunção da articulação da mandíbula), dor orofacial, bruxismo, biópsias e câncer bucal.'),
+]
 # v3 (27/10 noite): bio curta da IMAGEM E AUTORIDADE com as palavras do Dr. ("não faço nada relacionado a dente")
 # v4 (28/10 00h25): segurança só com as palavras do Dr.; nada de anestesia, tempo ou frequência inventados (L-362)
 # bio v2: base da IMAGEM E AUTORIDADE + áreas ditas pelo Dr. em 27/10 ("sou BUCO apenas para cirurgias estéticas da face,
@@ -79,6 +99,11 @@ if True:  # correção do Dr. ("não faço nada relacionado a dente"): vale tamb
     for velho, novo in TROCAS_PREVIA:
         assert velho in h or novo in h, 'trecho não achado: ' + velho[:60]  # L-328: nunca seguir calado
         h = h.replace(velho, novo)
+if not PUBLICAR or V5:
+    for velho, novo in TROCAS_V5:
+        assert velho in h or (novo and novo in h), 'v5: trecho não achado: ' + velho[:60]  # L-328
+        h = h.replace(velho, novo)
+    assert 'não faz' not in h and 'às vezes' not in h.lower(), 'v5: ainda diz o que ele não faz'
 if not PUBLICAR and 'class="bio-dr"' not in h:
     h = h.replace('<section class="seguranca">', f'<section class="bio-dr" style="padding-bottom:0"><div class="wrap"><span class="eyebrow surge">Sobre</span><p class="lead surge" style="max-width:44rem">{BIO}</p></div></section>\n\n<section class="seguranca">', 1)
 if FORMACAO and 'id="formacao"' not in h:

@@ -1,0 +1,10 @@
+﻿- Separe os títulos e o registro: “Bucomaxilofacial | Especialista em Harmonização Orofacial | CRO-BA 16384”; “SobreDr.” também está colado.
+- “Cirurgião de formação” → “Cirurgião-dentista”; a frase sobre estrutura repete o bloco de anatomia.
+- “Indicação certa, no paciente certo.” → REMOVER: sobra e sugere certeza na indicação.
+- “DTM (articulação da mandíbula)” está errado: ATM é a articulação; DTM significa disfunção temporomandibular. Corrigir também na bio.
+- “Lábios” está solto entre procedimentos; “bichectomia” fica deslocada em “Pescoço e contorno”.
+- “Onde passam vasos, nervos e cada camada” → “vasos, nervos e camadas do rosto”.
+- Quanto ao CFO, a lista de cirurgias ainda exige conferência do escopo permitido e das habilitações; o texto sozinho não permite atestar conformidade.
+
+[conversa ChatGPT: 01a1847c-e93a-7460-9d93-afeed5d81e78 | para responder, rode de novo com -Continuar]
+

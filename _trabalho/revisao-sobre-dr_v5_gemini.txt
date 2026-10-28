@@ -1,0 +1,60 @@
+Aqui está a revisão técnica e ética do material:
+
+---
+
+### 1. O que está sem sentido ou confuso
+* **"Enxaqueca":** Enxaqueca é uma cefaleia primária de diagnóstico e tratamento médico (neurologia). O bucomaxilo diagnostica e trata dores orofaciais associadas à DTM/bruxismo, mas não "cura" enxaqueca clínica.
+* **"Atua em câncer bucal":** Sozinho, dá a entender que ele realiza o tratamento oncológico curativo hospitalar completo (quimioterapia/cirurgia oncológica de grande porte). O papel do cirurgião-dentista em clínica é o **diagnóstico precoce e biópsia** de lesões suspeitas.
+
+---
+
+### 2. O que sobra (frase sem função, repetição)
+* **Topo:** `"...e, às vezes, o que não fazer."` (Viola diretamente a regra do cliente de não usar a palavra "às vezes" e de nunca dizer o que NÃO faz).
+* **Item "Às vezes a resposta é 'não'":** Viola a regra de nunca focar no que não faz, além de conter a palavra vetada "às vezes".
+* **Item "Por etapas":** A frase `"...Se uma etapa já resolver, não é preciso completar o volume planejado"` é conjectura clínica redundante para um paciente leigo.
+
+---
+
+### 3. O que pode ferir o CFO/CFM
+* **"Cervicoplastia" e "Platismoplastia":** A **Resolução CFO nº 230/2020** veda expressamente ao cirurgião-dentista a realização e a publicidade de cirurgias que configurem rejuvenescimento facial extenso/ritidoplastia (lifting cervical). Manter esses termos pode gerar processo ético no CRO-BA e denúncia por invasão de ato médico (CFM).
+* **"Protocolo Revitalli para melasma":** O Código de Ética Odontológica proíbe a divulgação de marcas comerciais/fantasiosas para procedimentos clínicos ("protocolo patenteado"), além do tratamento de *melasma* ser área de atrito direto com a Dermatologia médica.
+* **Promessas indiretas:** A expressão *"o que dá precisão à harmonização"* beira promessa de infalibilidade técnica; melhor focar em "segurança anatômica".
+
+---
+
+### 4. O que um paciente leigo não entende
+* **Terminologia técnica não traduzida:** *Platismoplastia*, *cervicoplastia*, *lip lift* e *mentoplastia* soltos em uma lista não dizem nada a quem procura a clínica. 
+* **"Indução":** Na BIO, "óxido nitroso na indução" pode soar técnico demais, mas como é exigência estrita do doutor, deve ser mantido de forma fluida.
+
+---
+
+### 5. Versão Final da BIO e Ajustes dos Blocos
+
+#### BIO FINAL (66 palavras)
+> "Dr. Glautium Gabriel é Cirurgião e Traumatologista Bucomaxilofacial, Especialista em Harmonização Orofacial (CRO-BA 16384) e fundador do IHFC, em Jequié-BA. Atua em cirurgias da face, queiloplastia (correção do lábio duplo), disfunção da ATM (DTM), dor orofacial e diagnóstico do câncer bucal. Toda cirurgia segue protocolo rígido: consulta pré-cirúrgica e, durante o procedimento, monitorização completa (eletrocardiograma, pulso e respiração), com óxido nitroso na indução e medicação sedativa."
+
+---
+
+#### Alterações nos Outros Blocos
+
+* **Topo**
+  * **ANTES:** `Cirurgião de formação, ele olha o rosto pela estrutura: osso, músculo, gordura e pele. É esse olhar que decide o que fazer, quanto fazer e, às vezes, o que não fazer.`
+  * **DEPOIS:** `Cirurgião de formação, ele avalia o rosto pela sua estrutura real: osso, músculo, gordura e pele. É essa precisão anatômica que define o planejamento seguro para cada paciente.`
+
+* **Bloco "Como ele trabalha"**
+  * **ANTES:** `Às vezes a resposta é "não": Se o procedimento não vai entregar o que você procura, ou se outro caminho é melhor, ele diz. Indicar bem vale mais que fazer mais.`
+  * **DEPOIS:** **REMOVER** (Regra do cliente: nunca citar negativas / regra de veto a "às vezes").
+  * **ANTES:** `Por etapas: Começa com quantidades pequenas, observa como o seu rosto responde e reavalia. Se uma etapa já resolver, não é preciso completar o volume planejado.`
+  * **DEPOIS:** `Por etapas: Procedimentos planejados de forma gradual, reavaliando a resposta dos tecidos a cada fase do tratamento.`
+
+* **Bloco "Quando procurar um bucomaxilo?"**
+  * **ANTES:** `Dor no rosto ou enxaqueca que piora ao mastigar, ao acordar ou com o ranger dos dentes.`
+  * **DEPOIS:** `Dor na face, na mandíbula ou dor de cabeça associada ao apertamento dental e à mastigação.`
+
+* **Bloco "O que o Dr. Glautium atende"**
+  * **ANTES:** `Pescoço e contorno: lipo de papada, platismoplastia, cervicoplastia, bichectomia, lip lift e mentoplastia.`
+  * **DEPOIS:** `Pescoço e contorno facial: lipoaspiração mecânica de papada, bichectomia, cirurgia do lábio (lip lift) e mentoplastia.`
+  * **ANTES:** `Pele: protocolo Revitalli para melasma, manchas e cicatrizes de acne.`
+  * **DEPOIS:** **REMOVER** (Fere regras do CFO sobre nomes comerciais e invade atos de competência dermatológica).
+  * **ANTES:** `Boca e face: queiloplastia, DTM e ATM, dor orofacial, bruxismo, biópsias e câncer bucal.`
+  * **DEPOIS:** `Boca e face: queiloplastia, disfunções da ATM (DTM), dor orofacial, bruxismo, biópsias e diagnóstico do câncer bucal.`

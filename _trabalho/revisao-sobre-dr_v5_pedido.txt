@@ -1,0 +1,43 @@
+Você é revisor de texto de site de clínica no Brasil. Revise o texto público abaixo sobre um cirurgião-dentista (Cirurgião e Traumatologista Bucomaxilofacial e Especialista em Harmonização Orofacial, CRO-BA), fundador de uma policlínica em Jequié-BA.
+
+Regras do dono do texto:
+- Nunca dizer o que ele NÃO faz (ex.: "não faz tratamento dentário"). Só o que ele faz.
+- Nenhuma frase sem função. Curto, claro, para paciente leigo.
+- Nenhuma afirmação clínica inventada (tempos, número de sessões, tipo de anestesia, promessas, "às vezes", "geralmente").
+- Segurança cirúrgica só com as palavras dele: consulta pré-cirúrgica; durante a cirurgia monitorização completa (eletrocardiograma, pulso e respiração), óxido nitroso na indução e medicação sedativa (sem nomes de remédio).
+- Respeitar o Código de Ética do CFO (publicidade odontológica: sem promessa de resultado, sem sensacionalismo, sem autopromoção exagerada) e não usar termos médicos que soem como exercício da medicina.
+
+Responda em português, em lista curta, por trecho:
+1. O que está sem sentido ou confuso.
+2. O que sobra (frase sem função, repetição).
+3. O que pode ferir o CFO/CFM.
+4. O que um paciente leigo não entende.
+5. Por fim, a sua versão final da BIO (até 70 palavras) e as frases que você trocaria nos outros blocos (formato: ANTES -> DEPOIS, ou ANTES -> REMOVER).
+
+=== BIO PROPOSTA (v5) ===
+Dr. Glautium Gabriel é Cirurgião e Traumatologista Bucomaxilofacial, Especialista em Harmonização Orofacial (CRO-BA 16384) e fundador do IHFC, em Jequié-BA. Atua em cirurgias estéticas da face, queiloplastia (correção do lábio duplo), disfunção da ATM (DTM), dor orofacial e câncer bucal. Toda cirurgia segue um protocolo rígido de segurança: consulta pré-cirúrgica e, durante o procedimento, monitorização completa (eletrocardiograma, pulso e respiração), com óxido nitroso na indução e medicação sedativa.
+
+=== RESTO DA PÁGINA (texto atual) ===
+Topo: "Fundador, diretor e responsável técnico do IHFC. Dr. Glautium Gabriel. Cirurgião de formação, ele olha o rosto pela estrutura: osso, músculo, gordura e pele. É esse olhar que decide o que fazer, quanto fazer e, às vezes, o que não fazer."
+
+Bloco "Como ele trabalha — Indicação certa, no paciente certo.":
+- Antes de qualquer procedimento: Anatomia do seu rosto, histórico de saúde, medicações em uso, alergias e, principalmente, o que você espera. Sem essa conversa, nada é marcado.
+- Às vezes a resposta é "não": Se o procedimento não vai entregar o que você procura, ou se outro caminho é melhor, ele diz. Indicar bem vale mais que fazer mais.
+- A formação faz diferença: O cirurgião bucomaxilofacial estuda a face por dentro. Conhecer onde passam vasos, nervos e camadas é o que dá precisão à harmonização.
+- Por etapas: Começa com quantidades pequenas, observa como o seu rosto responde e reavalia. Se uma etapa já resolver, não é preciso completar o volume planejado.
+- Depois do procedimento: Orientações por escrito, retornos marcados e contato direto com a equipe, para você saber o que é esperado em cada fase da recuperação.
+- Ensinar também é cuidar: No IHFC Cursos, ele forma outros profissionais com prática supervisionada.
+Citação: "Segurança vem antes da estética."
+
+Bloco "Quando procurar um bucomaxilo?":
+- Lábio duplo ou excesso no lábio que incomoda ao sorrir: a queiloplastia corrige.
+- Mandíbula que estala, trava ou dói ao abrir a boca ou mastigar (DTM).
+- Dor no rosto ou enxaqueca que piora ao mastigar, ao acordar ou com o ranger dos dentes.
+- Ferida, caroço ou mancha na boca que não some em duas semanas: o diagnóstico precoce do câncer bucal faz diferença.
+- Contorno do rosto e do pescoço que pede cirurgia estética da face, como a lipo de papada.
+
+Bloco "O que o Dr. Glautium atende":
+- Rosto: toxina botulínica, ácido hialurônico, bioestimuladores, fios de sustentação, rinomodelação, lábios e Endolaser facial.
+- Pescoço e contorno: lipo de papada, platismoplastia, cervicoplastia, bichectomia, lip lift e mentoplastia.
+- Pele: protocolo Revitalli para melasma, manchas e cicatrizes de acne.
+- Boca e face: queiloplastia, DTM e ATM, dor orofacial, bruxismo, biópsias e câncer bucal.

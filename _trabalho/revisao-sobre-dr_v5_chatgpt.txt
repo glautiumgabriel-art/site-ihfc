@@ -1,0 +1,56 @@
+﻿- **BIO**
+  - **Confuso/leigo:** ATM é a articulação da mandíbula; DTM é a disfunção dessa articulação e dos músculos envolvidos. “Disfunção da ATM (DTM)” mistura os conceitos. “Dor orofacial” precisa de tradução.
+  - **Sobra:** o protocolo cirúrgico ocupa metade da apresentação; funciona melhor em um bloco próprio.
+  - **Risco ético:** “toda cirurgia” e “protocolo rígido” tornam a afirmação absoluta e promocional. “Cirurgias estéticas da face” e “câncer bucal” são amplos e precisam corresponder à atuação efetiva e às habilitações registradas.
+
+- **Topo**
+  - “Cirurgião de formação” não identifica a formação odontológica com clareza.
+  - “Olha o rosto pela estrutura” é uma metáfora pouco útil. “É esse olhar que decide” simplifica demais a indicação.
+  - “Às vezes, o que não fazer” contraria expressamente a orientação do dono.
+  - “Diretor” e “responsável técnico” só devem permanecer se forem funções confirmadas.
+
+- **Como ele trabalha**
+  - **Sobra:** remover o bloco “Às vezes a resposta é ‘não’”. “Indicar bem vale mais que fazer mais” repete uma mensagem de autopromoção.
+  - **Risco:** “Indicação certa, no paciente certo” sugere certeza; “dá precisão à harmonização” atribui uma vantagem clínica à formação sem sustentação no texto.
+  - **Informação não confirmada:** “Por etapas” descreve uma conduta específica e a generaliza para procedimentos diferentes. Orientações escritas, retornos, contato direto e prática supervisionada também exigem confirmação.
+  - A citação sobre segurança pode ficar **se for realmente dele**, preferencialmente junto ao protocolo, sem repetir o mesmo argumento em vários lugares.
+
+- **Quando procurar um bucomaxilo?**
+  - “Excesso no lábio” não equivale necessariamente a lábio duplo; “a queiloplastia corrige” antecipa indicação e resultado.
+  - “Enxaqueca” não deve aparecer como sinônimo de dor relacionada à mastigação ou ao bruxismo.
+  - A frase sobre lesões bucais aproxima imediatamente qualquer lesão persistente de câncer. O foco deve ser a avaliação.
+  - “Contorno [...] que pede cirurgia” transforma uma preocupação estética em indicação cirúrgica antes da consulta.
+
+- **O que atende / atenção CFO e CFM**
+  - “DTM e ATM” lista uma disfunção e uma estrutura anatômica como se fossem dois problemas.
+  - “Lábios” é uma região, enquanto os demais itens são técnicas ou produtos. Bichectomia também fica deslocada em “Pescoço”.
+  - “Revitalli” não explica o atendimento; “Endolaser”, “platismoplastia”, “cervicoplastia” e “mentoplastia” são pouco claros para leigos.
+  - **A lista de cirurgias exige conferência regulatória individual**, especialmente rinomodelação, platismoplastia, cervicoplastia, lip lift e mentoplastia, considerando técnica, finalidade e habilitação. Alterar o nome não resolve eventual restrição.
+  - Termos técnicos compartilhados com a medicina não caracterizam, por si, exercício médico. O ponto é identificar claramente o profissional como **cirurgião-dentista**, conferir títulos registrados e anunciar apenas atuação permitida. Esta revisão textual não certifica conformidade com as normas vigentes.
+
+**BIO final — 56 palavras, condicionada à confirmação dos títulos e da atuação anunciada:**
+
+> Dr. Glautium Gabriel é cirurgião-dentista, Cirurgião e Traumatologista Bucomaxilofacial e Especialista em Harmonização Orofacial, inscrito no CRO-BA sob o nº 16384. Fundador do IHFC, em Jequié-BA, atua em harmonização facial, correção do lábio duplo, disfunções da articulação da mandíbula e dos músculos da mastigação, dor na boca e na face e câncer bucal.
+
+**Trocas nos demais blocos:**
+
+- “Cirurgião de formação [...] o que não fazer.” → **REMOVER.**
+- “Como ele trabalha — Indicação certa, no paciente certo.” → **“Como é a avaliação”.**
+- “Antes de qualquer procedimento: [...] nada é marcado.” → **“Na consulta, avalia a anatomia do rosto, o histórico de saúde, os medicamentos em uso, as alergias e suas expectativas.”** Manter se confirmado.
+- “Às vezes a resposta é ‘não’: [...]” → **REMOVER o bloco inteiro.**
+- “A formação faz diferença: [...]” → **REMOVER o bloco inteiro.**
+- “Por etapas: [...]” → **REMOVER o bloco inteiro.**
+- “Depois do procedimento: [...]” → **“Após o procedimento, você recebe orientações por escrito, retornos agendados e contato com a equipe.”** Manter somente se confirmado.
+- “Ensinar também é cuidar: [...]” → **REMOVER deste bloco.** A atividade de ensino cabe em uma área própria, se confirmada.
+- Protocolo dentro da bio → **Bloco “Cuidados na cirurgia”: “Consulta pré-cirúrgica. Durante a cirurgia, monitorização completa (eletrocardiograma, pulso e respiração), óxido nitroso na indução e medicação sedativa.”**
+- “Quando procurar um bucomaxilo?” → **“Quando procurar um cirurgião bucomaxilofacial?”**
+- “Lábio duplo ou excesso [...] a queiloplastia corrige.” → **“Lábio duplo que incomoda ao sorrir.”**
+- “Mandíbula que estala [...] (DTM).” → **“Estalos, travamento ou dor na mandíbula ao abrir a boca ou mastigar.”**
+- “Dor no rosto ou enxaqueca [...]” → **“Dor na boca ou na face.”**
+- “Ferida, caroço ou mancha [...] câncer bucal faz diferença.” → **“Ferida, caroço ou mancha persistente na boca.”**
+- “Contorno [...] que pede cirurgia [...]” → **“Avaliação estética do rosto e da papada.”**
+- “DTM e ATM” → **“Disfunções da articulação da mandíbula e dos músculos da mastigação”.**
+- “Dor orofacial” → **“Dor na boca e na face”.**
+- “Pele: protocolo Revitalli para melasma, manchas e cicatrizes de acne.” → **“Pele: atendimento para melasma, manchas e cicatrizes de acne.”** Condicionado à confirmação do escopo anunciado.
+
+[conversa ChatGPT: 01a1847c-e93a-7460-9d93-afeed5d81e78 | para responder, rode de novo com -Continuar]
