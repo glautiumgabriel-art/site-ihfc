@@ -56,5 +56,7 @@ if '--publicar' in sys.argv:
     open('dr-glautium.html', 'w', encoding='utf-8').write(h.replace('<meta name="robots" content="noindex">\n', ''))
     print('publicada: dr-glautium.html sem noindex')
 else:
+    if 'noindex' not in h:  # prévia tem a bio ainda não aprovada: fora do Google
+        h = h.replace('<meta name="viewport"', '<meta name="robots" content="noindex">\n<meta name="viewport"', 1)
     open('dr-glautium-previa.html', 'w', encoding='utf-8').write(h)
     print('prévia: dr-glautium-previa.html')
