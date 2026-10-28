@@ -50,7 +50,8 @@ css = '''<style>
 .v5-dica{font-size:.8rem;color:var(--suave);margin-top:.4rem}
 </style>
 '''
-pg = f'''{cab.replace('<link rel="stylesheet" href="estilo.css">', '<link rel="stylesheet" href="estilo.css">' + chr(10) + css)}<header id="topo">
+assert '</head>' in cab
+pg = f'''{cab.replace('</head>', css + '</head>', 1)}<header id="topo">
   <div class="wrap nav">
     <a href="v5.html" aria-label="IHFC, página inicial"><img src="img/ihfc-logo-branco.png" alt="IHFC"></a>
     <ul>
@@ -116,6 +117,7 @@ addEventListener('scroll',()=>topo.classList.toggle('sol',scrollY>40),{{passive:
 </body>
 </html>
 '''
+assert '.v5-hero{' in pg, 'estilo da v5 não entrou na página'
 open('v5.html', 'w', encoding='utf-8').write(pg)
 # aprovada pelo Dr. em 27/10 18h31: a v5 é a página inicial oficial
 oficial = pg.replace('href="v5.html', 'href="./').replace('<meta name="robots" content="noindex">\n', '')
