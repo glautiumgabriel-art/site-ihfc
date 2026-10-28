@@ -9,11 +9,15 @@ URL = 'https://www.ihfc.com.br/dr-glautium.html'
 Image.open('img/ihfc-equipe-glautium-gabriel.webp').convert('RGB').save('img/ihfc-dr-glautium-gabriel_retrato.jpg', quality=88)
 
 FORMACAO = []  # (curso, instituição, ano): só o que o Dr. confirmar
+BIO = ("Dr. Glautium Gabriel é Cirurgião e Traumatologista Bucomaxilofacial e Especialista em Harmonização Orofacial "
+       "(CRO-BA 16384) e fundador do IHFC, em Jequié-BA. Atende com avaliação antes de qualquer procedimento: examina a face "
+       "como um todo, explica o que faz sentido para cada caso, o que não faz e os riscos, e acompanha o paciente depois.")
+# bio: IMAGEM E AUTORIDADE, 27/10 (dados confirmados; texto aguarda o OK do Dr. junto com esta prévia)
 SAMEAS = ['https://www.instagram.com/dr.glautiumgabriel/']  # outros perfis entram quando confirmados
 
 pessoa = {
     "@context": "https://schema.org", "@type": "Person", "@id": URL + "#pessoa",
-    "name": "Glautium Gabriel", "honorificPrefix": "Dr.",
+    "name": "Glautium Gabriel", "honorificPrefix": "Dr.", "description": BIO,
     "jobTitle": "Cirurgião e Traumatologista Bucomaxilofacial e Especialista em Harmonização Orofacial",
     "url": URL, "image": "https://www.ihfc.com.br/img/ihfc-dr-glautium-gabriel_retrato.jpg",
     "hasCredential": {"@type": "EducationalOccupationalCredential", "credentialCategory": "Registro profissional",
@@ -38,6 +42,8 @@ h = h.replace('<meta property="og:type" content="website">', '<meta property="og
 h = h.replace('<span class="eyebrow">Diretor e responsável técnico do IHFC</span>', '<span class="eyebrow">Fundador, diretor e responsável técnico do IHFC</span>')
 if 'application/ld+json' not in h:
     h = h.replace('</head>', '<script type="application/ld+json">\n' + json.dumps(pessoa, ensure_ascii=False, indent=1) + '\n</script>\n</head>', 1)
+if 'class="bio-dr"' not in h:
+    h = h.replace('<section class="seguranca">', f'<section class="bio-dr" style="padding-bottom:0"><div class="wrap"><span class="eyebrow surge">Sobre</span><p class="lead surge" style="max-width:44rem">{BIO}</p></div></section>\n\n<section class="seguranca">', 1)
 if FORMACAO and 'id="formacao"' not in h:
     itens = ''.join(f'<li><b>{c}</b>{i}, {a}</li>' for c, i, a in FORMACAO)
     h = h.replace('<section class="seguranca">', f'<section id="formacao"><div class="wrap"><span class="eyebrow surge">Formação</span><h2 class="surge">Onde ele <em>se formou</em>.</h2><ul class="lista-espaco surge">{itens}</ul></div></section>\n\n<section class="seguranca">', 1)
