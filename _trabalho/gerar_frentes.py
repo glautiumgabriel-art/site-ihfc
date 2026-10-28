@@ -80,7 +80,7 @@ FRENTES = [
                 ("Laser e LED capilar", "Protocolos de apoio para fortalecer o fio."),
                 ("Implante capilar", "Para áreas sem fio, depois da avaliação da área doadora."),
                 ("Acompanhamento", "Retornos para medir a resposta e ajustar o plano.")],
-         quem=[("img/ihfc-equipe-dr-mateus.webp", "Dr. Mateus", "Tricologia e implante capilar", "")],
+         quem=[("img/ihfc-equipe-dr-mateus.webp", "Dr. Mateus Silva Brito", "Tricologia e implante capilar", "CRM-BA 49804")],
          botao="Entrar na lista de espera", texto="Quero entrar na lista de espera da Tricologia com o Dr. Mateus.",
          extra="As vagas da Tricologia estão abrindo agora. Entre na lista de espera e a equipe te chama assim que houver horário.",
          ponte=[("nutricao.html", "Nutrição"), ("papada-e-rosto.html", "Rosto")]),
