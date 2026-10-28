@@ -23,7 +23,7 @@ const QUEIXAS = [
       ["Protocolo Revitalli", "Gerenciamento de pele aplicado há 8 anos no IHFC: etapas no consultório e passo a passo em casa, com retornos programados.", [P.glautium]],
       ["Peelings", "Renovam a camada superficial da pele e ajudam a clarear manchas e uniformizar o tom.", [P.glautium, P.ionara, P.duda]],
       ["Laser e luz intensa pulsada", "Tratam manchas de sol, vasinhos do rosto e vermelhidão, com pouca interferência na rotina.", [P.ionara]],
-      ["Avaliação dermatológica", "Investiga a causa da mancha e garante que o tratamento comece numa pele saudável.", [P.ionara]],
+      ["Avaliação dermatológica", "Investiga a causa da mancha para o tratamento começar numa pele saudável.", [P.ionara]],
     ] },
   { area: "rosto", img: "ihfc-papada-contorno", q: "Papada mesmo sendo magra", tag: "Contorno · papada e pescoço",
     intro: "Papada nem sempre é gordura: pode ser pele flácida, queixo posicionado para trás ou as bandas do músculo do pescoço. Cada causa pede uma técnica.",
