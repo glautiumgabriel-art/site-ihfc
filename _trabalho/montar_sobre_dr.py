@@ -11,10 +11,11 @@ Image.open('img/ihfc-equipe-glautium-gabriel.webp').convert('RGB').save('img/ihf
 
 FORMACAO = []  # (curso, instituição, ano): só o que o Dr. confirmar
 BIO = ("Dr. Glautium Gabriel é Cirurgião e Traumatologista Bucomaxilofacial e Especialista em Harmonização Orofacial "
-       "(CRO-BA 16384) e fundador do IHFC, em Jequié-BA. Na cirurgia bucomaxilofacial, seu foco são as cirurgias estéticas "
-       "da face, como a queiloplastia para o lábio duplo, o tratamento da DTM (disfunção da ATM), a dor orofacial e a enxaqueca "
-       "ligada à mandíbula, e o diagnóstico do câncer bucal. Atende com avaliação antes de qualquer procedimento: examina a face "
-       "como um todo, explica o que faz sentido para cada caso, o que não faz e os riscos, e acompanha o paciente depois.")
+       "(CRO-BA 16384) e fundador do IHFC, em Jequié-BA. Como bucomaxilo, atua em cirurgias estéticas da face, queiloplastia "
+       "(lábio duplo), câncer bucal e disfunção da ATM (DTM), incluindo a dor orofacial; não faz tratamentos dentários. "
+       "Antes de qualquer procedimento faz uma avaliação completa: explica o que faz sentido para cada caso, o que não faz "
+       "e os riscos, e acompanha o paciente depois.")
+# v3 (27/10 noite): bio curta da IMAGEM E AUTORIDADE com as palavras do Dr. ("não faço nada relacionado a dente")
 # bio v2: base da IMAGEM E AUTORIDADE + áreas ditas pelo Dr. em 27/10 ("sou BUCO apenas para cirurgias estéticas da face,
 # queiloplastia, lábio duplo, DTM/ATM, câncer bucal, dor/enxaqueca"); aguarda o OK dele junto com esta prévia
 AREAS_BUCO = ["Cirurgias estéticas da face", "Queiloplastia (lábio duplo)", "DTM e disfunção da ATM",
@@ -45,7 +46,8 @@ pessoa = {
     "url": URL, "image": "https://www.ihfc.com.br/img/ihfc-dr-glautium-gabriel_retrato.jpg",
     "hasCredential": {"@type": "EducationalOccupationalCredential", "credentialCategory": "Registro profissional",
                       "name": "CRO-BA 16384", "recognizedBy": {"@type": "Organization", "name": "Conselho Regional de Odontologia da Bahia"}},
-    "knowsAbout": ["Cirurgia e Traumatologia Bucomaxilofacial", "Harmonização Orofacial", "Endolaser facial", "Lipo de papada", "Implantes dentários"],
+    "knowsAbout": ["Cirurgia Bucomaxilofacial", "Cirurgia estética da face", "Queiloplastia",
+                   "Disfunção temporomandibular (ATM/DTM)", "Câncer bucal", "Harmonização Orofacial", "Endolaser facial"],  # sem dente (Dr., 27/10)
     "worksFor": {"@type": ["Dentist", "MedicalClinic"], "@id": "https://www.ihfc.com.br/#clinica",
                  "name": "IHFC · Instituto de Harmonização Facial e Corporal", "url": "https://www.ihfc.com.br/",
                  "telephone": "+55-73-98150-7715",
@@ -55,7 +57,9 @@ pessoa = {
 }
 if not PUBLICAR:  # bio e áreas ainda aguardam o OK do Dr.
     pessoa["description"] = BIO
-    pessoa["knowsAbout"] = ["Cirurgia e Traumatologia Bucomaxilofacial", "Harmonização Orofacial"] + AREAS_BUCO + ["Endolaser facial", "Lipo de papada"]
+    pessoa["knowsAbout"] = ["Cirurgia Bucomaxilofacial", "Cirurgia estética da face", "Queiloplastia",
+                            "Disfunção temporomandibular (ATM/DTM)", "Dor orofacial", "Câncer bucal",
+                            "Harmonização Orofacial", "Endolaser facial"]  # lista da IMAGEM + câncer e dor, ditos pelo Dr.
 if FORMACAO:
     pessoa["alumniOf"] = [{"@type": "CollegeOrUniversity", "name": i} for _, i, _ in FORMACAO]
 
@@ -68,7 +72,7 @@ h = h.replace('<meta property="og:type" content="website">', '<meta property="og
 h = h.replace('<span class="eyebrow">Diretor e responsável técnico do IHFC</span>', '<span class="eyebrow">Fundador, diretor e responsável técnico do IHFC</span>')
 h = re.sub(r'<script type="application/ld\+json">.*?</script>\n', '', h, flags=re.S)  # sempre a versão atual do schema
 h = h.replace('</head>', '<script type="application/ld+json">\n' + json.dumps(pessoa, ensure_ascii=False, indent=1) + '\n</script>\n</head>', 1)
-if not PUBLICAR:
+if True:  # correção do Dr. ("não faço nada relacionado a dente"): vale também na página publicada
     for velho, novo in TROCAS_PREVIA:
         assert velho in h or novo in h, 'trecho não achado: ' + velho[:60]  # L-328: nunca seguir calado
         h = h.replace(velho, novo)
