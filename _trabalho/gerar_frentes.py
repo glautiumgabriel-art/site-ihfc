@@ -105,7 +105,7 @@ FRENTES = [
                 ("Revitalli", "Protocolo próprio do IHFC para melasma, manchas e cicatrizes de acne."),
                 ("Skinbooster", "Hidratação profunda do rosto, do pescoço e das mãos."),
                 ("Tecnologias", "Ultrassom microfocado, radiofrequência e laser, conforme a avaliação.")],
-         quem=[("img/ihfc-equipe-maria-eduarda-brisola.webp", "Maria Eduarda Brisola", "Esteticista · limpeza de pele, peeling e microagulhamento", ""),
+         quem=[("img/ihfc-equipe-maria-eduarda-brisola_jaleco.webp", "Maria Eduarda Brisola", "Esteticista · limpeza de pele, peeling e microagulhamento", ""),
                ("img/ihfc-equipe-glautium-gabriel.webp", "Dr. Glautium Gabriel", "Protocolo Revitalli e harmonização", "CRO-BA 16384"),
                ("img/ihfc-equipe-ionara-caroso.webp", "Dra. Ionara Caroso", "Dermatologia", "CRM-BA 16679")],
          botao="Quero cuidar da minha pele", texto="Quero uma avaliação da pele.",
