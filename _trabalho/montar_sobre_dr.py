@@ -11,9 +11,30 @@ Image.open('img/ihfc-equipe-glautium-gabriel.webp').convert('RGB').save('img/ihf
 
 FORMACAO = []  # (curso, instituição, ano): só o que o Dr. confirmar
 BIO = ("Dr. Glautium Gabriel é Cirurgião e Traumatologista Bucomaxilofacial e Especialista em Harmonização Orofacial "
-       "(CRO-BA 16384) e fundador do IHFC, em Jequié-BA. Atende com avaliação antes de qualquer procedimento: examina a face "
+       "(CRO-BA 16384) e fundador do IHFC, em Jequié-BA. Na cirurgia bucomaxilofacial, seu foco são as cirurgias estéticas "
+       "da face, como a queiloplastia para o lábio duplo, o tratamento da DTM (disfunção da ATM), a dor orofacial e a enxaqueca "
+       "ligada à mandíbula, e o diagnóstico do câncer bucal. Atende com avaliação antes de qualquer procedimento: examina a face "
        "como um todo, explica o que faz sentido para cada caso, o que não faz e os riscos, e acompanha o paciente depois.")
-# bio: IMAGEM E AUTORIDADE, 27/10 (dados confirmados; texto aguarda o OK do Dr. junto com esta prévia)
+# bio v2: base da IMAGEM E AUTORIDADE + áreas ditas pelo Dr. em 27/10 ("sou BUCO apenas para cirurgias estéticas da face,
+# queiloplastia, lábio duplo, DTM/ATM, câncer bucal, dor/enxaqueca"); aguarda o OK dele junto com esta prévia
+AREAS_BUCO = ["Cirurgias estéticas da face", "Queiloplastia (lábio duplo)", "DTM e disfunção da ATM",
+              "Dor orofacial", "Câncer bucal"]
+# só na prévia: listas da página que contradiziam o que ele disse (siso, trauma, enxerto e ortognática não são com ele)
+TROCAS_PREVIA = [
+    ('''        <li><b>Dente do siso</b> que dói, inflama ou não tem espaço para nascer.</li>
+        <li><b>Batida no rosto</b> (queda, acidente de moto, esporte) com dente mole, sangramento ou dor ao mastigar.</li>
+        <li><b>Mandíbula que estala, trava ou sai do lugar</b> ao abrir a boca.</li>
+        <li><b>Ferida, caroço ou mancha na boca</b> que não some em duas semanas.</li>
+        <li><b>Falta de osso para implante</b>, que pede enxerto ou levantamento de seio.</li>
+        <li><b>Mordida e perfil desencaixados</b>, que podem precisar de cirurgia ortognática.</li>''',
+     '''        <li><b>Lábio duplo</b> ou excesso no lábio que incomoda ao sorrir: a queiloplastia corrige.</li>
+        <li><b>Mandíbula que estala, trava ou dói</b> ao abrir a boca ou mastigar (DTM).</li>
+        <li><b>Dor no rosto ou enxaqueca</b> que piora ao mastigar, ao acordar ou com o ranger dos dentes.</li>
+        <li><b>Ferida, caroço ou mancha na boca</b> que não some em duas semanas: o diagnóstico precoce do câncer bucal faz diferença.</li>
+        <li><b>Contorno do rosto e do pescoço</b> que pede cirurgia estética da face, como a lipo de papada.</li>'''),
+    ('<li><b>Boca e face:</b> siso, implantes, enxertos, trauma, ATM, biópsias e bruxismo.</li>',
+     '<li><b>Boca e face:</b> queiloplastia, DTM e ATM, dor orofacial, bruxismo, biópsias e câncer bucal.</li>'),
+]
 SAMEAS = ['https://www.instagram.com/dr.glautiumgabriel/', 'https://www.threads.com/@dr.glautiumgabriel',
           'https://www.doctoralia.com.br/glautium-gabriel/especialista-em-harmonizacao-orofacial/jequie']  # confirmados no rastreamento de 27/10  # outros perfis entram quando confirmados
 
@@ -32,8 +53,9 @@ pessoa = {
                              "addressLocality": "Jequié", "addressRegion": "BA", "addressCountry": "BR"}},
     "sameAs": SAMEAS,
 }
-if not PUBLICAR:  # bio ainda aguarda o OK do Dr.
+if not PUBLICAR:  # bio e áreas ainda aguardam o OK do Dr.
     pessoa["description"] = BIO
+    pessoa["knowsAbout"] = ["Cirurgia e Traumatologia Bucomaxilofacial", "Harmonização Orofacial"] + AREAS_BUCO + ["Endolaser facial", "Lipo de papada"]
 if FORMACAO:
     pessoa["alumniOf"] = [{"@type": "CollegeOrUniversity", "name": i} for _, i, _ in FORMACAO]
 
@@ -46,6 +68,10 @@ h = h.replace('<meta property="og:type" content="website">', '<meta property="og
 h = h.replace('<span class="eyebrow">Diretor e responsável técnico do IHFC</span>', '<span class="eyebrow">Fundador, diretor e responsável técnico do IHFC</span>')
 h = re.sub(r'<script type="application/ld\+json">.*?</script>\n', '', h, flags=re.S)  # sempre a versão atual do schema
 h = h.replace('</head>', '<script type="application/ld+json">\n' + json.dumps(pessoa, ensure_ascii=False, indent=1) + '\n</script>\n</head>', 1)
+if not PUBLICAR:
+    for velho, novo in TROCAS_PREVIA:
+        assert velho in h or novo in h, 'trecho não achado: ' + velho[:60]  # L-328: nunca seguir calado
+        h = h.replace(velho, novo)
 if not PUBLICAR and 'class="bio-dr"' not in h:
     h = h.replace('<section class="seguranca">', f'<section class="bio-dr" style="padding-bottom:0"><div class="wrap"><span class="eyebrow surge">Sobre</span><p class="lead surge" style="max-width:44rem">{BIO}</p></div></section>\n\n<section class="seguranca">', 1)
 if FORMACAO and 'id="formacao"' not in h:
