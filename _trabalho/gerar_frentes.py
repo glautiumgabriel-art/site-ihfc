@@ -206,7 +206,7 @@ def pagina(f):
   <div class="wrap">
     <img src="img/ihfc-logo-branco.png" alt="IHFC">
     <span>IHFC · Instituto de Harmonização Facial e Corporal · Responsável técnico: Dr. Glautium Gabriel, CRO-BA 16384 · EPAO 5145 · CNES 4327152</span>
-    <span class="rodape-links"><a href="procedimentos.html">Procedimentos</a><a href="dr-glautium.html">Dr. Glautium</a><a href="essencia.html">Revista ESSÊNCIA</a><a href="privacidade.html">Privacidade</a></span>
+    <span class="rodape-links"><a href="procedimentos.html">Procedimentos</a><a href="dr-glautium.html">Dr. Glautium</a><a href="equipe.html">Equipe</a><a href="essencia.html">Revista ESSÊNCIA</a><a href="privacidade.html">Privacidade</a></span>
   </div>
 </footer>
 

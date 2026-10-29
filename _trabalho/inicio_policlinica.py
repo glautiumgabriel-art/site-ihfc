@@ -13,7 +13,8 @@ def rep(a, b):
 
 # menu: áreas e equipe no lugar do destaque do Dr.
 rep('''      <li><a href="procedimentos.html">Procedimentos</a></li>
-      <li><a href="dr-glautium.html">Dr. Glautium</a></li>''', '''      <li><a href="#portas">Áreas</a></li>
+      <li><a href="dr-glautium.html">Dr. Glautium</a></li>
+      <li><a href="equipe.html">Equipe</a></li>''', '''      <li><a href="#portas">Áreas</a></li>
       <li><a href="#equipe">Equipe</a></li>
       <li><a href="procedimentos.html">Procedimentos</a></li>''')
 

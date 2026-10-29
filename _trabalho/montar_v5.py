@@ -56,7 +56,7 @@ pg = f'''{cab.replace('</head>', css + '</head>', 1)}<header id="topo">
     <a href="v5.html" aria-label="IHFC, página inicial"><img src="img/ihfc-logo-branco.png" alt="IHFC"></a>
     <ul>
       <li><a href="#areas">Áreas</a></li>
-      <li><a href="#equipe">Equipe</a></li>
+      <li><a href="equipe.html">Equipe</a></li>
       <li><a href="#assessores">Assessores</a></li>
       <li><a href="procedimentos.html">Procedimentos</a></li>
       <li><a href="#contato">Contato</a></li>
@@ -89,7 +89,7 @@ pg = f'''{cab.replace('</head>', css + '</head>', 1)}<header id="topo">
     <span class="eyebrow">Equipe</span>
     <h2>Quem cuida <em>de você</em>.</h2>
     <div class="v5-equipe">{equipe}</div>
-    <p class="v5-dica">Arraste para o lado →</p>
+    <p class="v5-dica">Arraste para o lado → · <a href="equipe.html" style="color:var(--ouro)">Ver a equipe completa</a></p>
   </div>
 </section>
 
