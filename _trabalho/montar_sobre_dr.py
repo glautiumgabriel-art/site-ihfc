@@ -78,7 +78,7 @@ pessoa = {
                              "addressLocality": "Jequié", "addressRegion": "BA", "addressCountry": "BR"}},
     "sameAs": SAMEAS,
 }
-if not PUBLICAR:  # bio e áreas ainda aguardam o OK do Dr.
+if not PUBLICAR or V5:  # bio e áreas: aprovadas pelo Dr. na v5 (29/10 00h)
     pessoa["description"] = BIO
     pessoa["knowsAbout"] = ["Cirurgia Bucomaxilofacial", "Cirurgia estética da face", "Queiloplastia",
                             "Disfunção temporomandibular (ATM/DTM)", "Dor orofacial", "Câncer bucal",
@@ -104,7 +104,7 @@ if not PUBLICAR or V5:
         assert velho in h or (novo and novo in h), 'v5: trecho não achado: ' + velho[:60]  # L-328
         h = h.replace(velho, novo)
     assert 'não faz' not in h and 'às vezes' not in h.lower(), 'v5: ainda diz o que ele não faz'
-if not PUBLICAR and 'class="bio-dr"' not in h:
+if (not PUBLICAR or V5) and 'class="bio-dr"' not in h:
     h = h.replace('<section class="seguranca">', f'<section class="bio-dr" style="padding-bottom:0"><div class="wrap"><span class="eyebrow surge">Sobre</span><p class="lead surge" style="max-width:44rem">{BIO}</p></div></section>\n\n<section class="seguranca">', 1)
 if FORMACAO and 'id="formacao"' not in h:
     itens = ''.join(f'<li><b>{c}</b>{i}, {a}</li>' for c, i, a in FORMACAO)
