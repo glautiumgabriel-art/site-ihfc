@@ -74,7 +74,7 @@ pessoa = {
     "worksFor": {"@type": ["Dentist", "MedicalClinic"], "@id": "https://www.ihfc.com.br/#clinica",
                  "name": "IHFC · Instituto de Harmonização Facial e Corporal", "url": "https://www.ihfc.com.br/",
                  "telephone": "+55-73-98150-7715",
-                 "address": {"@type": "PostalAddress", "streetAddress": "R. Dr. João Braga, 640, Jequiezinho",
+                 "address": {"@type": "PostalAddress", "streetAddress": "R. Dr. João Braga, 640, Jequiezinho", "postalCode": "45208-201",
                              "addressLocality": "Jequié", "addressRegion": "BA", "addressCountry": "BR"}},
     "sameAs": SAMEAS,
 }
