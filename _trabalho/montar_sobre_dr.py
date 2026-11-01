@@ -89,7 +89,7 @@ if FORMACAO:
 h = open('dr-glautium.html', encoding='utf-8').read()
 h = h.replace('<title>Dr. Glautium Gabriel · IHFC Jequié</title>',
               '<title>Dr. Glautium Gabriel | Bucomaxilofacial e Harmonização Orofacial em Jequié-BA</title>')
-h = h.replace('diretor e responsável técnico do IHFC em Jequié/BA.">', 'fundador, diretor e responsável técnico do IHFC em Jequié/BA.">')
+h = re.sub(r'(?:fundador, )*diretor e responsável técnico do IHFC em Jequié/BA\.">', 'fundador, diretor e responsável técnico do IHFC em Jequié/BA.">', h)  # idempotente: rodar de novo não repete
 h = h.replace('"https://www.ihfc.com.br/img/ihfc-compartilhar-1200x630.jpg">', '"https://www.ihfc.com.br/img/ihfc-dr-glautium-gabriel_retrato.jpg">', 1)
 h = h.replace('<meta property="og:type" content="website">', '<meta property="og:type" content="profile">')
 h = h.replace('<span class="eyebrow">Diretor e responsável técnico do IHFC</span>', '<span class="eyebrow">Fundador, diretor e responsável técnico do IHFC</span>')
