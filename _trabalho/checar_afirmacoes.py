@@ -17,5 +17,7 @@ for arq in sorted(list(raiz.glob('*.html')) + [raiz / 'queixas.js']):
             if any(re.search(l, trecho, re.I) for l in LIBERADO):
                 continue
             print(f'SEM FONTE?  {arq.name}: ...{trecho.strip()}...'); erros += 1
+    for m in re.finditer(r'(?<!class=")\b(\w{4,}),? \1\b(?!-)',arq.read_text(encoding='utf-8'), re.I):  # 01/11: "fundador, fundador…" (script rodou 2x)
+        print(f'REPETIDO  {arq.name}: {m.group(0)}'); erros += 1
 print('ok, nenhuma afirmação clínica suspeita' if not erros else f'{erros} trecho(s) para conferir com o Dr.')
 sys.exit(1 if erros else 0)
