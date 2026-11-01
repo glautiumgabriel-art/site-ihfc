@@ -1,0 +1,35 @@
+﻿=== CHATGPT (gpt-6-astra, 118s) ===
+Recomendo retirar garantias, individualizar as respostas e evitar listas de procedimentos sem indicação. **O principal risco é apresentar benefício variável como resultado certo.** “Toda afirmação ser consenso” é uma exigência absoluta demais; prefira evidência consolidada e limites explícitos.
+
+**1. Cara de harmonizada**
+(a) “Não deve” e “parecer descansada” antecipam resultados.
+(b) O planejamento considera sua anatomia e suas expectativas. Na avaliação, conversamos sobre mudanças possíveis, limites e riscos.
+
+**2. Toxina vicia**
+(a) Diferenciar dependência química de desejo de repetir.
+(b) A toxina botulínica não é reconhecida como causadora de dependência química. Seu efeito é temporário, e novas aplicações dependem da sua vontade e de avaliação profissional.
+
+**3. Papada**
+(a) “Enzimas” é impreciso; a lista mistura indicações e evidências diferentes.
+(b) Nem sempre é necessária cirurgia. Gordura, flacidez e características do queixo podem contribuir para a aparência da papada; a avaliação orienta as opções.
+
+**4. Melasma**
+(a) Clareamento garantido e calor como causa estabelecida exigem correção.
+(b) O melasma costuma ser persistente e pode reaparecer. O tratamento pode reduzir as manchas, com proteção solar e acompanhamento.
+
+**5. Preenchimento labial**
+(a) “Metabolismo” é vago; manutenção não é obrigatória.
+(b) A duração varia conforme o material e o tratamento. O ácido hialurônico é absorvido gradualmente, e a necessidade de reaplicação é avaliada individualmente.
+
+**6. Bioestimulador**
+(a) Efeitos imediatos dependem do produto.
+(b) A formação de colágeno ocorre gradualmente. A evolução varia conforme o produto e a resposta individual.
+
+**Fontes para conferência:** 1, 5 e 6: FDA, *Dermal Fillers*; 2: MedlinePlus, toxina botulínica; 3: ASPS, *Double Chin Treatments*; 4: AAD, *Melasma*.
+
+[conversa ChatGPT: 01a1954b-2e7d-7311-84dd-2913ce3884af | para responder, rode de novo com -Continuar]
+
+=== GEMINI (0s) ===
+ERRO Gemini: sem cota na chave da API ou sem resposta (modelo principal e reserva). Para IMAGEM a chave gratuita não tem cota (29/10): usar o Gemini no site (https://gemini.google.com, assinatura do Dr., L-113) ou fazer a imagem por outro caminho do Claude.
+
+=== PARA O CLAUDE: junte em CONCORDÂNCIAS / DISCORDÂNCIAS / RECOMENDAÇÃO (a sua, dizendo onde discorda dos dois). ===
