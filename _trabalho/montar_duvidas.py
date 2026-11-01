@@ -7,7 +7,8 @@ PUBLICAR = '--publicar' in sys.argv
 FDA = ('FDA: Dermal Fillers', 'https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/dermal-fillers-soft-tissue-fillers')
 FAQ = [
     ('Vou ficar com cara de harmonizada?',
-     'O plano parte da anatomia do seu rosto e das suas expectativas. Na avaliação, o profissional explica o que pode mudar, os limites e os riscos de cada opção, antes de qualquer procedimento.', None),
+     'O plano parte da anatomia do seu rosto e das suas expectativas. Na avaliação, o profissional explica o que pode mudar, os limites e os riscos de cada opção, antes de qualquer procedimento.',
+     ('Guia da harmonização natural (IHFC)', 'guia-natural.html')),
     ('A toxina botulínica vicia?',
      'O efeito da toxina botulínica é temporário: o músculo volta a se mover aos poucos. Repetir a aplicação é uma decisão sua, tomada com avaliação profissional; não existe obrigação de continuar.',
      ('MedlinePlus: OnabotulinumtoxinA', 'https://medlineplus.gov/druginfo/meds/a608013.html')),
