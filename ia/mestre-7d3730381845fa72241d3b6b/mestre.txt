@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 10/11/2026 01:23
+Atualizado em: 10/11/2026 01:34
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -34,6 +34,11 @@ Dinheiro, senha ou login, decisão clínica, publicar ou enviar fora do já auto
 
 
 ## DECISÕES DO CONSELHO (mais recente primeiro)
+
+### 10/11/2026 — Sincronização do arquivo mestre
+DECISÃO: Toda mudança de regra, receita ou autorização entra no arquivo mestre em forma de resumo curto e neutro, sem citação literal, sem dinheiro, sem paciente.
+PLACAR: Ordem direta do dono; sem conselho (L-1064)
+ONDE PARAMOS: Conferir a data do arquivo mestre contra a última lição a cada rodada noturna.
 
 ### 10/11/2026 — 9 projetos GitHub do reel @99hud (trocar apps pagos?)
 DECISÃO: Nenhum dos 9 supera o que já usamos. Só teste isolado do VoiceStudio (pesos do motor padrão são não comerciais: nunca em vídeo publicado). O resto não instalar sem necessidade concreta.
@@ -99,6 +104,9 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 3. [09/11/2026] Defeito que o dono vê ou ouve vira medição no portão: flash no máximo 6 clarões por minuto ou 3 no vídeo; ritmo e pronúncia medidos. (fonte: L-1060) — INTENÇÃO: o que incomoda o espectador se mede por script, não depende de o juiz notar
 4. [09/11/2026] Pronúncia: só acentuar a sílaba tônica; acento em sílaba pretônica desloca a tônica (secasse virou seca-se). (fonte: L-1057) — INTENÇÃO: fala natural, sem tropeço que tire a pessoa do vídeo
 5. [09/11/2026] Defeito apontado pelo dono: corrigir a CLASSE inteira (todas as ocorrências), não só o exemplo citado. (fonte: L-1055) — INTENÇÃO: o Dr. não quer achar o mesmo defeito duas vezes
+6. [10/11/2026] Coerência entre fala, imagem e emoção: a imagem tem de mostrar o que o personagem diz e faz; a emoção de cada fala é definida já na elaboração da ideia. (fonte: L-1084) — INTENÇÃO: o vídeo faz sentido para quem assiste
+7. [10/11/2026] Antes de mudar a abertura de um canal, comparar com a entrada que viralizou (texto padronizado que cai na tela com uma batidinha) e manter o que funcionou. (fonte: L-1085) — INTENÇÃO: repetir o que já deu certo antes de inovar
+8. [10/11/2026] A duração serve ao sentido: se a história pede mais tempo, pode ser mais longo, desde que entregue algo completo e bem feito. (fonte: L-1086) — INTENÇÃO: completo e bem feito vale mais que curto e mal feito
 
 ### GTA 6 GAMERS
 1. [09/11/2026] Fala lenta reprova: ritmo entre 2,3 e 2,8 palavras por segundo é trava, não aviso. (fonte: L-1048) — INTENÇÃO: ritmo de conversa real, que prende
@@ -140,6 +148,16 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 6. [10/11/2026] Borrão e deformação nas mãos e na boca da Cida (6,7-9 s) -> Regenerar o clipe da Cida em plano mais calmo ou aparar os frames borrados; revisar mãos e boca quadro a quadro. (fonte: VIRAL-QA critica E-se-a-gente-enxergasse-com-o-som-como-morcego_curto_v4_1080p60.mp4)
 7. [10/11/2026] Texto do gancho começa colado ao topo (0-0,3 s) e CTA tem dois pedidos -> Fixar o texto do gancho abaixo da faixa do topo desde o quadro 0 e manter um só pedido no final (enviar ou comentar). (fonte: VIRAL-QA critica E-se-a-gente-enxergasse-com-o-som-como-morcego_curto_v4_1080p60.mp4)
 8. [10/11/2026] Pronúncia e ritmo da fala não puderam ser conferidos (sem áudio); palavra 'Apagão' aparece na transcrição, mas as legendas da tela mostram o trecho '...se for assombração, eu tô' partido -> Ouvir a locução inteira e checar tônicas e nomes (Daniel Kish, hertz, ecolocalização) e se há pausas longas, antes de publicar. (fonte: VIRAL-QA critica E-se-a-gente-enxergasse-com-o-som-como-morcego_curto_v4_1080p60.mp4)
+
+### Geral (todas as IAs)
+1. [10/11/2026] Todo pedido do dono tem uma intenção por trás; a lição guarda a intenção e a estende a casos parecidos, não só ao exemplo citado. (fonte: L-1083) — INTENÇÃO: entender o que ele quer de verdade, sem precisar repetir
+2. [10/11/2026] Texto pesado pode usar o crédito de API já incluído, para poupar o plano semanal; o teto e o controle ficam no registro da API. (fonte: L-1089) — INTENÇÃO: a cota do plano durar a semana inteira
+
+### PC e produção de vídeo
+1. [10/11/2026] A GPU de vídeo não fica parada: enquanto um vídeo é gerado, o próximo já entra na fila contínua. (fonte: L-1087) — INTENÇÃO: o PC trabalhar o máximo possível
+
+### PC e telinha do cooler
+1. [10/11/2026] A tela do cooler harmoniza com a do Oráculo só nas bordas e em poucos detalhes; não copiar tudo. (fonte: L-1088) — INTENÇÃO: visual limpo, sem poluição
 
 
 ## DEBATES ABERTOS (leia todas as contribuições do tema e responda AO QUE OS OUTROS DISSERAM; cite pelo menos 1 delas)
