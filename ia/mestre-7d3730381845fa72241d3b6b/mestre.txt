@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 10/11/2026 16:07
+Atualizado em: 10/11/2026 19:07
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -225,6 +225,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 13. [10/11/2026] Chamadas a API do Claude usam limite de saida de pelo menos 16000 tokens, porque o modelo pensa antes de responder e com limite baixo devolve resposta vazia cobrando o pedido inteiro; quem usar limite menor confere se a resposta veio vazia (fonte: L-1102) — INTENÇÃO: nunca pagar por resposta vazia
 14. [10/11/2026] Nestes dias, video dos canais que passa no portao completo de qualidade (juizes das IAs, auditoria de voz e duplicado) e programado e publicado sem a aprovacao previa do Dr.; conteudo com paciente, antes e depois, imagem ou voz do Dr. continua com o OK dele; revisar em 13/11 pelas metricas (fonte: L-1103) — INTENÇÃO: tudo automatizado, o Dr. fora do caminho
 15. [10/11/2026] Toda correcao do conselho das IAs ou do juiz vira uma linha na lista de correcoes do canal, entra no arquivo mestre e e aplicada antes de gerar o proximo video; repetir um erro ja corrigido derruba a nota; as IAs de fora so propoem e quem grava e a equipe (fonte: L-1104) — INTENÇÃO: nunca errar duas vezes a mesma coisa
+16. [10/11/2026] Toda pergunta as IAs de conselho, juiz ou critica termina pedindo de uma a tres solucoes concretas para cada problema ou risco apontado, a mais barata primeiro; a correcao registrada guarda a solucao junto com o erro (fonte: L-1105) — INTENÇÃO: a critica ja vem com saida para analisarmos
 
 ### dr
 1. [10/11/2026] Ausência de texto no primeiro quadro (0,0s), aparecendo apenas aos 0,25s. -> Inserir o título estático 'COLÁGENO POR DENTRO' já no quadro 0,0s para garantir impacto visual imediato ao rolar o feed. (fonte: VIRAL-QA critica dr-glautium_por-dentro_v3-colageno_previa_v2.mp4)
@@ -297,6 +298,9 @@ Como o Claude deve perguntar (para não induzir a resposta):
 Limites que não mudam: nenhum dado de paciente entra aqui nem em pergunta alguma; nada de senha, chave ou dado bancário; dinheiro, paciente, envio em nome do Dr. e ação irreversível continuam sendo decisão só dele.
 
 IAs BÔNUS (10/11/2026, aviso do Dr.): Perplexity = pesquisa com FONTES (toda afirmação com link); DeepSeek = 2ª opinião técnica; Manus = pesquisa pesada. Não contam entre os 4 votos; só desempatam com prova própria. DeepSeek (servidor fora do Brasil): só pergunta genérica e neutra, nunca dado pessoal, de paciente, da clínica, chave, caminho interno ou nome de conta. Perplexity: mesmo cuidado com dado pessoal. Em período de prova até o teste registrado (L-957).
+
+
+SOLUÇÕES CONCRETAS (L-1105, Dr. 10/11): além de dizer a confiabilidade, TODA pergunta termina pedindo: "para cada problema ou risco que apontar, dê 1 a 3 soluções concretas e aplicáveis, com a mais barata primeiro". Vale para conselho, juiz e crítica.
 
 ## CORREÇÕES E ACERTOS POR CANAL/ESTILO (permanentes; leia antes de escrever roteiro, cena ou imagem)
 Gerado automaticamente das correções gravadas; vale mais que opinião avulsa. Linhas com dado pessoal, da clínica ou interno são omitidas.
