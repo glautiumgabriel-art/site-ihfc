@@ -1293,4 +1293,6 @@ Gerado automaticamente das correções gravadas; vale mais que opinião avulsa. 
 - [10/11/2026] Fala bíblica literal não é cortada para caber em regra de ritmo. Erro: Juiz pediu gancho com Gn 2:18 e repetir 'era bom' em escala; nota sobe mas fidelidade cai. Certo: Fidelidade ao texto vence a nota do juiz; repetir 'era bom' no máximo 3–4 vezes e dar peso ao 7º dia.
 - [10/11/2026] Deus só voz e luz; figurino recatado; sem 3D estilo estúdio famoso. Erro: Quadro 3D parecido com longa de estúdio e com barriga à mostra. Certo: 2D pintado ou 2,5D híbrido, roupa longa cobrindo o corpo, Deus sem rosto nem silhueta.
 - [10/11/2026] [ERRO][sincronia][estilo:2.5d] Fala e gesto precisam combinar: o lábio ou o gesto acompanha a frase dita.
+- [10/11/2026] [ERRO][visual-continuidade] Nenhuma silhueta humana de luz: Deus é só voz e luz difusa, nunca forma de pessoa.
+- [10/11/2026] [ERRO][visual-continuidade] Dia N da Criação: só aparece o que já foi criado até ali; nada de barcos, pessoas, animais ou objetos antes do dia certo.
 
