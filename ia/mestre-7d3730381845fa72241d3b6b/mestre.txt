@@ -1299,4 +1299,8 @@ Gerado automaticamente das correções gravadas; vale mais que opinião avulsa. 
 - [10/11/2026] [ERRO][sincronia][estilo:2.5d] Fala e gesto precisam combinar: o lábio ou o gesto acompanha a frase dita.
 - [10/11/2026] [ERRO][visual-continuidade] Nenhuma silhueta humana de luz: Deus é só voz e luz difusa, nunca forma de pessoa.
 - [10/11/2026] [ERRO][visual-continuidade] Dia N da Criação: só aparece o que já foi criado até ali; nada de barcos, pessoas, animais ou objetos antes do dia certo.
+- [10/11/2026] [ERRO][fidelidade] [ACERTO][texto] Narração em paráfrase própria; NAA só consulta interna; na tela, só a referência (ex.: Gênesis 1:3), sem texto literal longo da NAA nem marca, até haver licença escrita da SBB.
+- [10/11/2026] [ERRO][visual-continuidade] [ACERTO][plataforma] Todo vídeo sai com o rótulo 'conteúdo gerado por IA' ligado no TikTok/Instagram e com aviso na descrição.
+- [10/11/2026] [ERRO][ritmo] [ACERTO][ritmo] Cliffhanger é desejável, não obrigatório; o capítulo precisa de conclusão satisfatória; cortes motivados pela ação, de 2 a 6 s.
+- [10/11/2026] [ERRO][fidelidade] [ACERTO][teologia] Teofanias explícitas no texto (Gn 18, Gn 32) podem mostrar os visitantes como homens, conforme o texto; fora disso, Deus é só voz e luz.
 
