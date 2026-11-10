@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 09/11/2026 22:43
+Atualizado em: 09/11/2026 22:47
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -34,6 +34,11 @@ Dinheiro, senha ou login, decisão clínica, publicar ou enviar fora do já auto
 
 
 ## DECISÕES DO CONSELHO (mais recente primeiro)
+
+### 09/11/2026 — Queda de alcance no Instagram (Dr. e clinica)
+DECISÃO: Teste de 14 dias 3x3 por conta, horario habitual constante, pareado por tema, ordem alternada, ultimo post ate 20/11, sem impulsionar, 2x mediana e 2 de 3 pares; revisao 23/11/2026
+PLACAR: 4 votos (Claude, ChatGPT, Gemini Argon, Grok), 3 rodadas, desempate por maioria so no tema dos termos clinicos
+ONDE PARAMOS: Falta conferir Status da Conta e produzir/escolher as 6 pecas por conta; observacao em 48h e 7d
 
 ### 10/11/2026 — Fechamento do ciclo pergunta, conselho, decisão, execução e observação
 DECISÃO: Livro único e transacional (SQLite) com dona, estado, prazo e evidência; estados NOVA, CONSELHO, DECIDIDA, DESPACHADA, APLICADA (com evidência verificada por script), OBSERVADA (métrica e data), FECHADA; uma rotina sem IA a cada 5 a 10 min acorda a conversa dona ou abre tarefa nova; consulta por chave antes de gastar rodada; conversa com linha aberta não fecha.
