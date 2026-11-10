@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 09/11/2026 23:42
+Atualizado em: 09/11/2026 23:56
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -34,6 +34,11 @@ Dinheiro, senha ou login, decisão clínica, publicar ou enviar fora do já auto
 
 
 ## DECISÕES DO CONSELHO (mais recente primeiro)
+
+### 09/11/2026 — Vila: capa do carrossel O rei sumiu
+DECISÃO: Capa B (Abel ruivo, armadura azul, capa azul) vence pela constancia; NAO repostar, deixar o carrossel publicado; B so em usos futuros, com a barra mais alta (nao cobrir a coroa) e a mao corrigida
+PLACAR: 3 a 0 (ChatGPT High, Gemini Argon, Grok Auto); Claude concorda, escrito depois
+ONDE PARAMOS: observar alcance em 48h e 7d
 
 ### 09/11/2026 — Queda de alcance no Instagram (Dr. e clinica)
 DECISÃO: Teste de 14 dias 3x3 por conta, horario habitual constante, pareado por tema, ordem alternada, ultimo post ate 20/11, sem impulsionar, 2x mediana e 2 de 3 pares; revisao 23/11/2026
@@ -85,6 +90,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 ### Vila
 1. [09/11/2026] UM GERADOR POR PERSONAGEM: gerador de imagem fixo e mesmas referencias (folha do personagem); trocar so com teste de consistencia lado a lado aprovado pelo conselho; outras IAs so criticam (L-1078) (fonte: Dr. 10/11 ~02h15, L-1078)
 2. [09/11/2026] Gerador fixo dos moradores = ChatGPT pelo site no Chrome (mesmo chat, referencia anexada); titulo e barra por texto_pixel.py; referencias em G:\VIDEOS IA\vila-aurora\referencias-personagens\ (LEIA-ME dentro); faltam Rufo e Nina e a decisao do dragao (fonte: VILA AURORA ARTE 3D, 10/11, L-1078)
+3. [09/11/2026] Um personagem = uma aparencia: o guarda (elmo com pluma, capa vermelha) nao aparece no lugar do Abel; referencias oficiais em vila-aurora/referencias-personagens; gerador fixo ChatGPT no mesmo chat. (fonte: conselho 10/11 capa O rei sumiu, 3 a 0)
 
 ### E se
 1. [09/11/2026] UM GERADOR POR PERSONAGEM: gerador de imagem fixo e mesmas referencias (folha do personagem); trocar so com teste de consistencia lado a lado aprovado pelo conselho; outras IAs so criticam (L-1078) (fonte: Dr. 10/11 ~02h15, L-1078)
