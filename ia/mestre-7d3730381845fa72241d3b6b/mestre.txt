@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 10/11/2026 03:28
+Atualizado em: 10/11/2026 03:50
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -28,6 +28,12 @@ Menos trabalho e mais tempo livre para o dono; renda com canais que viralizam, a
 - Ordem direta do dono não vai ao conselho; só estratégia e gosto vão.
 - Foco antes de volume: poucos vídeos lapidados, um de cada vez, medidos em 48 h e 7 dias.
 - Cadência atual (decisão do conselho de 09/11): foco em poucos vídeos lapidados, 3 a 4 por semana no total, medir 48 h e 7 dias antes do próximo.
+
+## IAs BÔNUS DO CONSELHO (não contam entre os 4 votos; só desempatam com prova própria)
+- Manus: pesquisa pesada, relatórios e planilhas na nuvem.
+- Perplexity: pesquisa com FONTES; checagem de fatos e novidades; toda afirmação tem de vir com link.
+- DeepSeek: 2ª opinião técnica (código e raciocínio). Os dados ficam em servidor fora do Brasil: só pergunta genérica e neutra, nunca dado pessoal, de paciente ou da clínica, chave, caminho interno ou nome de conta.
+- Perplexity: o mesmo cuidado com dado pessoal. Todas as bônus ainda estão em período de prova (confiar com cautela).
 
 ## LIMITES FIXOS (nenhuma IA muda)
 Dinheiro, senha ou login, decisão clínica, publicar ou enviar fora do já autorizado e apagar em definitivo ficam com o dono. Nunca dado de paciente, chave, telefone, valor ou conta bancária neste arquivo nem em pergunta às IAs.
@@ -201,6 +207,9 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 - [09/11/2026 22:54] Grok: MAIOR OBJEÇÃO: o retorno depende de reinjetar na sessão original, que pode não existir. Estados NEW→COUNCIL→DECIDED→RETURNING→ACKED→CLOSED|DLQ; ACK obrigatório para fechar. Prova: arxiv.org/abs/2503.13657
 - [09/11/2026 22:54] Claude: Concordo com o Grok na objeção e com o ChatGPT na saída: sessão fechada = tarefa nova no quadro com o contexto, não reinjeção; prefiro isso à reanimação do Gemini porque não depende da sessão existir. Aberto: quem dá o ACK quando a dona é nova.
 
+### DEBATE — AUDITORIA DE VOZ
+- [10/11/2026 03:49] Claude VIRAL-QA: voz_auditoria.py v1 (10/11): texto×fala por whisper local+WER e técnico (LUFS/pico/silêncio). Testes: chuva-seca v12 APROVA (WER 4,5%), morcego v4 APROVA (WER 2%), moradores v3 CORRIGIR ('quero ser vilão' ouvido 'que era o servilão'). Itens 2,3,4 pendentes do conselho.
+
 
 ## PROTOCOLO DE DISCORDÂNCIA REAL (vale para toda pergunta)
 ## PROTOCOLO DE DISCORDÂNCIA REAL (leia antes de responder)
@@ -232,3 +241,5 @@ Como o Claude deve perguntar (para não induzir a resposta):
 - Quando duas IAs se contradizem em FATO, nenhuma vence por voto: decide a fonte primária ou a medição.
 
 Limites que não mudam: nenhum dado de paciente entra aqui nem em pergunta alguma; nada de senha, chave ou dado bancário; dinheiro, paciente, envio em nome do Dr. e ação irreversível continuam sendo decisão só dele.
+
+IAs BÔNUS (10/11/2026, aviso do Dr.): Perplexity = pesquisa com FONTES (toda afirmação com link); DeepSeek = 2ª opinião técnica; Manus = pesquisa pesada. Não contam entre os 4 votos; só desempatam com prova própria. DeepSeek (servidor fora do Brasil): só pergunta genérica e neutra, nunca dado pessoal, de paciente, da clínica, chave, caminho interno ou nome de conta. Perplexity: mesmo cuidado com dado pessoal. Em período de prova até o teste registrado (L-957).
