@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 09/11/2026 23:35
+Atualizado em: 09/11/2026 23:42
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -81,6 +81,19 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 
 ### Canal do médico
 1. [09/11/2026] Situação humana, voz natural, sem promessa de resultado. (fonte: receita)
+
+### Vila
+1. [09/11/2026] UM GERADOR POR PERSONAGEM: gerador de imagem fixo e mesmas referencias (folha do personagem); trocar so com teste de consistencia lado a lado aprovado pelo conselho; outras IAs so criticam (L-1078) (fonte: Dr. 10/11 ~02h15, L-1078)
+2. [09/11/2026] Gerador fixo dos moradores = ChatGPT pelo site no Chrome (mesmo chat, referencia anexada); titulo e barra por texto_pixel.py; referencias em G:\VIDEOS IA\vila-aurora\referencias-personagens\ (LEIA-ME dentro); faltam Rufo e Nina e a decisao do dragao (fonte: VILA AURORA ARTE 3D, 10/11, L-1078)
+
+### E se
+1. [09/11/2026] UM GERADOR POR PERSONAGEM: gerador de imagem fixo e mesmas referencias (folha do personagem); trocar so com teste de consistencia lado a lado aprovado pelo conselho; outras IAs so criticam (L-1078) (fonte: Dr. 10/11 ~02h15, L-1078)
+
+### GTA
+1. [09/11/2026] UM GERADOR POR PERSONAGEM: gerador de imagem fixo e mesmas referencias (folha do personagem); trocar so com teste de consistencia lado a lado aprovado pelo conselho; outras IAs so criticam (L-1078) (fonte: Dr. 10/11 ~02h15, L-1078)
+
+### Marketing
+1. [09/11/2026] UM GERADOR POR PERSONAGEM: gerador de imagem fixo e mesmas referencias (folha do personagem); trocar so com teste de consistencia lado a lado aprovado pelo conselho; outras IAs so criticam (L-1078) (fonte: Dr. 10/11 ~02h15, L-1078)
 
 
 ## DEBATES ABERTOS (leia todas as contribuições do tema e responda AO QUE OS OUTROS DISSERAM; cite pelo menos 1 delas)
