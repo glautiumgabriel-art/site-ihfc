@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 10/11/2026 15:15
+Atualizado em: 10/11/2026 16:00
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -40,6 +40,11 @@ Dinheiro, senha ou login, decisão clínica, publicar ou enviar fora do já auto
 
 
 ## DECISÕES DO CONSELHO (mais recente primeiro)
+
+### 10/11/2026 — Vila cronica piloto v8
+DECISÃO: Nao homologar v8; refazer quadro taverna fechada e guarda+porta+tropeco, tirar duplicados, @ no inicio
+PLACAR: 2x1 (ChatGPT e Gemini nao aprovar; Grok aprovar com ajuste)
+ONDE PARAMOS: Refazer 2 cenas e reenviar ao VIRAL-QA
 
 ### 10/11/2026 — Vila: formato cronica-da-vila (piloto moradores reais v7)
 DECISÃO: NAO homologar como padrao autonomo na versao atual: refazer com gate imagem x narracao (cada fala com o personagem citado visivel, estilo 3D unico) e novo piloto
