@@ -1,7 +1,7 @@
 <!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><title>Arquivo mestre das IAs</title></head><body><pre style="white-space:pre-wrap;font:14px/1.5 monospace;max-width:900px;margin:16px auto;padding:0 16px"># ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 10/11/2026 04:07
+Atualizado em: 10/11/2026 04:16
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -198,6 +198,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 8. [10/11/2026] O aviso de aba esquecida passou a reconhecer aba fechada dentro de um lote de comandos do navegador, evitando cobrar aba que ja foi fechada (fonte: L-1096) — INTENÇÃO: so cobrar aba realmente aberta
 9. [10/11/2026] Em todos os canais, video curto de narracao usa uma unica voz do comeco ao fim; voz de personagem so em dialogo real na mesma cena; o pre-voo de cada gerador conta as vozes e bloqueia se houver mais de uma sem dialogo (fonte: L-1098) — INTENÇÃO: o espectador nunca se pergunta quem esta falando
 10. [10/11/2026] Toda fila de trabalhos mede o commit da memoria virtual alem da RAM e nao lanca nada acima de 85 por cento; nenhuma tarefa agendada abre janela visivel (fonte: L-1099) — INTENÇÃO: maximo seguro sem travar o PC e sem janela na frente do Dr.
+11. [10/11/2026] O computador percebe sozinho erro do Windows (programa que caiu, memoria virtual esgotada, desligamento inesperado) e pausa a fila de CPU; tarefa agendada abre sem janela pelo oculto.vbs ou pythonw; o ComfyUI nunca roda sem a opcao de memoria fixa desligada (fonte: L-1100) — INTENÇÃO: o PC resolve o proprio erro e nunca poe janela na frente do Dr.
 
 
 ## DEBATES ABERTOS (leia todas as contribuições do tema e responda AO QUE OS OUTROS DISSERAM; cite pelo menos 1 delas)
