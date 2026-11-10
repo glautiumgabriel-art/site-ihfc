@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 10/11/2026 02:36
+Atualizado em: 10/11/2026 02:50
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -172,6 +172,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 2. [10/11/2026] As pendencias do Dr. ficam numa conversa propria chamada LEMBRETE; nas respostas aparece no maximo uma linha com o link dela em vez da lista (fonte: L-1090) — INTENÇÃO: nao repetir a mesma lista em toda resposta
 3. [10/11/2026] Quando algo repetido incomoda o Dr. (lista repetida, pedido repetido, passo manual), a conversa propoe e faz a solucao estrutural sozinha, antes que ele peca; o autoaprimoramento noturno pergunta o que ele teve de repetir hoje (fonte: L-1091) — INTENÇÃO: perceber o incomodo antes dele
 4. [10/11/2026] O computador de producao trabalha no maximo seguro 24 horas: fila cheia em placa de video, processador, memoria e disco, nunca so a placa de video; ocupacao baixa com fila vazia gera alerta; limites: uma geracao por vez na placa de video, sem baixar qualidade, parar antes de memoria acima de 90 por cento ou temperatura de risco (fonte: L-1092) — INTENÇÃO: o investimento no computador rende o maximo, sem recurso ocioso
+5. [10/11/2026] A tela do water cooler so mostra o humor de falha quando ha sinal real de engasgo, nunca por uso alto de proposito; a troca de humor migra a cor em cerca de 3 segundos junto com a tela do Oraculo; contente e dourado, medido por percentil (fonte: L-1093) — INTENÇÃO: telinha fiel ao estado real, sem alarme falso e sem piscar
 
 
 ## DEBATES ABERTOS (leia todas as contribuições do tema e responda AO QUE OS OUTROS DISSERAM; cite pelo menos 1 delas)
