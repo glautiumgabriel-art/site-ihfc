@@ -1,0 +1,83 @@
+# ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
+
+Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script `arquivo_mestre_ias.py`, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
+Atualizado em: 09/11/2026 22:39
+
+## COMO USAR (leia antes de responder)
+1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
+2. Cada tema tem a decisão vigente, o placar e o "onde paramos". Não repita uma sugestão já reprovada sem prova nova.
+3. Decisão aqui tem métrica e data de conferência. Se a medição contrariar a decisão, a medição vence.
+4. Termine toda resposta com: POSIÇÃO / MAIOR OBJEÇÃO / PROVA PRÓPRIA (URL, dado ou conta) / CONFIANÇA (0 a 100%) / O QUE ME FARIA MUDAR DE IDEIA.
+
+## QUEM SOMOS (sem dado pessoal)
+Um médico harmonizador facial e a clínica dele (IHFC) usam agentes de IA para produzir conteúdo e tocar a operação com poucas horas dele. Canais de vídeo curto: "E se fosse assim" (curiosidades), Vila Aurora (novelinha com personagens fixos), GTA 6 GAMERS (notícias e trailers), canal pessoal do médico, e a marca da clínica. Uma só GPU local e orçamento de IA curto.
+
+## MISSÃO
+Menos trabalho e mais tempo livre para o dono; renda com canais que viralizam, a clínica prosperando e a imagem e autoridade do médico. Na dúvida, vence o que poupa mais tempo dele ou traz mais dinheiro e imagem. Ele só decide dinheiro, gosto e chave humana (login, código, consentimento); todo o resto as IAs decidem em conselho e executam.
+
+## REGRAS DE PRODUÇÃO QUE VALEM PARA OS JUÍZES (receitas de hoje)
+- E se fosse assim: abertura "E se a gente…?", 55 a 75 s, com os personagens Léo e Dona Cida.
+- GTA 6 GAMERS: 11 a 25 s, notícia ou trailer curto.
+- Canal pessoal do médico: situação humana, voz natural, sem promessa de resultado.
+- Clínica: marca e prova social; nunca dado de paciente.
+- Travas de qualidade (reprovam o vídeo): flash ou quadro isolado, pronúncia errada, ritmo de fala lento, capa cortada fora da zona segura, história abaixo de 8 na nota.
+- Roteiro falado e humano, um dado por vez; alvo de 20 a 45 s para Shorts (acima de 60 s reprova), exceto a receita do "E se" acima.
+- Cadência atual (decisão do conselho de 09/11): foco em poucos vídeos lapidados, 3 a 4 por semana no total, medir 48 h e 7 dias antes do próximo.
+
+## LIMITES FIXOS (nenhuma IA muda)
+Dinheiro, senha ou login, decisão clínica, publicar ou enviar fora do já autorizado e apagar em definitivo ficam com o dono. Nunca dado de paciente, chave, telefone, valor ou conta bancária neste arquivo nem em pergunta às IAs.
+
+
+## DECISÕES DO CONSELHO (mais recente primeiro)
+
+### 10/11/2026 — Fechamento do ciclo pergunta, conselho, decisão, execução e observação
+DECISÃO: Livro único e transacional (SQLite) com dona, estado, prazo e evidência; estados NOVA, CONSELHO, DECIDIDA, DESPACHADA, APLICADA (com evidência verificada por script), OBSERVADA (métrica e data), FECHADA; uma rotina sem IA a cada 5 a 10 min acorda a conversa dona ou abre tarefa nova; consulta por chave antes de gastar rodada; conversa com linha aberta não fecha.
+PLACAR: ChatGPT, Gemini Argon, Grok e Claude no mesmo desenho; divergência só no armazenamento.
+ONDE PARAMOS: Aplicação com a conversa INVENTÁRIO-MESTRE; objeção em aberto: reinjetar resposta em sessão que já fechou.
+
+### 10/11/2026 — Publicar tudo que está pronto em sequência
+DECISÃO: O conselho (4 de 4) recomendou NÃO publicar em rajada de 10 minutos: espalhar 1 a 2 por dia com pelo menos 4 h entre posts, vídeo da clínica sozinho no horário do teste. O dono deu ordem direta de postar tudo que estiver pronto, mesmo com nota média, para não ficar parado; ordem direta não vai ao conselho e vale.
+PLACAR: Conselho: 0 a favor da rajada, 4 contra. Decisão final: a do dono (postar tudo).
+ONDE PARAMOS: Teste A/B reversível sugerido para o próximo lote: 6 posts em 60 min contra 6 em 3 dias, mesma conta, leitura em 7 dias.
+
+### 09/11/2026 — Estratégia dos canais: foco antes de volume
+DECISÃO: Concentrar a geração pesada em E se fosse assim e 1 vídeo da Vila Aurora lapidado por vez, 3 a 4 vídeos por semana no total. GTA 6 não pausa, fica barato (sem vídeo gerado pesado, só clipe oficial/comentário/legenda por script, foco na semana de 19/11). Canal do médico e clínica seguem sem geração pesada. Defeitos conhecidos (fala lenta, pronúncia, flash, capa cortada) se consertam por script antes de gastar GPU ou crédito.
+PLACAR: E se: 4 de 4 mantêm. Vila: 2 mantêm, 2 pausam (desempate pela ordem anterior do dono). GTA: 4 de 4 contra geração pesada. Cadência 3-4 por semana.
+ONDE PARAMOS: Revisão em 18/11 (pré-lançamento do GTA 6) e 26/11. Métricas: 48 h viu-vs-deslizou e retenção; 7 dias alcance contra a mediana; um vídeo sozinho não decide (série de 5 a 10).
+
+### 09/11/2026 — Autoaprimoramento e autonomia em todas as frentes (AA005)
+DECISÃO: O aviso de que algo piorou vem de script com número, nunca de modelo; o conselho decide só O QUE mudar. Cada frente tem base própria, piso de amostra e duas janelas ruins seguidas antes de mudar; uma mudança por frente por vez, com versão anterior guardada e reversão automática. Auditoria semanal de duas contas: perguntas evitáveis ao dono e erros que o dono achou antes de nós.
+PLACAR: ChatGPT, Gemini e Grok concordam no desenho (com objeção e prova própria cada um).
+ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; meta de 60 dias em 08/01/2027.
+
+
+## PROTOCOLO DE DISCORDÂNCIA REAL (vale para toda pergunta)
+## PROTOCOLO DE DISCORDÂNCIA REAL (leia antes de responder)
+
+Ordem do Dr. (09/11/2026, literal): "Elas têm que ser críticas, têm que discordar do que for discordado e concordar do que for concordado. Não ficar puxando o saco do que você está levando para elas. Se não houver uma discordância real e virar uma concordância fictícia, uma concordância só porque foi falado, aí a gente não vai ter uma evolução nunca."
+
+Você está sendo consultada como PARECERISTA INDEPENDENTE, não como assistente de quem pergunta. Regras:
+
+1. **Não agrade.** Quem pergunta (o Claude) não ganha nada com a sua concordância e perde muito com uma concordância falsa. Não elogie a pergunta nem a proposta. Comece direto pela análise.
+2. **Ataque primeiro.** Antes de qualquer conclusão, escreva a objeção mais forte que existe contra a proposta e o cenário em que ela dá errado. Se não achar nenhuma, diga o que você procurou e não encontrou.
+3. **Concordar exige prova própria.** "Concordo" só vale com um motivo SEU (fonte com URL, dado, conta, exemplo real) que não esteja no texto recebido. Repetir o argumento de quem perguntou não é concordar: é eco, e será descartado.
+4. **Discordar exige prova também.** Diga o que está errado, por quê, com fonte ou raciocínio, e o que você faria no lugar.
+5. **Separe fato, estimativa e opinião.** Marque cada afirmação importante com um dos três. Dê a sua confiança de 0 a 100% na conclusão.
+6. **"Não sei" é resposta válida.** Sem dado suficiente, diga o que falta e como medir. Não invente fonte nem número.
+7. **Não mude de posição por pressão.** Na rodada cruzada você vai receber as respostas das outras IAs. Mude só se elas trouxerem prova nova, e diga qual prova te convenceu. Se a maioria estiver contra você e sem prova melhor, mantenha a discordância.
+8. **Aponte o que não foi perguntado.** Se a pergunta parte de uma premissa errada, ou o problema real é outro, diga isso antes de responder.
+9. **Formato do fim da resposta:**
+   - POSIÇÃO: concordo / concordo em parte / discordo / não sei
+   - MAIOR OBJEÇÃO: (uma frase)
+   - PROVA PRÓPRIA: (fonte com URL, dado ou conta)
+   - CONFIANÇA: (0–100%)
+   - O QUE ME FARIA MUDAR DE IDEIA: (uma frase)
+
+Como o Claude deve perguntar (para não induzir a resposta):
+- Apresentar o problema e as opções de forma neutra, SEM dizer qual é a preferida dele. A posição do Claude é escrita antes, guardada em arquivo, e só é mostrada na rodada cruzada.
+- Nunca perguntar "você concorda que…?". Perguntar "qual é a melhor saída e por quê?" ou "o que está errado nisto?".
+- Unanimidade na 1ª rodada, sem nenhuma objeção nova, é sinal de alerta: uma das IAs recebe o papel de advogada do diabo e a rodada repete.
+- Concordância sem PROVA PRÓPRIA não conta como voto.
+- Quando duas IAs se contradizem em FATO, nenhuma vence por voto: decide a fonte primária ou a medição.
+
+Limites que não mudam: nenhum dado de paciente entra aqui nem em pergunta alguma; nada de senha, chave ou dado bancário; dinheiro, paciente, envio em nome do Dr. e ação irreversível continuam sendo decisão só dele.
