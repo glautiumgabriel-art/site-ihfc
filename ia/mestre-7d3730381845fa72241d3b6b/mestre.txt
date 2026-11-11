@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 11/11/2026 17:24
+Atualizado em: 11/11/2026 18:24
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -139,6 +139,8 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 
 ### Vila Aurora
 1. [09/11/2026] Um vídeo por vez, lapidado e medido em 48 h e 7 dias antes do próximo. (fonte: L-1059) — INTENÇÃO: qualidade antes de volume
+2. [11/11/2026] Mudar o ritmo de publicacao nunca zera a saida sem alarme. Pagina parada por mais de 2 horas entre 7h e 23h avisa a triagem, a producao de videos e a coordenacao do canal. O modo foco nao pode afrouxar esse teto. (fonte: L-1126) — INTENÇÃO: Nenhum canal fica horas sem postar sem que alguem seja avisado
+3. [11/11/2026] Nunca editar o arquivo de ideia aprovado (legenda ou qualquer campo) depois de carimbado: a trava barra o lote de video e o projeto fica parado. Editar exige recarimbar antes de qualquer uso de GPU. Sugestao de trava: avisar na edicao ou conferir o hash antes de enfileirar o lote. (fonte: L-1127) — INTENÇÃO: Nenhum projeto fica parado por ideia editada depois do carimbo
 
 ### Clínica
 1. [09/11/2026] Nunca dado de paciente; antes/depois sem filtro que altere a pele. (fonte: regra fixa)
