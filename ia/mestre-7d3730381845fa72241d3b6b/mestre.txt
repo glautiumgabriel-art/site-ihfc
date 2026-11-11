@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 10/11/2026 22:43
+Atualizado em: 11/11/2026 06:53
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -128,6 +128,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 6. [10/11/2026] Coerência entre fala, imagem e emoção: a imagem tem de mostrar o que o personagem diz e faz; a emoção de cada fala é definida já na elaboração da ideia. (fonte: L-1084) — INTENÇÃO: o vídeo faz sentido para quem assiste
 7. [10/11/2026] Antes de mudar a abertura de um canal, comparar com a entrada que viralizou (texto padronizado que cai na tela com uma batidinha) e manter o que funcionou. (fonte: L-1085) — INTENÇÃO: repetir o que já deu certo antes de inovar
 8. [10/11/2026] A duração serve ao sentido: se a história pede mais tempo, pode ser mais longo, desde que entregue algo completo e bem feito. (fonte: L-1086) — INTENÇÃO: completo e bem feito vale mais que curto e mal feito
+9. [11/11/2026] Todo episodio do E se tem de 20 a 25 cenas de ate 2,5 segundos, angulo e acao diferentes a cada cena, primeiro quadro ja com acao, selos na area segura, virada final forte e movimento de camera em cada clipe; a fabrica confere antes de gastar juiz ou GPU e reescreve ate tres voltas (fonte: L-1108) — INTENÇÃO: reter o espectador sem gastar GPU em video que o juiz reprovaria
 
 ### GTA 6 GAMERS
 1. [09/11/2026] Fala lenta reprova: ritmo entre 2,3 e 2,8 palavras por segundo é trava, não aviso. (fonte: L-1048) — INTENÇÃO: ritmo de conversa real, que prende
