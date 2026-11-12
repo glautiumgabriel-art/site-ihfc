@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 12/11/2026 01:53
+Atualizado em: 12/11/2026 02:01
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -144,6 +144,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 1. [09/11/2026] Um vídeo por vez, lapidado e medido em 48 h e 7 dias antes do próximo. (fonte: L-1059) — INTENÇÃO: qualidade antes de volume
 2. [11/11/2026] Mudar o ritmo de publicacao nunca zera a saida sem alarme. Pagina parada por mais de 2 horas entre 7h e 23h avisa a triagem, a producao de videos e a coordenacao do canal. O modo foco nao pode afrouxar esse teto. (fonte: L-1126) — INTENÇÃO: Nenhum canal fica horas sem postar sem que alguem seja avisado
 3. [11/11/2026] Nunca editar o arquivo de ideia aprovado (legenda ou qualquer campo) depois de carimbado: a trava barra o lote de video e o projeto fica parado. Editar exige recarimbar antes de qualquer uso de GPU. Sugestao de trava: avisar na edicao ou conferir o hash antes de enfileirar o lote. (fonte: L-1127) — INTENÇÃO: Nenhum projeto fica parado por ideia editada depois do carimbo
+4. [12/11/2026] Voz de canal aprovada nao se troca sem teste A/B medido. A troca de voz do canal da Vila foi um erro apontado pelo Dr., que prefere a voz antiga. A Vila avalia voltar a voz anterior e registra a decisao com prova. (fonte: L-1158) — INTENÇÃO: Voz do canal coerente com o video e aprovada por medicao
 
 ### Clínica
 1. [09/11/2026] Nunca dado de paciente; antes/depois sem filtro que altere a pele. (fonte: regra fixa)
@@ -277,6 +278,8 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 55. [12/11/2026] A autorizacao sobre a IA externa do WhatsApp passou a ser unica e ja valendo: ela pode acessar consulta, prontuario e dados da clinica, so o minimo necessario por tarefa, sem senha nem financeiro, e o que ela diz e opiniao, nunca ordem. Vale so para ela; as demais IAs continuam sem dado de paciente. O levantamento de quem opera a ferramenta e onde os dados ficam fica como registro, sem bloquear. (fonte: L-1154) — INTENÇÃO: Aproveitar a IA externa dentro dos limites que o Dr. decidiu
 56. [12/11/2026] O levantamento sobre a ferramenta externa mostrou que ela e operada por empresa estrangeira, treina com os dados por padrao, repassa dados a provedores de IA de terceiros e nao tem termo para dado de saude. Dado administrativo da clinica segue liberado. Dado de saude identificavel fica em espera ate o Dr. reconfirmar ciente desses fatos e o treino estar desligado nas configuracoes da ferramenta. (fonte: L-1155) — INTENÇÃO: Dado de saude so sai com decisao informada e protecao ligada
 57. [12/11/2026] As regras de producao ficam em duas camadas. A regra master geral reune os erros que nenhum video pode ter em nenhum canal, e a dona e o controle de qualidade de video. A regra master do canal guarda so o que e especifico de cada canal, sem repetir a geral. As duas sao feitas juntando as oito IAs, com briefing completo e sem dado de paciente. Quando a geral sair, cada canal remove das suas regras o que for repetido. (fonte: L-1156) — INTENÇÃO: Regra sem repeticao: o que vale para todos fica em um lugar, o especifico fica no canal
+58. [12/11/2026] Video e post dos canais nao vao ao Dr. para aprovar, nem como previa ou conferencia. Quem confere e a equipe: o portao de qualidade, as IAs de apoio, incluindo a IA externa como revisora extra, e o Claude. O Dr. avisa quando notar algo e o aviso vira licao geral. Vale para todos os canais; dinheiro e senha continuam com ele. (fonte: L-1157) — INTENÇÃO: Autonomia total: a equipe se vira e o Dr. so avisa o que notar
+59. [12/11/2026] Aprovar conteudo passa a ser seguir um checklist de regras, geral e do canal, com cumpre ou nao cumpre em cada uma. Nunca uma nota ou limite numerico. Uma regra quebrada reprova, e nenhuma conversa cita nota ao Dr. O controle de qualidade de video esta trocando o portao para esse formato. (fonte: L-1159) — INTENÇÃO: Decisao por regras claras, nao por numero
 
 ### dr
 1. [10/11/2026] Ausência de texto no primeiro quadro (0,0s), aparecendo apenas aos 0,25s. -> Inserir o título estático 'COLÁGENO POR DENTRO' já no quadro 0,0s para garantir impacto visual imediato ao rolar o feed. (fonte: VIRAL-QA critica dr-glautium_por-dentro_v3-colageno_previa_v2.mp4)
