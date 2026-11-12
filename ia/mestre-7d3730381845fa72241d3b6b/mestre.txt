@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 12/11/2026 01:05
+Atualizado em: 12/11/2026 01:09
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -263,6 +263,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 41. [12/11/2026] Antes de propor ferramenta, instalacao ou compra, listar o que o Dr. ja usa e funciona para aquilo. Recomendar primeiro o caminho com menos passos para ele, nao o tecnicamente melhor. Se a primeira solucao travar, a proxima e a mais simples que ja existe. Resposta com quatro ou mais passos de instalacao ou configuracao deve antes perguntar se algo que ele ja usa resolve em um passo. (fonte: L-1140) — INTENÇÃO: O Dr. recebe o caminho mais simples, usando o que ja tem
 42. [12/11/2026] O passo de login so vai ao Dr. quando o unico campo restante for senha, codigo ou captcha. Botoes de navegacao como entrar com outra conta, escolha de conta, continuar como e agora nao sao clicados pela conversa responsavel. Antes de pedir senha, testar uma sessao ja logada em outro perfil. Consentimento de permissao de aplicativo segue com o Dr. ate ele confirmar de forma direta. (fonte: L-1141) — INTENÇÃO: O Dr. so digita o que nenhuma IA pode digitar
 43. [12/11/2026] A producao nunca depende da postagem: falha de login, token, API ou conta nao para a fabrica de videos. Os videos aprovados no controle de qualidade vao para o estoque do canal e, quando a postagem volta, a fila do estoque e publicada respeitando o intervalo de cada canal. O vigia de GPU ociosa nao aceita postagem travada como motivo para a GPU ficar parada. (fonte: L-1142) — INTENÇÃO: A fabrica nunca para por causa de login ou conta
+44. [12/11/2026] A trava da regra de producao independente da postagem esta no vigia da fila de GPU, que nao le nada de postagem. A fabrica descartava quase metade das ideias como repetidas por engano, porque comparava a ideia com a propria pasta e contava palavras genericas; a GPU ficou cerca de doze horas sem trabalho. A checagem de repeticao nunca compara o item com ele mesmo nem conta palavra generica, e GPU parada por mais de quinze minutos aciona a fabrica a cada dez minutos, revezando os canais. (fonte: L-1143) — INTENÇÃO: A GPU nunca fica parada por falso positivo de repeticao
 
 ### dr
 1. [10/11/2026] Ausência de texto no primeiro quadro (0,0s), aparecendo apenas aos 0,25s. -> Inserir o título estático 'COLÁGENO POR DENTRO' já no quadro 0,0s para garantir impacto visual imediato ao rolar o feed. (fonte: VIRAL-QA critica dr-glautium_por-dentro_v3-colageno_previa_v2.mp4)
