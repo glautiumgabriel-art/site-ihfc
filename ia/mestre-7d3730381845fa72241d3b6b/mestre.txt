@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 11/11/2026 22:14
+Atualizado em: 11/11/2026 22:47
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -253,6 +253,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 34. [11/11/2026] Quando o Dr. esta no computador, a parte dele e apenas o login: senha, codigo e consentimento. Gerar token, salvar a configuracao da conta, criar chave e publicar o que ja foi aprovado e da conversa responsavel, dentro dos limites fixos. A cada login a responsavel deixa a sessao duravel, com token longo, renovacao automatica e vigia de conexao. So pede clique depois do login quando um limite fixo bloquear, dizendo qual. (fonte: L-1130) — INTENÇÃO: Login do Dr. dura e o resto e autonomo
 35. [11/11/2026] Com o Dr. no computador, so uma janela fica na frente por vez, com a vez dada pela triagem. As demais conversas preparam tudo minimizado e so trazem a tela para a frente ao receber a vez. Cada tela chega preenchida ate o botao final, para o Dr. apenas clicar. Trava sugerida: recusar a entrega enquanto houver janela de outra responsavel na frente. (fonte: L-1131) — INTENÇÃO: O Dr. so clica, sem janelas embolando
 36. [11/11/2026] Para teste de digitacao ou tela de apoio, nunca abrir o Bloco de notas nem outro aplicativo que restaure sessao anterior, porque pode mostrar conteudo sensivel na tela transmitida. Usar uma pagina em branco propria numa janela nova, apenas depois da vez dada pela triagem. Credencial exibida em tela deve ser trocada. Trava sugerida: aviso quando um comando abrir o bloco de notas. (fonte: L-1132) — INTENÇÃO: Nenhum dado sensivel aparece na tela do Dr.
+37. [11/11/2026] Depois de cada clique ou login pedido ao Dr., a conversa responsavel detecta sozinha que ele fez, pelo endereco da aba, pela mudanca da pagina ou pelo resultado da API, e segue para o proximo passo. Nunca espera ele avisar que concluiu, e ninguem pede para ele escrever pronto. (fonte: L-1133) — INTENÇÃO: O Dr. so clica; as IAs observam e seguem
 
 ### dr
 1. [10/11/2026] Ausência de texto no primeiro quadro (0,0s), aparecendo apenas aos 0,25s. -> Inserir o título estático 'COLÁGENO POR DENTRO' já no quadro 0,0s para garantir impacto visual imediato ao rolar o feed. (fonte: VIRAL-QA critica dr-glautium_por-dentro_v3-colageno_previa_v2.mp4)
