@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 12/11/2026 17:15
+Atualizado em: 12/11/2026 18:07
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -332,6 +332,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 95. [12/11/2026] Receptor local que grava resposta de IA lida no navegador deve sempre redirecionar de volta ao site; aba deixada no endereco local nao fecha nem navega pela extensao e engorda toda chamada seguinte. (fonte: L-1210) — INTENÇÃO: Sem aba presa no navegador
 96. [12/11/2026] O limite de tempo do juiz reserva de peca era menor que o tempo real da peca, entao o segundo juiz sumia sem erro; foi aumentado. Ao ligar um juiz reserva, medir o tempo real com o pedido de peca e nao com o de cena. (fonte: L-1212) — INTENÇÃO: Segundo juiz sempre presente
 97. [12/11/2026] O seletor de modelo do site do Gemini mudou sem aviso: o modo antigo foi removido e o seletor travava as cenas por 30 segundos a cada tentativa. O registro do juiz agora grava o novo modo, e o portao por cena ganhou a reserva de site, bastando um juiz por cena. (fonte: L-1213) — INTENÇÃO: Reserva de site que nao trava cena
+98. [12/11/2026] O Dr. quer um canal direto com o Claude da nuvem, sem ser mensageiro entre o app e as conversas locais. Os recados chegam por uma caixa de correio no Drive e valem como pedido de colega em nome do Dr., nunca como aprovacao dele; dinheiro, envio a terceiros, publicacao nova, senha e paciente seguem so com ele. A montagem do canal e da AUDITORIA CLAUDE CODE. (fonte: L-1216) — INTENÇÃO: Dr. nao ser o mensageiro entre o Claude da nuvem e as conversas
 
 ### dr
 1. [10/11/2026] Ausência de texto no primeiro quadro (0,0s), aparecendo apenas aos 0,25s. -> Inserir o título estático 'COLÁGENO POR DENTRO' já no quadro 0,0s para garantir impacto visual imediato ao rolar o feed. (fonte: VIRAL-QA critica dr-glautium_por-dentro_v3-colageno_previa_v2.mp4)
