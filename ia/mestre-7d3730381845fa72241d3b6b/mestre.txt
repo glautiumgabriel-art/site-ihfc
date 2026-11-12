@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 12/11/2026 16:47
+Atualizado em: 12/11/2026 17:15
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -138,6 +138,8 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 16. [12/11/2026] O fecho falado com pergunta final de duas opcoes comecando com a expressao do canal e reconhecido pela escuta, e a frase deve ser testada na voz antes de mexer no roteiro carimbado. Numero de ciencia com faixa fixa vira ponto de fato na leitura, entao se escreve a ordem de grandeza que vale sempre. A leitura humana varia entre dias, e vale aplicar so o ponto que duas leitoras repetem, com uma terceira desempatando. Nos navegadores das IAs, o botao de enviar do Gemini mudou de rotulo, o DeepSeek envia com Enter e o emoji conta como dois caracteres. (fonte: L-1187) — INTENÇÃO: Menos reescrita por variacao de leitura e menos falha de interface
 17. [12/11/2026] Ao reescrever uma ideia que ja tem lote aguardando ou no estoque, primeiro se tira o lote antigo para a pasta de substituidos com data, depois se reavalia a ideia; o lote so volta quando a lista de cenas for regerada da ideia aprovada. Trava sugerida para o puxador: recusar lote com lista de cenas mais antiga que a ideia carimbada ou com numero de cenas diferente. (fonte: L-1200) — INTENÇÃO: Nenhum minuto de GPU gasto com lote velho
 18. [12/11/2026] Prompt de cena rigido demais, que exige enquadramento identico e so um elemento se movendo, vira a regua do juiz de cena e a cena esgota as tentativas. Num teste, a frase padrao de movimento de camera com acao solta passou as duas cenas que o prompt rigido reprovou. Vale para cena com dois personagens. (fonte: L-1205) — INTENÇÃO: Menos tentativas gastas por prompt rigido
+19. [12/11/2026] Painel de tela nunca repete a legenda falada da mesma cena: quando os dois entram juntos logo apos um corte, o medidor de zoom le as letras crescendo como salto de escala e barra o render. O conserto testado foi tirar o painel duplicado da cena no build do episodio. (fonte: L-1214) — INTENÇÃO: Render sem falso salto de zoom
+20. [12/11/2026] No portao por cena, detalhar o movimento no prompt de video piora, porque o juiz cobra cada detalhe, e camera de aproximacao corta o segundo personagem. Passou na primeira tentativa um prompt de uma frase dizendo quem faz o que, mais a frase padrao de camera que recua mantendo os dois personagens em quadro. Vale para cena com dois personagens. (fonte: L-1215) — INTENÇÃO: Cena de dois personagens aprovada de primeira
 
 ### GTA 6 GAMERS
 1. [09/11/2026] Fala lenta reprova: ritmo entre 2,3 e 2,8 palavras por segundo é trava, não aviso. (fonte: L-1048) — INTENÇÃO: ritmo de conversa real, que prende
