@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 11/11/2026 21:30
+Atualizado em: 11/11/2026 22:14
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -250,6 +250,9 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 31. [11/11/2026] Todo numero de estado (cota, saldo, contagem, status) e citado com a hora da leitura. Leitura velha (mais de 60 minutos para cota) e marcada como desatualizada e nunca citada como atual. Quem consulta o uso registra a medida com o script de cota. (fonte: L-1125) — INTENÇÃO: O Dr. nunca ve numero velho como se fosse atual
 32. [11/11/2026] Revisao retroativa das licoes antigas: 172 licoes agrupadas em sete temas (pagina do Dr., envio de mensagens, clinica e revistas, maquina e GPU, robos e codigo, processo e gestao, video e canais), com texto completo guardado no livro de licoes. (fonte: L-1128) — INTENÇÃO: Nada do passado fica sem regra e todas as IAs enxergam o mesmo arquivo
 33. [11/11/2026] Quando um caminho nao funciona, a mesma resposta ja traz a alternativa que esta sendo executada, nunca so a negativa. A trava que barra respostas sem solucao deve cobrir tambem as expressoes nao funciona e nao da. (fonte: L-1129) — INTENÇÃO: O Dr. recebe solucao, nao dificuldade
+34. [11/11/2026] Quando o Dr. esta no computador, a parte dele e apenas o login: senha, codigo e consentimento. Gerar token, salvar a configuracao da conta, criar chave e publicar o que ja foi aprovado e da conversa responsavel, dentro dos limites fixos. A cada login a responsavel deixa a sessao duravel, com token longo, renovacao automatica e vigia de conexao. So pede clique depois do login quando um limite fixo bloquear, dizendo qual. (fonte: L-1130) — INTENÇÃO: Login do Dr. dura e o resto e autonomo
+35. [11/11/2026] Com o Dr. no computador, so uma janela fica na frente por vez, com a vez dada pela triagem. As demais conversas preparam tudo minimizado e so trazem a tela para a frente ao receber a vez. Cada tela chega preenchida ate o botao final, para o Dr. apenas clicar. Trava sugerida: recusar a entrega enquanto houver janela de outra responsavel na frente. (fonte: L-1131) — INTENÇÃO: O Dr. so clica, sem janelas embolando
+36. [11/11/2026] Para teste de digitacao ou tela de apoio, nunca abrir o Bloco de notas nem outro aplicativo que restaure sessao anterior, porque pode mostrar conteudo sensivel na tela transmitida. Usar uma pagina em branco propria numa janela nova, apenas depois da vez dada pela triagem. Credencial exibida em tela deve ser trocada. Trava sugerida: aviso quando um comando abrir o bloco de notas. (fonte: L-1132) — INTENÇÃO: Nenhum dado sensivel aparece na tela do Dr.
 
 ### dr
 1. [10/11/2026] Ausência de texto no primeiro quadro (0,0s), aparecendo apenas aos 0,25s. -> Inserir o título estático 'COLÁGENO POR DENTRO' já no quadro 0,0s para garantir impacto visual imediato ao rolar o feed. (fonte: VIRAL-QA critica dr-glautium_por-dentro_v3-colageno_previa_v2.mp4)
