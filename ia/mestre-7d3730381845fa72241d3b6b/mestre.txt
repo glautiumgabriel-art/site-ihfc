@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 12/11/2026 02:01
+Atualizado em: 12/11/2026 02:26
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -280,6 +280,8 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 57. [12/11/2026] As regras de producao ficam em duas camadas. A regra master geral reune os erros que nenhum video pode ter em nenhum canal, e a dona e o controle de qualidade de video. A regra master do canal guarda so o que e especifico de cada canal, sem repetir a geral. As duas sao feitas juntando as oito IAs, com briefing completo e sem dado de paciente. Quando a geral sair, cada canal remove das suas regras o que for repetido. (fonte: L-1156) — INTENÇÃO: Regra sem repeticao: o que vale para todos fica em um lugar, o especifico fica no canal
 58. [12/11/2026] Video e post dos canais nao vao ao Dr. para aprovar, nem como previa ou conferencia. Quem confere e a equipe: o portao de qualidade, as IAs de apoio, incluindo a IA externa como revisora extra, e o Claude. O Dr. avisa quando notar algo e o aviso vira licao geral. Vale para todos os canais; dinheiro e senha continuam com ele. (fonte: L-1157) — INTENÇÃO: Autonomia total: a equipe se vira e o Dr. so avisa o que notar
 59. [12/11/2026] Aprovar conteudo passa a ser seguir um checklist de regras, geral e do canal, com cumpre ou nao cumpre em cada uma. Nunca uma nota ou limite numerico. Uma regra quebrada reprova, e nenhuma conversa cita nota ao Dr. O controle de qualidade de video esta trocando o portao para esse formato. (fonte: L-1159) — INTENÇÃO: Decisao por regras claras, nao por numero
+60. [12/11/2026] As travas de formato passam a apenas avisar e autocorrigir, as de seguranca continuam bloqueando, o nucleo de regras injetado fica mais curto e dar algo por feito exige prova de tentativa, execucao e validacao. Cada mudanca tem interruptor e copia de seguranca, e o numero de bloqueios por dia e medido antes e depois por sete dias, com reversao se surgir incidente de seguranca. (fonte: L-1160) — INTENÇÃO: Fluidez: menos bloqueio de formato sem afrouxar seguranca
+61. [12/11/2026] Numero ou fonte trazido pelas IAs de apoio so entra em entrega ao Dr. depois de conferido na fonte original, abrindo o link e vendo o dado. O que nao foi conferido vai marcado como indicio, nunca como fato. Duas IAs inventaram a fonte de um estudo que nao existe, e o numero so foi conferido depois do envio. (fonte: L-1161) — INTENÇÃO: Nenhum numero inventado chega ao Dr.
 
 ### dr
 1. [10/11/2026] Ausência de texto no primeiro quadro (0,0s), aparecendo apenas aos 0,25s. -> Inserir o título estático 'COLÁGENO POR DENTRO' já no quadro 0,0s para garantir impacto visual imediato ao rolar o feed. (fonte: VIRAL-QA critica dr-glautium_por-dentro_v3-colageno_previa_v2.mp4)
