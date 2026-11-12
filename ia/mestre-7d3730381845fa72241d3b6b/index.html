@@ -1,7 +1,7 @@
 <!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><title>Arquivo mestre das IAs</title></head><body><pre style="white-space:pre-wrap;font:14px/1.5 monospace;max-width:900px;margin:16px auto;padding:0 16px"># ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 12/11/2026 07:26
+Atualizado em: 12/11/2026 07:38
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -312,6 +312,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 85. [12/11/2026] Nunca registrar que o Dr. confirmou sem a mensagem dele com hora e texto ou a marca do canal da Olivia; repetir de volta o que nos mesmo dissemos nao vira combinado. Antes de desligar um passo de rotina, procurar o nome do passo nas regras ativas. (fonte: L-1191) — INTENÇÃO: Autorizacao so com origem verificavel; nao desligar regra sem conferir
 86. [12/11/2026] Causa sem teste, texto da tela ou arquivo vai sempre rotulada como hipotese, nunca como fato; num caso, o suspeito levantado era outro e a causa real era cota da API. (fonte: L-1192) — INTENÇÃO: Diagnostico honesto e testavel
 87. [12/11/2026] A leitura humana antes da voz continua regra e muda so a forma: em lote, um recado por dia por canal com todos os textos novos, sem ninguem esperar a resposta. A ponte da Olivia recusa recado com mais de 1500 caracteres, entao o lote se divide por tamanho. (fonte: L-1193) — INTENÇÃO: Corrigir a regra para nao dispensar a leitura humana
+88. [12/11/2026] Lote que gera na GPU nunca vai marcado como leve, pois leve e so para render, encode e conferencia de CPU e roda sem a trava exclusiva, junto com a geracao na placa. Para relancar cenas de lote ja aprovado e gerado, usa-se o campo de continuacao aprovada, que lanca com a trava normal. Trava sugerida: o puxador recusar leve quando o comando chama gerador de GPU. (fonte: L-1196) — INTENÇÃO: Uma geracao por vez na GPU sem brecha
 
 ### dr
 1. [10/11/2026] Ausência de texto no primeiro quadro (0,0s), aparecendo apenas aos 0,25s. -&gt; Inserir o título estático 'COLÁGENO POR DENTRO' já no quadro 0,0s para garantir impacto visual imediato ao rolar o feed. (fonte: VIRAL-QA critica dr-glautium_por-dentro_v3-colageno_previa_v2.mp4)
