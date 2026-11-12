@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 12/11/2026 19:34
+Atualizado em: 12/11/2026 20:10
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -338,6 +338,8 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 100. [12/11/2026] Falha silenciosa de leitura nas redes parece lentidao: robo que le e responde precisa de alarme com o erro literal quando falha por mais de 30 minutos. Pendencia que depende de acao humana na lista do Dr. leva o efeito medido, isto e, o que esta parado por causa dela. Item de pendencia da Olivia com varios donos so fecha quando todos responderam. (fonte: L-1220) — INTENÇÃO: Pedido ao Dr. com efeito claro e pendencia fechada so quando completa
 101. [12/11/2026] Hora de log em tempo universal e convertida para o horario de Brasilia antes de ir ao Dr. ou a outra conversa, com o fuso escrito; a leitura de comentarios parou em 10 de novembro as 14h22 de Brasilia e nao as 17h22. O alarme pedido para falha de leitura ja esta no ar: tarefa a cada 10 minutos que avisa quando a leitura falha ha mais de 30 minutos ou o respondedor esta deslogado. (fonte: L-1222) — INTENÇÃO: Hora certa nos relatos e alarme de leitura no ar
 102. [12/11/2026] Relato de estoque ou de etapa de peca so sai depois de listar as pastas, com falas gravadas, carimbo da ideia, video final e registros de programacao, e nunca de memoria; o relato diz a etapa real de cada peca. Num caso, dizer de memoria que os textos estavam sem voz escondeu que dez pecas ja tinham as falas gravadas e podiam andar na hora. Vale para conversas donas de canal. (fonte: L-1223) — INTENÇÃO: Relato de estoque com a etapa real de cada peca
+103. [12/11/2026] A integracao com a IA externa do WhatsApp do Dr. e rotina: boletim diario nosso para ela as 7h30 com o plano do dia e as 21h30 com o fecho, com cota propria, pedidos nos dois sentidos como itens com dono e idade, divisao de trabalho escrita com a origem de cada linha, e perguntar a ela como prefere trabalhar. Os limites de seguranca anteriores continuam. (fonte: L-1224) — INTENÇÃO: Olivia integrada a rotina, com divisao de trabalho escrita
+104. [12/11/2026] Pergunta da IA externa do WhatsApp so conta como respondida quando o recado de resposta saiu de verdade, nao quando o item e fechado a mao: seis respostas ficaram presas no limite diario de envios com os itens ja fechados, e ela continuou cobrando. As conversas respondem sempre pelo comando de perguntar com o parametro de resposta e o ID do item, nunca so fechando o item; o envio que cita o ID agora usa a reserva das respostas. (fonte: L-1225) — INTENÇÃO: Resposta a Olivia sempre enviada, nunca so fechada
 
 ### dr
 1. [10/11/2026] Ausência de texto no primeiro quadro (0,0s), aparecendo apenas aos 0,25s. -> Inserir o título estático 'COLÁGENO POR DENTRO' já no quadro 0,0s para garantir impacto visual imediato ao rolar o feed. (fonte: VIRAL-QA critica dr-glautium_por-dentro_v3-colageno_previa_v2.mp4)
