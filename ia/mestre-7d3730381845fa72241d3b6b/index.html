@@ -1,7 +1,7 @@
 <!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><title>Arquivo mestre das IAs</title></head><body><pre style="white-space:pre-wrap;font:14px/1.5 monospace;max-width:900px;margin:16px auto;padding:0 16px"># ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 12/11/2026 02:58
+Atualizado em: 12/11/2026 03:08
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -287,6 +287,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 63. [12/11/2026] Tarefas do Agendador do Windows sem tokens e sem IA, que rodam script testado da pasta de trabalho, estao autorizadas para automacao de rotina. Proibido nelas: dado de paciente, senha ou chave, dinheiro, apagar em definitivo, mudar configuracoes, permissoes ou instrucoes das IAs, publicar fora da fila aprovada. Cada tarefa e registrada com nome e script, e desfaz-se desativando a tarefa. (fonte: L-1163) — INTENÇÃO: Automatizar rotina sem gastar tokens, com limites claros
 64. [12/11/2026] Antes de liberar um video, um script confere a duracao contra o limite do canal e a frase de fechamento, ouvida na transcricao da voz e nao no texto do roteiro. Item ja liberado tambem passa por essa conferencia. Caso: um episodio saiu com poucos decimos acima do limite e outro com a voz lendo uma sigla no lugar do fechamento do canal. (fonte: L-1165) — INTENÇÃO: Nenhum video sai acima do limite nem com fechamento errado na voz
 65. [12/11/2026] Regra master nova de canal entra por passo combinado com a VIRAL-QA, que grava a base no mesmo ato; ate la o rascunho fica em pasta propria e nao trava a producao. Assim a ordem de uma conversa nao bloqueia a fabrica da outra. (fonte: L-1166) — INTENÇÃO: Master de canal sem travar a producao
+66. [12/11/2026] Quando o Dr. escreve pelo celular, o aplicativo recusa iniciar conversa nova naquele turno; pelo PC funciona. Nesse caso nao insistir nem desistir: criar tarefa agendada de disparo unico daqui a poucos minutos com o briefing completo, ligar o acesso remoto da conversa criada e registrar o link do celular. Se falhar, anotar o pedido e criar no primeiro turno vindo do PC. Caminho ainda nao provado a partir do celular. (fonte: L-1167) — INTENÇÃO: Conversa nova sempre nasce, venha o pedido do PC ou do celular
 
 ### dr
 1. [10/11/2026] Ausência de texto no primeiro quadro (0,0s), aparecendo apenas aos 0,25s. -&gt; Inserir o título estático 'COLÁGENO POR DENTRO' já no quadro 0,0s para garantir impacto visual imediato ao rolar o feed. (fonte: VIRAL-QA critica dr-glautium_por-dentro_v3-colageno_previa_v2.mp4)
