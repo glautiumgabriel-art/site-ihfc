@@ -1,7 +1,7 @@
 <!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><title>Arquivo mestre das IAs</title></head><body><pre style="white-space:pre-wrap;font:14px/1.5 monospace;max-width:900px;margin:16px auto;padding:0 16px"># ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 12/11/2026 12:40
+Atualizado em: 12/11/2026 16:34
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -148,6 +148,8 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 6. [12/11/2026] O arquivo de texto da voz so pode ser gravado pelo mesmo codigo que monta o prompt da voz, nunca por passo separado depois; no GTA o dicionario de pronuncia estava declarado mas nao aplicado a voz desde 9 de novembro. Trava sugerida: comparar o texto da voz com o prompt registrado da geracao. Hipotese nao testada: videos ja publicados podem ter a pronuncia errada. (fonte: L-1197) — INTENÇÃO: Pronuncia declarada igual a pronuncia real
 7. [12/11/2026] Antes de mandar uma peca para a avaliacao do portao, conferir que os dois juizes respondem; com um so juiz valido o resultado reprova e conta como tentativa do projeto. Sem dois juizes, nao avaliar: avisar a VIRAL-QA e esperar. (fonte: L-1201) — INTENÇÃO: Nao gastar tentativa do projeto por falha de juiz
 8. [12/11/2026] Trecho de trailer so entra se couber inteiro dentro do plano curado, com trava no gerador; usar o fim de um plano trouxe o letreiro do trailer para dentro do video. A trava no gerador do GTA falha quando o plano e curto. (fonte: L-1203) — INTENÇÃO: Sem letreiro de trailer dentro do video
+9. [12/11/2026] O criterio de historia, com sequencia causal entre os textos, virada ou recompensa e pedido que nasce do dado, deve ser conferido na ideia antes de gastar tentativa de peca. Num caso a ideia passou no portao com gancho, dado e pedido, mas sem fechamento do gancho, e caiu na peca. Trava sugerida: peca sem narracao declara qual texto abre a pergunta, qual responde e qual e a virada. (fonte: L-1208) — INTENÇÃO: Historia conferida na ideia, nao na peca
+10. [12/11/2026] Conferir o codigo de saida do gerador antes de renderizar: quando o gerador falhou, a composicao antiga ficou na pasta e o render reproduziu a peca velha. (fonte: L-1209) — INTENÇÃO: Nenhum render de composicao velha
 
 ### Vila Aurora
 1. [09/11/2026] Um vídeo por vez, lapidado e medido em 48 h e 7 dias antes do próximo. (fonte: L-1059) — INTENÇÃO: qualidade antes de volume
@@ -324,6 +326,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 92. [12/11/2026] Ideia reescrita depois de reprovacao fica no mesmo projeto, com ideia nova e carimbo novo, e a antiga vai para a pasta de previa; abrir pasta ou letra nova zera o contador de tentativas e a VIRAL-QA nao aceita. (fonte: L-1204) — INTENÇÃO: Contador de tentativas honesto
 93. [12/11/2026] O vigia de lote deve usar o nome exato do log novo; pegar o arquivo mais recente antes de o log existir devolve o lote anterior e o aviso sai errado. (fonte: L-1206) — INTENÇÃO: Vigia que avisa do lote certo
 94. [12/11/2026] O portao pos-voz so roda com o Python do ambiente virtual da voz local; com o Python comum falta o modulo do Whisper. E o codigo de saida lido depois de um pipe para tail mostra o do tail, nao o do portao: gravar a saida em arquivo e ler o codigo direto. (fonte: L-1207) — INTENÇÃO: Portao rodando no Python certo e codigo de saida confiavel
+95. [12/11/2026] Receptor local que grava resposta de IA lida no navegador deve sempre redirecionar de volta ao site; aba deixada no endereco local nao fecha nem navega pela extensao e engorda toda chamada seguinte. (fonte: L-1210) — INTENÇÃO: Sem aba presa no navegador
 
 ### dr
 1. [10/11/2026] Ausência de texto no primeiro quadro (0,0s), aparecendo apenas aos 0,25s. -&gt; Inserir o título estático 'COLÁGENO POR DENTRO' já no quadro 0,0s para garantir impacto visual imediato ao rolar o feed. (fonte: VIRAL-QA critica dr-glautium_por-dentro_v3-colageno_previa_v2.mp4)
