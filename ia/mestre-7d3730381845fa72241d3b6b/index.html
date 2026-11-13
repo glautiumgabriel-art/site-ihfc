@@ -1,7 +1,7 @@
 <!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><title>Arquivo mestre das IAs</title></head><body><pre style="white-space:pre-wrap;font:14px/1.5 monospace;max-width:900px;margin:16px auto;padding:0 16px"># ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 13/11/2026 09:04
+Atualizado em: 13/11/2026 09:15
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -146,6 +146,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 24. [13/11/2026] Uma rodada do portao de qualidade sem dois juizes validos nao e veredito e nao gasta tentativa; fica registrada como sem quorum. A regua nao muda. Um episodio do E SE perdeu a ultima tentativa por uma rodada com um juiz so e ganhou uma tentativa de volta. O retry compacto do juiz Claude tambem foi corrigido para incluir a lista de fidelidade. (fonte: L-1239) — INTENÇÃO: Tentativa so gasta com veredito valido
 25. [13/11/2026] So copiar clipes de uma fila de renderizacao depois que o lote terminou e validar cada clipe antes do render, porque clipes ainda em gravacao chegam truncados e derrubam o render. A trava sugerida e recusar arquivo recem-modificado ou que falhe na validacao. O kit tambem so copia os clipes de 1 a 25; os demais sao copiados a mao. (fonte: L-1242) — INTENÇÃO: Render sem clipe truncado
 26. [13/11/2026] Duas licoes tecnicas do episodio sem sombra do E SE: uma fala terminando com aspas coladas ao ponto de interrogacao antes do fecho confunde o pre-liberar e reprova o fecho mesmo com a voz certa, e a troca no arquivo de voz resolve; e, quando a cabeca do personagem esta entre 20 e 45 por cento da altura, o arroba e a etiqueta de credito trocam de lugar para nao cobrir o rosto. (fonte: L-1243) — INTENÇÃO: Fecho aprovado quando a voz esta certa e rosto sem cobertura
+27. [13/11/2026] A leitura humana de cada ideia tem no maximo tres rodadas. Se a ultima rodada nao tiver erro de fato e so opiniao, aplica-se a critica uma vez e a ideia segue para o portao. A pergunta passa a pedir o veredito primeiro e a critica depois, separando erro de fato de opiniao, porque pedir para comecar pela critica puxava sempre para reescrever e gerou sete rodadas. O portao de dois juizes nao muda. (fonte: L-1258) — INTENÇÃO: Ideia segue para o portao sem laco infinito de leitura
 
 ### GTA 6 GAMERS
 1. [09/11/2026] Fala lenta reprova: ritmo entre 2,3 e 2,8 palavras por segundo é trava, não aviso. (fonte: L-1048) — INTENÇÃO: ritmo de conversa real, que prende
@@ -429,6 +430,9 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 1. [12/11/2026] A fila do Postador so se altera pelos comandos oficiais, com autor e motivo; chamada direta ao banco e recusada e fica em auditoria, e publicacao direta sem hash e aprovacao do portao e marcada como fora do portao. (fonte: L-1188) — INTENÇÃO: Toda mudanca na fila rastreavel e sem cancelamento sem motivo
 2. [12/11/2026] Tempo de resposta a mensagem direta e comentario nas redes e uma metrica com alvo e alarme, nao so responder: o Dr. viu a resposta lenta de novo, erro repetido da regra de nao deixar ninguem sem resposta. O alvo pedido e ciclo de 15 minutos das 7h as 22h, por leitura automatica a cada 5 a 10 minutos, e a trava sugerida e avisar quando houver mensagem sem resposta ha mais de 30 minutos no horario comercial. A medicao por conta e tipo esta com o POSTADOR. (fonte: L-1218) — INTENÇÃO: Ninguem sem resposta nas redes, com tempo medido e alarmado
 3. [12/11/2026] Coletor ou respondedor de rede social que falha, com erro de acesso, sessao deslogada ou zero leituras, precisa de alarme em minutos: na medicao de sete dias, a leitura de comentarios ficou parada desde 10 de novembro e o respondedor de mensagens da Vila ficou deslogado por mais de 21 horas, ambos sem alarme. Faltam medir mensagens diretas de varias contas, TikTok e YouTube, que nunca foram coletados. (fonte: L-1219) — INTENÇÃO: Nenhuma rede parada em silencio por horas
+
+### viral-qa
+1. [13/11/2026] Homologacao nova nao revoga a anterior; so revogacao explicita assinada (fonte: L-1259) — INTENÇÃO: Shorts ja aprovados nao podem voltar a PILOTO por homologacao nova
 
 
 ## DEBATES ABERTOS (leia todas as contribuições do tema e responda AO QUE OS OUTROS DISSERAM; cite pelo menos 1 delas)
