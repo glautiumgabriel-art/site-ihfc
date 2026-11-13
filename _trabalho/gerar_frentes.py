@@ -131,7 +131,6 @@ def pagina(f):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex">
 <title>{f["titulo"]} · IHFC Jequié</title>
 <meta name="description" content="{f["dor"]}">
 <meta property="og:title" content="{f["titulo"]} · IHFC Jequié">
@@ -140,6 +139,7 @@ def pagina(f):
 <meta property="og:locale" content="pt_BR">
 <meta property="og:image" content="https://www.ihfc.com.br/img/ihfc-compartilhar-1200x630.jpg">
 <link rel="canonical" href="https://www.ihfc.com.br/{f["arq"]}">
+<script type="application/ld+json">{{"@context":"https://schema.org","@type":["MedicalClinic","Dentist"],"@id":"https://www.ihfc.com.br/#clinica","name":"IHFC · Instituto de Harmonização Facial e Corporal","url":"https://www.ihfc.com.br/","telephone":"+55-73-98150-7715","address":{{"@type":"PostalAddress","streetAddress":"R. Dr. João Braga, 640, Jequiezinho","addressLocality":"Jequié","addressRegion":"BA","addressCountry":"BR"}}}}</script>
 <link rel="icon" href="img/ihfc-favicon-32.png" sizes="32x32">
 <link rel="apple-touch-icon" href="img/ihfc-icone-180.png">
 <link rel="manifest" href="manifest.webmanifest">
