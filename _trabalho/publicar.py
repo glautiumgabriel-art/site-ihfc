@@ -60,13 +60,18 @@ def git(*a):
     return r
 
 
+def assinatura(b):
+    """o Git do Windows guarda CRLF no disco e LF no GitHub: compara sem o \\r"""
+    return hashlib.sha1(b.replace(b"\r\n", b"\n")).hexdigest()
+
+
 def no_ar(arq, esperado, limite=300):
     url = f"https://www.ihfc.com.br/{'' if arq == 'index.html' else arq}?v={int(time.time())}"
     fim = time.time() + limite
     while time.time() < fim:
         try:
             corpo = urllib.request.urlopen(url, timeout=20).read()
-            if hashlib.sha1(corpo).hexdigest() == esperado:
+            if assinatura(corpo) == esperado:
                 return True
         except Exception:
             pass
@@ -97,6 +102,6 @@ if __name__ == "__main__":
     print("enviado; esperando o GitHub Pages (até 5 min por arquivo)...")
     for a in arqs:
         if a.endswith((".html", ".pdf", ".xml", ".txt")):
-            h = hashlib.sha1(open(a, "rb").read()).hexdigest()
+            h = assinatura(open(a, "rb").read())
             print(("NO AR  " if no_ar(a, h) else "ATRASO ") + a)
     print("pronto. Se algo ficou ATRASO: o build do Pages está na fila; confira de novo em 10 min, não republique.")
