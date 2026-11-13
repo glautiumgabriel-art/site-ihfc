@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 13/11/2026 10:34
+Atualizado em: 13/11/2026 10:52
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -441,6 +441,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 
 ### pendencias
 1. [13/11/2026] Pedido de envio a terceiros nunca recebe sugestao de conselho no ciclo Pedidos ao Dr. (fonte: L-1261) — INTENÇÃO: limite fixo nao e decidido por conselho; trava no ciclo, nao so no filtro
+2. [13/11/2026] Gravar no livro de pendencias so por livro.trava()+salvar(), itens alterados (fonte: L-1269) — INTENÇÃO: fechamento nunca volta a aberto
 
 ### gta
 1. [13/11/2026] Duracao do roteiro vem de ritmo medido, nao de formula; medir de novo ao trocar voz (fonte: L-1263) — INTENÇÃO: mapa de cenas e duracao batem com o arquivo final
@@ -450,6 +451,10 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 
 ### geral
 1. [13/11/2026] Ao consultar outra IA pelo Chrome, manter a janela visivel ~30 s (fonte: L-1265) — INTENÇÃO: Dr. ver o trabalho acontecendo
+2. [13/11/2026] Explicacao de IA de fora vira regra no mesmo turno; decidir sozinha com o aprendido (fonte: L-1268) — INTENÇÃO: reduzir uso externo de IA sem afrouxar portao
+3. [13/11/2026] Afiliado: link so em video longo, Story ou bio, com aviso; nunca CTA de compra em Short/Reel (fonte: L-1270) — INTENÇÃO: nao perder conversao com link morto
+4. [13/11/2026] Esforco alto entrega ferramenta ao esforco menor; sem ela a tarefa nao desce de modelo (fonte: L-1271) — INTENÇÃO: economizar tokens e errar menos sem perder qualidade
+5. [13/11/2026] Pausa de formato entra em ordens.py pausar; consultar antes de postar ou anunciar data (fonte: L-1272) — INTENÇÃO: ninguem anuncia ou posta formato pausado
 
 ### olivia
 1. [13/11/2026] Item esperando o Dr. exige conferencia com menos de 24 h para entrar no boletim (fonte: L-1267) — INTENÇÃO: nao cobrar do Dr. pendencia ja resolvida
