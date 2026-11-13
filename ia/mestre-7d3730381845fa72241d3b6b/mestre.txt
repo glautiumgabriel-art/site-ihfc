@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 13/11/2026 00:02
+Atualizado em: 13/11/2026 02:25
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -143,6 +143,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 21. [12/11/2026] A dona de cada canal mantem sempre em producao pelo menos tantas pecas quantos horarios faltam cobrir nas proximas 24 horas, mais uma de folga, e a proxima ideia comeca assim que uma peca entra na GPU, sem esperar o veredito da anterior; ideia carimbada e parada entra antes de ideia nova. Descricao de video que manda repetir acao e recusada pelo juiz de cena, e camera que fecha no personagem corta a cabeca: conferir a folha de quadros antes do portao. (fonte: L-1221) — INTENÇÃO: Nenhum horario sem video por falta de peca em producao
 22. [12/11/2026] Camera que abre, usada para nao cortar cabeca, gera salto de escala em cena aberta de paisagem; nessas cenas usar camera quase parada. A camera que recua vale para cena de dois personagens. (fonte: L-1227) — INTENÇÃO: Sem salto de escala em cena aberta
 23. [12/11/2026] Ao refazer um episodio na mesma pasta ou mudar o tempo aparado ou o mapa de clipes, os clipes aparados em cache devem ser movidos para um backup antes de renderizar, senao o render sai com clipe velho. A dona do codigo vai fazer o cache se invalidar sozinho quando esses dados mudarem. (fonte: L-1237) — INTENÇÃO: Render sem clipe velho e sem travar no mesmo ponto
+24. [13/11/2026] Uma rodada do portao de qualidade sem dois juizes validos nao e veredito e nao gasta tentativa; fica registrada como sem quorum. A regua nao muda. Um episodio do E SE perdeu a ultima tentativa por uma rodada com um juiz so e ganhou uma tentativa de volta. O retry compacto do juiz Claude tambem foi corrigido para incluir a lista de fidelidade. (fonte: L-1239) — INTENÇÃO: Tentativa so gasta com veredito valido
 
 ### GTA 6 GAMERS
 1. [09/11/2026] Fala lenta reprova: ritmo entre 2,3 e 2,8 palavras por segundo é trava, não aviso. (fonte: L-1048) — INTENÇÃO: ritmo de conversa real, que prende
