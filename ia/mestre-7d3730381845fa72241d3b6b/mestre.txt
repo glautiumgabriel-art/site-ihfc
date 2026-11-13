@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 13/11/2026 18:10
+Atualizado em: 13/11/2026 20:31
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -442,6 +442,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 ### pendencias
 1. [13/11/2026] Pedido de envio a terceiros nunca recebe sugestao de conselho no ciclo Pedidos ao Dr. (fonte: L-1261) — INTENÇÃO: limite fixo nao e decidido por conselho; trava no ciclo, nao so no filtro
 2. [13/11/2026] Gravar no livro de pendencias so por livro.trava()+salvar(), itens alterados (fonte: L-1269) — INTENÇÃO: fechamento nunca volta a aberto
+3. [13/11/2026] Pergunta de item ja fechado nao volta a ser entregue (fonte: L-1275) — INTENÇÃO: Nao reperguntar ao Dr. o que ele ja respondeu
 
 ### gta
 1. [13/11/2026] Duracao do roteiro vem de ritmo medido, nao de formula; medir de novo ao trocar voz (fonte: L-1263) — INTENÇÃO: mapa de cenas e duracao batem com o arquivo final
@@ -462,6 +463,9 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 
 ### whatsapp
 1. [13/11/2026] Pergunta repetida a equipe: conferir todos os aliases do contato antes (fonte: L-1273) — INTENÇÃO: Nao fazer a equipe repetir resposta nem parecer robo burro
+
+### tokens
+1. [13/11/2026] Ciclo semanal rola sozinho e tem teste da virada (fonte: L-1276) — INTENÇÃO: Freio de cota nao ficar solto na virada da semana
 
 
 ## DEBATES ABERTOS (leia todas as contribuições do tema e responda AO QUE OS OUTROS DISSERAM; cite pelo menos 1 delas)
