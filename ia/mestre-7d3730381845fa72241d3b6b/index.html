@@ -1,7 +1,7 @@
 <!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><title>Arquivo mestre das IAs</title></head><body><pre style="white-space:pre-wrap;font:14px/1.5 monospace;max-width:900px;margin:16px auto;padding:0 16px"># ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 14/11/2026 13:59
+Atualizado em: 14/11/2026 14:16
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -435,6 +435,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 
 ### viral-qa
 1. [13/11/2026] Homologacao nova nao revoga a anterior; so revogacao explicita assinada (fonte: L-1259) — INTENÇÃO: Shorts ja aprovados nao podem voltar a PILOTO por homologacao nova
+2. [14/11/2026] Trava bloqueante de defeito de IA em todos os quadros (viral-qa/defeitos_ia.py); cumpre L-1285 (fonte: L-1288) — INTENÇÃO: Juiz nao ver de longe nem 1 quadro por cena
 
 ### postador
 1. [13/11/2026] Automacao de mensagem em nome do Dr. exige fonte da aprovacao dele gravada na config (fonte: L-1260) — INTENÇÃO: nenhuma campanha de Direct/WhatsApp/e-mail/comentario ativa sem sim dele registrado
@@ -461,6 +462,8 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 8. [14/11/2026] Arquivo de alguem: pedir pela Olivia/Instinct, nao ao Dr. (fonte: L-1279) — INTENÇÃO: Dr. nao ser o garoto de recado de arquivos
 9. [14/11/2026] Arquivo pedido por link Drive/iCloud, original, nunca WhatsApp (fonte: L-1280) — INTENÇÃO: Qualidade maxima dos arquivos de terceiros
 10. [14/11/2026] Cena de IA so vai ao Dr. apos revisao quadro a quadro de defeitos (maos, dedos, duplicados) com lista por cena (fonte: L-1285) — INTENÇÃO: Dr. nao receber video com bug de geracao que a checagem deixou passar
+11. [14/11/2026] Conferir clipe de IA com recorte grande, não só a folha pequena; trava conferir-clipe/conferir.py (fonte: L-1286) — INTENÇÃO: Nao deixar passar mao/objeto defeituoso que a folha pequena esconde
+12. [14/11/2026] Prevenção antes da conferência: gerar melhor (plano, quadro inicial, clipe curto, IC-LoRA, várias sementes) (fonte: L-1287) — INTENÇÃO: Atacar a causa do defeito na geração, não só pegar depois
 
 ### olivia
 1. [13/11/2026] Item esperando o Dr. exige conferencia com menos de 24 h para entrar no boletim (fonte: L-1267) — INTENÇÃO: nao cobrar do Dr. pendencia ja resolvida
