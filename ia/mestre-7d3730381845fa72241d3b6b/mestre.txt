@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 15/11/2026 01:55
+Atualizado em: 15/11/2026 01:57
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -496,6 +496,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 2. [15/11/2026] Auditoria de contradicoes: marcas aplicadas em REGRAS-ATIVAS; CLAUDE.md/AGENTS.md pendentes de decisao; .md por SendUserFile sem trava (fonte: L-1297) — INTENÇÃO: Menos pergunta ao Dr. por regra contraditoria
 3. [15/11/2026] Registro unico de aprendizados com gatilho, dona e status; ronda cobra anotados com mais de 7 dias (fonte: L-1298) — INTENÇÃO: Nao perder aprendizado: usar na hora certa
 4. [15/11/2026] Robo que falha grava ERRO, nunca sucesso vazio; bloqueio dito em conversa vai a TRIAGEM (trava L-719b) (fonte: L-1303) — INTENÇÃO: Nada importante fica sem chegar a TRIAGEM
+5. [15/11/2026] Todo defeito gera trava que detecta + prevencao na origem + corretor se der; sem prevencao registrada nao esta fechado (fonte: L-1305) — INTENÇÃO: Prevenir defeito em vez de so julgar
 
 ### ENTREGA
 1. [15/11/2026] Resposta ao Dr. sem link de arquivo local (nao abre no celular); arquivo so por SendUserFile (fonte: L-1296) — INTENÇÃO: Dr. le tudo pelo celular; link local quebrado e erro repetido
