@@ -12,7 +12,7 @@ corpo = corpo.replace('</div>\n<div class="pg">', '').replace(' style="margin-to
 corpo = corpo.replace('<div class="card"><b class="n">', '<div class="erro surge"><b class="n">')
 WA = 'https://wa.me/5573981507715?text=Ol%C3%A1!%20Li%20o%20Guia%20da%20harmoniza%C3%A7%C3%A3o%20natural%20e%20quero%20agendar%20uma%20avalia%C3%A7%C3%A3o.'
 secao = f'''<section class="guia"><div class="wrap">
-<span class="eyebrow surge">Guia gratuito</span>
+<span class="eyebrow surge">Guia do IHFC</span>
 <h1 class="surge" style="font-size:clamp(2.2rem,6vw,3.6rem)">Guia da harmonização <em>natural</em>.</h1>
 <p class="lead surge" style="max-width:40rem">O que saber antes de fazer, para ficar com o seu rosto, só que mais descansado. Dr. Glautium Gabriel · CRO-BA 16384</p>
 <p class="botoes surge"><a class="btn btn-ouro" href="{PDF}" download>Baixar o guia em PDF</a> <a class="btn btn-linha" href="{WA}" target="_blank" rel="noopener">Agendar pelo WhatsApp</a></p>
@@ -35,7 +35,7 @@ contato = n[n.index('<section class="contato"'):]
 cab = re.sub(r'<title>.*?</title>', '<title>Guia da harmonização natural | IHFC Jequié-BA</title>', cab, count=1, flags=re.S)
 cab = re.sub(r'(<link rel="canonical" href=")[^"]*', r'\1https://www.ihfc.com.br/guia-natural.html', cab)
 cab = re.sub(r'<script type="application/ld\+json">.*?</script>\n?', '', cab, flags=re.S)
-DESC = 'Guia gratuito do IHFC: os 3 erros que dão "cara de harmonizada", sinais de um planejamento natural e 5 perguntas para fazer na sua avaliação.'
+DESC = 'Guia do IHFC: os 3 erros que dão cara de harmonizada, sinais de um planejamento natural e 5 perguntas para fazer na sua avaliação.'
 cab = re.sub(r'(<meta (?:name="description"|property="og:description") content=")[^"]*', lambda m: m.group(1) + DESC, cab)
 cab = cab.replace('<meta property="og:title" content="IHFC · Instituto de Harmonização Facial e Corporal">', '<meta property="og:title" content="Guia da harmonização natural · IHFC">')
 cab = cab.replace('<meta property="og:url" content="https://www.ihfc.com.br/">', '<meta property="og:url" content="https://www.ihfc.com.br/guia-natural.html">')
