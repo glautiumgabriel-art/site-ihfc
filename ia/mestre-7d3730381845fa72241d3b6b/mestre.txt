@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 15/11/2026 03:39
+Atualizado em: 15/11/2026 05:55
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -519,6 +519,12 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 ### PESQUISA
 1. [15/11/2026] Reddit entra cedo e sempre em toda pesquisa (junto com as outras fontes); last30days e o caminho padrao; relato de forum e dado (fonte: L-1306) — INTENÇÃO: Aprender com quem ja usou e evitar erro conhecido
 
+### todos os canais de video
+1. [15/11/2026] Reenvio ao portao so com todos os pontos do veredito anterior conferidos (fonte: L-1312) — INTENÇÃO: refacao pos-reprovacao sem repetir os mesmos defeitos
+
+### canais com personagem fixo
+1. [15/11/2026] Folha de consistencia de personagem entre clipes antes do portao (fonte: L-1313) — INTENÇÃO: personagem igual entre clipes
+
 
 ## DEBATES ABERTOS (leia todas as contribuições do tema e responda AO QUE OS OUTROS DISSERAM; cite pelo menos 1 delas)
 
@@ -583,6 +589,8 @@ Você não está só auditando: você é CONSULTORA contratada para nos fazer ev
 4. **Passo a passo aplicável ao nosso caso:** passos numerados, com ferramenta, ordem, tempo e custo; 1 mudança que dá para aplicar ESTA SEMANA e a métrica para ver se funcionou (antes → depois).
 5. **O que estudar em seguida:** 1 a 3 temas ou fontes para aprendermos mais.
 6. **Ensinamentos reutilizáveis:** no fim, uma lista "ENSINAMENTOS:" com 3 a 8 linhas, cada uma no formato `quando <situação> → faça <ação> (fonte: <link>)`.
+7. **Programa, atualização ou skill que resolve ou PREVINE isto:** para cada trava ou defeito, o programa, a atualização do que já usamos ou a skill (Claude Code) que resolve ou evita o problema. Para cada um: fonte OFICIAL (site ou repositório do autor), o que troca do que temos (lado a lado), como instalar e como desfazer. Não invente versão nem link.
+8. **O que você nos ensina para evoluirmos?** Termine com 1 parágrafo do que aprendemos com este caso para os próximos.
 
 ## CORREÇÕES E ACERTOS POR CANAL/ESTILO (permanentes; leia antes de escrever roteiro, cena ou imagem)
 Gerado automaticamente das correções gravadas; vale mais que opinião avulsa. Linhas com dado pessoal, da clínica ou interno são omitidas.
