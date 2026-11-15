@@ -7,7 +7,7 @@ import re, os, sys, json, glob, time, subprocess, hashlib, urllib.request
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(RAIZ)
 # páginas que DEVEM ter noindex (prévias, cópias e páginas só de anúncio); o resto NÃO pode ter
-NOINDEX_OK = {"novo.html", "v5.html", "contato-jaiane-previa.html", "equipe-previa.html"} | set(glob.glob("lp-*.html"))
+NOINDEX_OK = {"novo.html", "v5.html", "contato-jaiane-previa.html", "equipe-previa.html", "face-previa.html"} | set(glob.glob("lp-*.html"))
 SEM_ZAP_OK = {"links.html", "privacidade.html"}
 PROIBIDO_NO_GIT = [r"^_aprovados/", r"pedido-recepcao", r"\bpaciente", r"\.(heic|raw)$"]
 
