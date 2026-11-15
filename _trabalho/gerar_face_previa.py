@@ -33,5 +33,5 @@ h = h.replace('<h2>Caminhos que a avaliação <em>pode indicar</em>.</h2>', '<h2
 h = h.replace('<link rel="canonical" href="https://www.ihfc.com.br/face-previa.html">', '<meta name="robots" content="noindex,nofollow">')
 h = re.sub(r'<meta property="og:url"[^>]*>\n', '', h)
 h = h.replace("<!-- gerado por _trabalho/gerar_frentes.py: editar lá, não aqui -->", "<!-- PRÉVIA gerada por _trabalho/gerar_face_previa.py: editar lá. Fora do ar, sem link no site. -->")
-open(os.path.join(RAIZ, "face-previa.html"), "w", encoding="utf-8").write(h)
+open(r"G:/VIDEOS IA/_conhecimento/marketing-clinica/previas/face-previa.html", "w", encoding="utf-8").write(h)
 print("ok face-previa.html", h.count('<article class="proc">'), "quadros")
