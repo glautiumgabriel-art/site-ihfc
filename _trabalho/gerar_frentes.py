@@ -23,6 +23,7 @@ FRENTES = [
                 ("Enzimas e Endolaser", "Caminhos sem cirurgia para gordura e flacidez leves, conforme a avaliação."),
                 ("Bichectomia e lip lift", "Contorno das bochechas e elevação do lábio superior, com cicatriz escondida."),
                 ("Harmonização natural", "Toxina, ácido hialurônico, bioestimuladores e fios, por etapas, sem exagero."),
+                ("Lábios", "Preenchimento com ácido hialurônico e lip lift, planejados junto com o rosto."),
                 ("Consulta cirúrgica", "Consulta pré-cirúrgica antes e, durante a cirurgia, monitorização completa: eletrocardiograma, pulso e respiração.")],
          quem=[("img/ihfc-equipe-glautium-gabriel.webp", "Dr. Glautium Gabriel", "Cirurgião e Traumatologista Bucomaxilofacial - Especialista em Harmonização Orofacial", "CRO-BA 16384")],
          botao="Quero avaliar minha papada ou rosto", texto="Quero uma avaliação de papada/rosto com o Dr. Glautium.",
