@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 15/11/2026 01:12
+Atualizado em: 15/11/2026 01:43
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -501,6 +501,11 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 
 ### NOVIDADES
 1. [15/11/2026] Novidade: abrir o real e comparar, 'ja temos' so com prova, 1 melhoria concreta; gargalo achado = registrar e resolver, lista viva na NOVIDADES (fonte: L-1299) — INTENÇÃO: Nao generalizar nem perder oportunidade; atacar gargalos de renda, alcance e tempo
+
+### POSTADOR
+1. [15/11/2026] Conta nova: aquecimento de 7 a 14 dias, 1 post por dia, celular antes da API, sem navegador automatizado (fonte: L-1300) — INTENÇÃO: Nao perder conta por parecer automacao
+2. [15/11/2026] Aquecimento de conta nova vira recomendacao, nao espera; Dr. assumiu o risco; VIRAL-QA segue obrigatorio (fonte: L-1301) — INTENÇÃO: Nao atrasar postagem; risco da conta e do Dr.
+3. [15/11/2026] Canal novo: 1 post/dia, API, sem Chrome, material proprio, sem esperar; Vila Aurora so Reels, zero fotos (fonte: L-1302) — INTENÇÃO: Vila voltar a funcionar e canais novos nascerem do jeito seguro
 
 
 ## DEBATES ABERTOS (leia todas as contribuições do tema e responda AO QUE OS OUTROS DISSERAM; cite pelo menos 1 delas)
