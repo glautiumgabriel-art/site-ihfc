@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 15/11/2026 07:16
+Atualizado em: 15/11/2026 07:59
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -521,6 +521,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 
 ### todos os canais de video
 1. [15/11/2026] Reenvio ao portao so com todos os pontos do veredito anterior conferidos (fonte: L-1312) — INTENÇÃO: refacao pos-reprovacao sem repetir os mesmos defeitos
+2. [15/11/2026] ideia.json carimbado do proprio projeto, sem sobra na pasta compartilhada (fonte: L-1315) — INTENÇÃO: portao julga a ideia certa
 
 ### canais com personagem fixo
 1. [15/11/2026] Folha de consistencia de personagem entre clipes antes do portao (fonte: L-1313) — INTENÇÃO: personagem igual entre clipes
