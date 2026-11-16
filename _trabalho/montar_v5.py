@@ -5,6 +5,8 @@ import os, re
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 h = open('novo.html', encoding='utf-8').read()
 cab = h[:h.index('<header id="topo">')]
+cab = re.sub(r'<meta name="description" content="[^"]*">', '<meta name="description" content="IHFC em Jequié/BA: harmonização facial, cirurgia bucomaxilofacial, pele, sorriso e corpo, com equipe multiprofissional. Agende pelo WhatsApp.">', cab, count=1)
+cab = cab.replace('</head>', '<link rel="preload" as="image" href="img/ihfc-hero-rosto-800.webp" imagesrcset="img/ihfc-hero-rosto-800.webp 800w, img/ihfc-hero-rosto.webp 1400w" imagesizes="100vw" fetchpriority="high"></head>', 1)
 zap = re.search(r'<a class="zap btn btn-ouro".*?</a>', h, re.S).group(0)
 pessoas = re.findall(r'<div class="pessoa surge"><img src="([^"]+)" alt="([^"]+)"[^>]*><h3>[^<]*</h3><p>([^<]*)</p>', h)
 contato = re.search(r'<section class="contato" id="contato">.*?</section>', h, re.S).group(0)
@@ -16,7 +18,7 @@ areas = [("papada-e-rosto.html", "img/ihfc-rosto-fino.webp", "Face"), ("corpo.ht
          ("sorriso.html", "img/ihfc-sorriso.webp", "Sorriso"), ("tricologia.html", "img/ihfc-cabelo.webp", "Cabelo"),
          ("nutricao.html", "img/ihfc-nutricao.webp", "Nutrição"), ("pele.html", "img/ihfc-pele-manchas.webp", "Estética"),
          ("procedimentos.html#bem-estar", "img/ihfc-bem-estar.webp", "Bem-estar"), ("procedimentos.html", "img/ihfc-planejamento.webp", "Todos os procedimentos")]
-cards = ''.join(f'<a class="v5-area" href="{u}"><img src="{i}" alt="" loading="lazy"><span>{t}</span></a>' for u, i, t in areas)
+cards = ''.join(f'<a class="v5-area" href="{u}"><img src="{i.replace(".webp", "-600.webp")}" alt="" loading="lazy" width="600" height="750"><span>{t}</span></a>' for u, i, t in areas)
 equipe = ''.join(f'<figure><img src="{i}" alt="{n}" loading="lazy"><figcaption><b>{n}</b>{p.split(" · ")[0]}</figcaption></figure>' for i, n, p in pessoas)
 
 css = '''<style>
@@ -76,7 +78,7 @@ pg = f'''{cab.replace('</head>', css + '</head>', 1)}<header id="topo">
 
 <main>
 <section class="v5-hero">
-  <img src="img/ihfc-hero-rosto.webp" alt="">
+  <img src="img/ihfc-hero-rosto.webp" srcset="img/ihfc-hero-rosto-800.webp 800w, img/ihfc-hero-rosto.webp 1400w" sizes="100vw" alt="" fetchpriority="high" decoding="async" width="1400" height="2100">
   <div class="wrap">
     <span class="eyebrow">Policlínica · Jequié/BA</span>
     <h1>Cuidado completo, <em>do rosto ao corpo</em>.</h1>
