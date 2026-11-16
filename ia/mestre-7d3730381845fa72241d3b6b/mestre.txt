@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 16/11/2026 12:15
+Atualizado em: 16/11/2026 16:44
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -234,6 +234,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 34. [10/11/2026] Ritmo lento: corte mediano de 4,5 s, 26,7-33,3 s (6,58 s) sem mudança visual, limite do canal 2 s. -> Inserir microcortes a cada ≤3 s: close do bolo (14 s), relógio (20 s), close do cérebro do golfinho pulsando e filhote (30 s); trocar de ângulo dentro da mesma cena. (fonte: VIRAL-QA critica E-se-metade-do-cerebro-dormisse-como-golfinho_curto_v3_1080p60.mp4)
 35. [10/11/2026] Duração de 37 s e ciência rasa para o formato 'E se' (55-75 s, L-1065), sem explicar o que aconteceria de verdade com um humano. -> Usar ~10-15 s adicionais com ciência real, sem enchimento: por que o golfinho precisa respirar de forma voluntária, o que acontece com um humano sem dormir (microssonos), e ligar com a prova. (fonte: VIRAL-QA critica E-se-metade-do-cerebro-dormisse-como-golfinho_curto_v3_1080p60.mp4)
 36. [10/11/2026] Continuidade: Léo aparece de camiseta cinza e calça xadrez (0-3 s), de camiseta escura e pijama de golfinho nas cenas seguintes, em quartos diferentes, sem a camiseta mostarda da receita. -> Padronizar o visual do Léo (camiseta mostarda na cena de abertura) e manter o mesmo quarto entre 0-3 s e 3,8-7 s. (fonte: VIRAL-QA critica E-se-metade-do-cerebro-dormisse-como-golfinho_curto_v3_1080p60.mp4)
+37. [16/11/2026] fecho de escolha com 'E se' (L-1187) cumpre receita e fecho.py; portao nao afrouxa; voz-frases.mjs grava voz-texto com marca (fonte: L-1327) — INTENÇÃO: destravar post sem afrouxar portao
 
 ### Geral (todas as IAs)
 1. [10/11/2026] Todo pedido do dono tem uma intenção por trás; a lição guarda a intenção e a estende a casos parecidos, não só ao exemplo citado. (fonte: L-1083) — INTENÇÃO: entender o que ele quer de verdade, sem precisar repetir
