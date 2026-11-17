@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 17/11/2026 04:06
+Atualizado em: 17/11/2026 06:32
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -631,6 +631,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 40. [17/11/2026] popup do Chrome que nao clica: UI Automation (Chrome_WidgetWin_1, Invoke/ValuePattern) antes de pedir ao Dr.; ler o campo, nao clicar Copiar (fonte: L-1361) — INTENÇÃO: nao pedir clique ao Dr. em janela do navegador
 41. [17/11/2026] decidir sozinha quando usar cada IA; travou/loop/2a falha -> Grok pela ponte antes de perguntar ao Dr. e antes de repetir (fonte: L-1362) — INTENÇÃO: pedir ajuda ao Grok no travamento
 42. [17/11/2026] nunca encerrar processo por nome (taskkill /IM, Stop-Process -Name); so PIDs proprios anotados (fonte: L-1363) — INTENÇÃO: nao derrubar render de outra conversa
+43. [17/11/2026] versao aprovada pelo Dr. fica congelada; so os ajustes pedidos, declarados no herdar_ajustes; melhoria extra vira video novo (fonte: L-1365) — INTENÇÃO: nao perder aprovacao do Dr.
 
 ### olivia
 1. [13/11/2026] Item esperando o Dr. exige conferencia com menos de 24 h para entrar no boletim (fonte: L-1267) — INTENÇÃO: nao cobrar do Dr. pendencia ja resolvida
