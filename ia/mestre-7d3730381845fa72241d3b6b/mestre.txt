@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 16/11/2026 23:19
+Atualizado em: 16/11/2026 23:28
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -407,6 +407,19 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 30. [16/11/2026] A voz parece encerrar antes do último quadro: o momentâneo cai a -19 LUFS em 31 s. O LUFS integrado de -15,1 está 0,1 abaixo da faixa. -> Estender a fala do CTA até ~31,3 s e subir o ganho ~1 dB (alvo -14,5 LUFS, pico ≤-1,5 dBFS). (fonte: VIRAL-QA critica dr-glautium_por-dentro_v6-papada_previa_v4.mp4)
 31. [16/11/2026] Legenda do post não entregue na pasta (R6.1 não pode ser conferida). -> Anexar o texto: 1ª linha 'papada: tratamento sem cirurgia?', fonte (Rotunda 2004), @dr.glautiumgabriel, CTA coerente ('manda') e até 3 hashtags. (fonte: VIRAL-QA critica dr-glautium_por-dentro_v6-papada_previa_v4.mp4)
 32. [16/11/2026] Pronúncia não confirmada por áudio ('desoxicólico', 'macrófagos', 'Glautium', 'Jequié'). -> Ouvir a faixa inteira. Regerar o trecho se alguma vogal ou sílaba tônica estiver errada: ma-CRÓ-fa-gos, de-sok-si-CÓ-li-co. (fonte: VIRAL-QA critica dr-glautium_por-dentro_v6-papada_previa_v4.mp4)
+33. [16/11/2026] juízes divergem (68.3, 68.4): crítica dos dois vale (fonte: VIRAL-QA critica dr-glautium_por-dentro_v6-papada_previa_v4.mp4)
+34. [16/11/2026] Trecho visual estático de 4.45s entre 20.5s e 24.9s. -> Inserir corte seco ou punch-in aproximando no tecido frouxo aos 22.5s. (fonte: VIRAL-QA critica dr-glautium_por-dentro_v6-papada_previa_v4.mp4)
+35. [16/11/2026] Textos 'MACRÓFAGOS LIMPAM' e cartão final muito próximos da borda. -> Reduzir o tamanho da fonte ou quebrar em duas linhas para respeitar a margem de 6%. (fonte: VIRAL-QA critica dr-glautium_por-dentro_v6-papada_previa_v4.mp4)
+36. [16/11/2026] Texto da legenda do post ausente nos arquivos. -> Anexar arquivo de legenda com termos-chave, menção ao profissional e hashtags. (fonte: VIRAL-QA critica dr-glautium_por-dentro_v6-papada_previa_v4.mp4)
+37. [16/11/2026] Legenda do post ausente (R6.1). Faltam a fonte Rotunda 2004, @dr.glautiumgabriel e hashtags. Também falta a palavra-chave na 1ª linha. -> Anexar a legenda, começando por 'ácido desoxicólico / papada sem cirurgia?', com a fonte, o @ e até 3 hashtags. (fonte: VIRAL-QA critica dr-glautium_por-dentro_v6-papada_previa_v4.mp4)
+38. [16/11/2026] 0,0-2,7 s: título e legenda repetem a mesma frase, e o close quase não se mexe. -> Remover a legenda duplicada do quadro 0 e antecipar o corte para o 3D em ~1,5 s. Dar movimento ao close. (fonte: VIRAL-QA critica dr-glautium_por-dentro_v6-papada_previa_v4.mp4)
+39. [16/11/2026] Trecho sem corte de 4,45 s (24,9-29,4 s), com o queixo parado, e cartão final estático ~2,2 s. Um trecho de 4,3 s (20,5-24,9 s) tem pouca mudança visual. -> Punch-in ou troca de ângulo em ~22,5 s e ~27 s. Animar a entrada do texto no cartão. Meta: mediana ≤2,0 s. (fonte: VIRAL-QA critica dr-glautium_por-dentro_v6-papada_previa_v4.mp4)
+40. [16/11/2026] Texto passa da margem: 'MACRÓFAGOS LIMPAM' (12,75 e 14,25 s) e 'QUE PAPADA SÓ SAI' (29,25-31,6 s) encostam nas bordas (R5.1). Cartão com a metade inferior vazia. -> Quebrar 'MACRÓFAGOS LIMPAM' em 2 linhas ou reduzir a fonte. Reduzir 'QUE PAPADA SÓ SAI' para caber entre 6% e 94% e centralizar o bloco na vertical (35-55%). (fonte: VIRAL-QA critica dr-glautium_por-dentro_v6-papada_previa_v4.mp4)
+41. [16/11/2026] 4,2-7,9 s: 'chamado de enzima' com o texto 'NÃO É ENZIMA' cita o erro antes de corrigir (R4.1). Isso confunde e não traz dado novo. -> Reescrever como 'Não é enzima. É o ácido desoxicólico, que age como detergente.' Texto e fala alinhados. (fonte: VIRAL-QA critica dr-glautium_por-dentro_v6-papada_previa_v4.mp4)
+42. [16/11/2026] Imagem x fala (R2.1): aos 8,25 s a molécula aparece sem poros na membrana. Aos 11,25 s a célula 'morre' mas aparece intacta. Os macrófagos são citados em 12,75 s e só aparecem em 14,25 s. -> Mostrar poros na membrana em 8-10,7 s e fragmentos já em 11,25 s. Mostrar o macrófago a partir de ~12,7 s. No inchaço (15,9-17,6 s), mostrar o líquido entre as células. (fonte: VIRAL-QA critica dr-glautium_por-dentro_v6-papada_previa_v4.mp4)
+43. [16/11/2026] Sem virada nem recompensa: termina em explicação e vai direto ao CTA. O fecho (pele frouxa) não retoma o gancho 'só sai com cirurgia?'. -> Fechar em ~24-26 s com: 'Por isso nem toda papada precisa de cirurgia, mas só a avaliação diz qual é a sua'. Depois vem o CTA. (fonte: VIRAL-QA critica dr-glautium_por-dentro_v6-papada_previa_v4.mp4)
+44. [16/11/2026] O Dr. só aparece como voz sintética (formato 'vídeo do Dr. falando'). A declaração diz que não é clone, mas voz_origem marca clonada:true. Há uma inconsistência nos metadados. -> Se houver material, inserir 1,5-2 s do Dr. em ~24-26 s. Corrigir o campo voz_origem.clonada para refletir a verdade. (fonte: VIRAL-QA critica dr-glautium_por-dentro_v6-papada_previa_v4.mp4)
+45. [16/11/2026] Áudio: -15,1 LUFS (R3.1), pouco abaixo de -14 a -15. O momentâneo cai a -19 LUFS em 31 s, e a voz parece encerrar antes do último quadro (R2.3). -> Estender a fala do CTA até ~31,3 s e subir ~1 dB (alvo -14,5 LUFS, pico ≤-1,5 dBFS). (fonte: VIRAL-QA critica dr-glautium_por-dentro_v6-papada_previa_v4.mp4)
 
 ### vila
 1. [10/11/2026] QA DEGRADADO: juiz único (só travas mecânicas valem) (fonte: VIRAL-QA critica VILA-AURORA_moradores-reais_pescador-vilao_v5.mp4)
@@ -605,6 +618,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 9. [16/11/2026] Duas camadas de texto (título + legenda) repetem a mesma fala; o gancho é comum e pouco surpreendente. -> Manter a legenda queimada e encurtar o título a 2-3 palavras, ou usar um gancho com tensão: 'Seu gelo não derrete gordura — ela morre e sai'. (fonte: VIRAL-QA critica ihfc_por-dentro_crio_v1.mp4)
 10. [16/11/2026] Pronúncia não verificada (sem áudio): 'IHFC', 'poupando-a', 'macrófagos', 'faxina' em voz ElevenLabs. -> Ouvir a locução inteira e regenerar qualquer palavra errada. 'IHFC' deve soar letra a letra ('i-agá-efe-cê'). (fonte: VIRAL-QA critica ihfc_por-dentro_crio_v1.mp4)
 11. [16/11/2026] Texto do post (legenda, palavra-chave, hashtags, fonte Manstein) não foi entregue na pasta; o Dr. não aparece para dar autoridade. -> Entregar a legenda com 'criolipólise em Jequié' na 1ª linha, a fonte, o CTA e poucas hashtags relevantes. Opcional: 2-3 s do Dr. na abertura ou no fechamento, sem paciente. (fonte: VIRAL-QA critica ihfc_por-dentro_crio_v1.mp4)
+12. [16/11/2026] papada sem enzima (cirurgia); canal do Dr. 60 a 90 s; lista de temas; opiniao clinica conferida antes de produzir (fonte: L-1346) — INTENÇÃO: conteudo alinhado ao que o Dr. acredita
 
 
 ## DEBATES ABERTOS (leia todas as contribuições do tema e responda AO QUE OS OUTROS DISSERAM; cite pelo menos 1 delas)
