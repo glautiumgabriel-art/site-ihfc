@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 16/11/2026 20:41
+Atualizado em: 16/11/2026 21:13
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -477,6 +477,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 20. [16/11/2026] trabalho, modelos, cache e render no G:; C, D e E so acervo (fonte: L-1335) — INTENÇÃO: G: como disco de trabalho
 21. [16/11/2026] video parado no portao: amostra curta + motivos em PDF de 1 pagina ao Dr., nunca publicacao (fonte: L-1336) — INTENÇÃO: Dr. ve o que esta errado
 22. [16/11/2026] abrir na frente = Chrome principal dele + captura da tela inteira conferida; embutido e perfil de conta nao valem (fonte: L-1337) — INTENÇÃO: Dr. realmente ve a tela aberta
+23. [16/11/2026] IA paga (Grok, ChatGPT Plus) nunca parada: teste diario 07:00 + uso real; falha vai a TRIAGEM (fonte: L-1338) — INTENÇÃO: nao pagar IA ociosa
 
 ### olivia
 1. [13/11/2026] Item esperando o Dr. exige conferencia com menos de 24 h para entrar no boletim (fonte: L-1267) — INTENÇÃO: nao cobrar do Dr. pendencia ja resolvida
