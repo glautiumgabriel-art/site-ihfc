@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 17/11/2026 03:55
+Atualizado em: 17/11/2026 04:06
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -638,6 +638,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 3. [14/11/2026] Mensagem a Olivia so esporadica e util (ler e verificar assunto concreto); sem 'oi' nem horario fixo (fonte: L-1292) — INTENÇÃO: Nao spammar a Olivia; cada mensagem com pedido concreto
 4. [14/11/2026] Precisando do Dr., avisar a Olivia (WhatsApp dela) com assunto concreto; ela chama o Dr. (fonte: L-1293) — INTENÇÃO: Dr. ser chamado pela Olivia so quando necessario
 5. [16/11/2026] Olivia pode acessar tudo, inclusive fotos de paciente, so pelo canal dela; outras IAs seguem sem paciente (fonte: L-1329) — INTENÇÃO: Olivia resolve sem travar em paciente
+6. [17/11/2026] financeiro proprio do Dr. (multas, contas, processos, placas) pode ir a Instinct; senha/token/cartao/terceiro/paciente continuam bloqueados (fonte: L-1364) — INTENÇÃO: liberar financeiro proprio a Instinct
 
 ### whatsapp
 1. [13/11/2026] Pergunta repetida a equipe: conferir todos os aliases do contato antes (fonte: L-1273) — INTENÇÃO: Nao fazer a equipe repetir resposta nem parecer robo burro
