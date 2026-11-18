@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 18/11/2026 06:04
+Atualizado em: 18/11/2026 09:22
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -250,6 +250,18 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 50. [17/11/2026] Léo flutua parado no ar em 37,5-42,5 s, o que parece pose de slideshow. A Cida muda de proporção entre planos abertos e médios. Gancho e resto têm salas diferentes (sofá e manta). -> [MANTER o elemento fixo do canal (L-907, constância do Dr.): não tirar, trocar nem encolher até sumir] Manter 'léo' e resolver o problema usando-o melhor (ex.: como virada ou gancho, fala mais curta, entrada mais cedo (fonte: VIRAL-QA critica ese_todo-mundo-pulasse_curto_v3_1080p60.mp4)
 51. [17/11/2026] Áudio: pico de -4,0 dBFS, fora da faixa -1 a -3. Queda de ~-17 LUFS no momentâneo em 20 s. O último ~0,5 s (42-42,5 s) vem quase mudo (-39). -> Normalizar o pico para ~-2 dBFS, subir a voz em 20 s e esticar a trilha até o último quadro. (fonte: VIRAL-QA critica ese_todo-mundo-pulasse_curto_v3_1080p60.mp4)
 52. [17/11/2026] CTA: a voz diz só 'Comenta aí', sem as palavras que a legenda pede (PULARIA/OLHANDO). Não há motivo ou recompensa. -> Falar 'Comenta PULA ou OLHA' e mostrar a mesma frase na tela. Se possível, acrescentar 'eu leio os comentários' ou 'respondo o mais votado'. (fonte: VIRAL-QA critica ese_todo-mundo-pulasse_curto_v3_1080p60.mp4)
+53. [18/11/2026] regra R3.1 NÃO CUMPRE em 0,0 s: Pico de áudio medido em -4,0 dBFS está fora do intervalo exigido (-1 a -3 dBFS). (conserto: Ajustar o limiter na etapa de masterização para atingir pico entre -1 e -3 dBFS.) (fonte: VIRAL-QA critica ese_chuva-sem-ar_curto_v2_1080p60.mp4)
+54. [18/11/2026] Pico de áudio em -4,0 dBFS está abaixo da faixa técnica exigida de -1 a -3 dBFS (medido em R3.1). -> Aplicar limiter/ganho na masterização do áudio final para que o pico atinja -2,0 dBFS mantendo a sonoridade equilibrada. (fonte: VIRAL-QA critica ese_chuva-sem-ar_curto_v2_1080p60.mp4)
+55. [18/11/2026] Intervalo entre cortes excede 2,5 s no trecho entre 15,8 s e 20,0 s (4,2 s de cena contínua). -> Inserir um plano cortado intermediário (ex.: um close na cara de espanto do Léo ou detalhe do velocímetro) por volta de 18,0 s para fracionar o plano. (fonte: VIRAL-QA critica ese_chuva-sem-ar_curto_v2_1080p60.mp4)
+56. [18/11/2026] Título e caixas/selos fora da margem lateral de 6% (0-2 s título a ~4%; caixas em 2,3 s, 14-15 s, 18,8 s, 30,8 s a 3-5%). Erro já corrigido antes, repetido. -> Reduzir a fonte e a largura das caixas para ~8% de margem; quebrar o título em linhas mais curtas. (fonte: VIRAL-QA critica ese_chuva-sem-ar_curto_v2_1080p60.mp4)
+57. [18/11/2026] Último plano de 5,02 s sem corte (35,5-40,6 s), com CTA em cima do Léo. -> Quebrar em 3 planos de ~1,6 s: Léo saindo, Cida puxando a camisa, close dos dois olhando a câmera com CTA sobreposto. (fonte: VIRAL-QA critica ese_chuva-sem-ar_curto_v2_1080p60.mp4)
+58. [18/11/2026] Pico -4,0 dBFS (fora de -1 a -3), repetido; queda para -23 LUFS em 40 s. -> Limiter final em -2 dBFS mantendo -14,8 LUFS; estender trilha e voz até o último quadro. (fonte: VIRAL-QA critica ese_chuva-sem-ar_curto_v2_1080p60.mp4)
+59. [18/11/2026] Trechos longos sem corte: 0,7-3,7 s (3 s) e 15,8-20 s (4,2 s). -> Inserir inserto/close a cada ~2 s: gota no vidro e reação do Léo aos 2 s; close da gota e do avião no meio do trecho 15,8-20 s. (fonte: VIRAL-QA critica ese_chuva-sem-ar_curto_v2_1080p60.mp4)
+60. [18/11/2026] Título cobre o rosto da Cida (0-2 s) e o @ só aparece em ~3,7 s. -> Subir o título ~4% ou empurrar a Cida para fora da faixa do texto; mostrar o @ discreto desde 0,5 s. (fonte: VIRAL-QA critica ese_chuva-sem-ar_curto_v2_1080p60.mp4)
+61. [18/11/2026] Legenda 'DELAS,' apagada (~21,8 s); legendas sobre o torso dos personagens; CTA de 39-40 s cobre o Léo. -> Manter opacidade 100% e contorno em todas as legendas; mover a caixa de CTA para a faixa de 62-68% sem tapar o corpo. (fonte: VIRAL-QA critica ese_chuva-sem-ar_curto_v2_1080p60.mp4)
+62. [18/11/2026] Léo e Cida mudam de rosto/barba/cabelo entre a abertura e o resto (0-3 s contra 5 s em diante). -> Regenerar a abertura com a mesma folha de referência dos planos seguintes. (fonte: VIRAL-QA critica ese_chuva-sem-ar_curto_v2_1080p60.mp4)
+63. [18/11/2026] Selo '30 KM/H' não aparece nos quadros (5-6,5 s) e não há selo de '2.000 m' em ~12,8 s. -> Colocar selos âmbar '30 KM/H' e '2.000 M' no instante da fala, na zona segura. (fonte: VIRAL-QA critica ese_chuva-sem-ar_curto_v2_1080p60.mp4)
+64. [18/11/2026] Virada final (36-40 s) sem punchline: a Cida puxa o Léo e vem logo o CTA. -> Dar uma réplica curta da Cida ('Sem ar? Entra!') antes do CTA, com pausa de ~0,5 s. (fonte: VIRAL-QA critica ese_chuva-sem-ar_curto_v2_1080p60.mp4)
 
 ### Geral (todas as IAs)
 1. [10/11/2026] Todo pedido do dono tem uma intenção por trás; a lição guarda a intenção e a estende a casos parecidos, não só ao exemplo citado. (fonte: L-1083) — INTENÇÃO: entender o que ele quer de verdade, sem precisar repetir
@@ -867,6 +879,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 41. [17/11/2026] decidir sozinha quando usar cada IA; travou/loop/2a falha -> Grok pela ponte antes de perguntar ao Dr. e antes de repetir (fonte: L-1362) — INTENÇÃO: pedir ajuda ao Grok no travamento
 42. [17/11/2026] nunca encerrar processo por nome (taskkill /IM, Stop-Process -Name); so PIDs proprios anotados (fonte: L-1363) — INTENÇÃO: nao derrubar render de outra conversa
 43. [17/11/2026] versao aprovada pelo Dr. fica congelada; so os ajustes pedidos, declarados no herdar_ajustes; melhoria extra vira video novo (fonte: L-1365) — INTENÇÃO: nao perder aprovacao do Dr.
+44. [18/11/2026] foco no resultado (venda, agendamento, visualizacao), nao no processo tecnico; estudar o que vende na pratica e testar rapido com metrica (fonte: L-1368) — INTENÇÃO: resultado acima de regra tecnica
 
 ### olivia
 1. [13/11/2026] Item esperando o Dr. exige conferencia com menos de 24 h para entrar no boletim (fonte: L-1267) — INTENÇÃO: nao cobrar do Dr. pendencia ja resolvida
@@ -2158,6 +2171,18 @@ Gerado automaticamente das correções gravadas; vale mais que opinião avulsa. 
 - [18/11/2026] [ACERTO][gancho-parada][estilo:3d][nicho:ciencia] O CTA funciona quando oferece um benefício claro para quem participa. Certo: CTA falado e na tela: 'a mais curtida vira vídeo'.
 - [18/11/2026] [ACERTO][sincronia][estilo:3d][nicho:ciencia] Mantenha o áudio em loudness estável e sem silêncio ou flash acidental. Certo: Loudness de -14,7 LUFS, pico de -4 dBFS, sem silêncio nem flash.
 - [18/11/2026] [ACERTO][fidelidade][estilo:3d][nicho:ciencia] Fatos com fonte citada e hipótese marcada como hipótese; declare crédito de música e uso de IA. Certo: Dados com fontes e hipótese marcada; crédito CC BY na legenda e selo de IA declarado nas redes.
+- [18/11/2026] [ERRO][visual-continuidade] regra R3.1 NÃO CUMPRE em 0,0 s: Pico de áudio medido em -4,0 dBFS está fora do intervalo exigido (-1 a -3 dBFS). (conserto: Ajustar o limiter na etapa de masterização para atingir pico entre -1 e -3 dBFS.).
+- [18/11/2026] [ERRO][visual-continuidade] Pico de áudio em -4,0 dBFS está abaixo da faixa técnica exigida de -1 a -3 dBFS (medido em R3.1). -> Aplicar limiter/ganho na masterização do áudio final para que o pico atinja -2,0 dBFS mantendo a sonoridade equilibrada.
+- [18/11/2026] [ERRO][ritmo] Intervalo entre cortes excede 2,5 s no trecho entre 15,8 s e 20,0 s (4,2 s de cena contínua). -> Inserir um plano cortado intermediário (ex.: um close na cara de espanto do Léo ou detalhe do velocímetro) por volta de 18,0 s para fracionar o plano.
+- [18/11/2026] [ERRO][visual-continuidade] Título e caixas/selos fora da margem lateral de 6% (0-2 s título a ~4%; caixas em 2,3 s, 14-15 s, 18,8 s, 30,8 s a 3-5%). Erro já corrigido antes, repetido. -> Reduzir a fonte e a largura das caixas para ~8% de margem; quebrar o título em linhas mais curtas.
+- [18/11/2026] [ERRO][ritmo] Último plano de 5,02 s sem corte (35,5-40,6 s), com CTA em cima do Léo. -> Quebrar em 3 planos de ~1,6 s: Léo saindo, Cida puxando a camisa, close dos dois olhando a câmera com CTA sobreposto.
+- [18/11/2026] [ERRO][visual-continuidade] Pico -4,0 dBFS (fora de -1 a -3), repetido; queda para -23 LUFS em 40 s. -> Limiter final em -2 dBFS mantendo -14,8 LUFS; estender trilha e voz até o último quadro.
+- [18/11/2026] [ERRO][ritmo] Trechos longos sem corte: 0,7-3,7 s (3 s) e 15,8-20 s (4,2 s). -> Inserir inserto/close a cada ~2 s: gota no vidro e reação do Léo aos 2 s; close da gota e do avião no meio do trecho 15,8-20 s.
+- [18/11/2026] [ERRO][fidelidade] Título cobre o rosto da Cida (0-2 s) e o @ só aparece em ~3,7 s. -> Subir o título ~4% ou empurrar a Cida para fora da faixa do texto; mostrar o @ discreto desde 0,5 s.
+- [18/11/2026] [ERRO][visual-continuidade] Legenda 'DELAS,' apagada (~21,8 s); legendas sobre o torso dos personagens; CTA de 39-40 s cobre o Léo. -> Manter opacidade 100% e contorno em todas as legendas; mover a caixa de CTA para a faixa de 62-68% sem tapar o corpo.
+- [18/11/2026] [ERRO][visual-continuidade] Léo e Cida mudam de rosto/barba/cabelo entre a abertura e o resto (0-3 s contra 5 s em diante). -> Regenerar a abertura com a mesma folha de referência dos planos seguintes.
+- [18/11/2026] [ERRO][sincronia] Selo '30 KM/H' não aparece nos quadros (5-6,5 s) e não há selo de '2.000 m' em ~12,8 s. -> Colocar selos âmbar '30 KM/H' e '2.000 M' no instante da fala, na zona segura.
+- [18/11/2026] [ERRO][visual-continuidade] Virada final (36-40 s) sem punchline: a Cida puxa o Léo e vem logo o CTA. -> Dar uma réplica curta da Cida ('Sem ar? Entra!') antes do CTA, com pausa de ~0,5 s.
 
 ### Canal GTA 6 GAMERS
 - [10/11/2026] Fala lenta reprova: ritmo entre 2,3 e 2,8 palavras por segundo é trava, não aviso.
