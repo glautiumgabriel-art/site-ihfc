@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 18/11/2026 12:52
+Atualizado em: 18/11/2026 13:49
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -990,6 +990,9 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 11. [16/11/2026] Texto do post (legenda, palavra-chave, hashtags, fonte Manstein) não foi entregue na pasta; o Dr. não aparece para dar autoridade. -> Entregar a legenda com 'criolipólise em Jequié' na 1ª linha, a fonte, o CTA e poucas hashtags relevantes. Opcional: 2-3 s do Dr. na abertura ou no fechamento, sem paciente. (fonte: VIRAL-QA critica ihfc_por-dentro_crio_v1.mp4)
 12. [16/11/2026] papada sem enzima (cirurgia); canal do Dr. 60 a 90 s; lista de temas; opiniao clinica conferida antes de produzir (fonte: L-1346) — INTENÇÃO: conteudo alinhado ao que o Dr. acredita
 13. [17/11/2026] voz clonada do Dr. so com os ajustes aprovados (voz_aprovada) e roteiro em tom de fala; ajuste novo so com amostra aprovada (fonte: L-1350) — INTENÇÃO: voz do Dr. natural
+14. [18/11/2026] Quadro 0 (0,0 s) vazio sem texto nem gancho visual, e ausencia total de fala (0,0-9,0 s) -> Inserir o titulo 'AVALIACAO FACIAL - JEQUIE' e o Dr. Glautium ja no quadro 0 (0,0 s) falando a chamada nos primeiros 1,5 s (fonte: VIRAL-QA critica ihfc_story_horarios_20-11_v4.mp4)
+15. [18/11/2026] Duracao de 9,0 s fora da faixa do canal (15-45 s) e zero cortes (mediana 9,0 s > 4,0 s) -> [MANTER o elemento fixo do canal (L-907, constância do Dr.): não tirar, trocar nem encolher até sumir] Manter 'dr' e resolver o problema usando-o melhor (ex.: como virada ou gancho, fala mais curta, entrada mais cedo). (fonte: VIRAL-QA critica ihfc_story_horarios_20-11_v4.mp4)
+16. [18/11/2026] Texto 'Responda este story' (5,5-9,0 s) inadequado para Reels e ausencia de texto de post na pasta -> Alterar o texto em 5,5 s para 'Comente HORARIO ou chame no link da bio' e entregar legenda com palavra-chave na 1a linha (fonte: VIRAL-QA critica ihfc_story_horarios_20-11_v4.mp4)
 
 ### dr-perfil
 1. [17/11/2026] video do Dr./clinica so segue com camada de luxo (motion, lettering, SFX, grade, preto+dourado); cru nao vai a ele (fonte: L-1358) — INTENÇÃO: edicao de luxo obrigatoria
