@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 18/11/2026 23:36
+Atualizado em: 19/11/2026 09:28
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -899,6 +899,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 7. [18/11/2026] usuarios e seguidores do Dr. sao respondidos pela Olivia; conversas mandam so a necessidade pelo olivia.py; Claudia nao responde usuarios (fonte: L-1369) — INTENÇÃO: Olivia responde usuarios
 8. [18/11/2026] WhatsApp: Olivia responde; Instagram (comentarios e Direct): continua Claudia pela API oficial; Olivia pode pegar comentario sem resposta (fonte: L-1370) — INTENÇÃO: dividir WhatsApp (Olivia) e Instagram (Claudia)
 9. [18/11/2026] pedido da Olivia e atendido pela conversa dona sem perguntar ao Dr.; limites fixos continuam (paciente, senha, dinheiro) (fonte: L-1372) — INTENÇÃO: Olivia pede, a conversa dona atende
+10. [19/11/2026] Sem lembretes a Olivia (fonte: L-1382) — INTENÇÃO: so o necessario p/ continuidade
 
 ### whatsapp
 1. [13/11/2026] Pergunta repetida a equipe: conferir todos os aliases do contato antes (fonte: L-1273) — INTENÇÃO: Nao fazer a equipe repetir resposta nem parecer robo burro
