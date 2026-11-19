@@ -9,6 +9,16 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ZAP = "5573981507715"
 
 
+TITLE_SEO = {
+ "papada-e-rosto.html": "Papada e contorno do rosto em Jequié-BA | IHFC",
+ "sorriso.html": "Tratamentos para o sorriso em Jequié-BA | IHFC",
+ "implante.html": "Implantes dentários em Jequié-BA | IHFC",
+ "corpo.html": "Contorno corporal e barriga em Jequié-BA | IHFC",
+ "tricologia.html": "Queda de cabelo: avaliação e tratamento em Jequié | IHFC",
+ "nutricao.html": "Nutrição clínica em Jequié-BA | IHFC",
+ "pele.html": "Manchas, acne e cuidados da pele em Jequié-BA | IHFC",
+}
+
 def zap(chave, texto):
     return f"https://wa.me/{ZAP}?text=" + quote(f"{chave} - Olá! Vim pelo site. {texto}")
 
@@ -132,7 +142,7 @@ def pagina(f):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{f["titulo"]} · IHFC Jequié</title>
+<title>{TITLE_SEO.get(f["arq"], f["titulo"]+" · IHFC Jequié")}</title>
 <meta name="description" content="{f["dor"]}">
 <meta property="og:title" content="{f["titulo"]} · IHFC Jequié">
 <meta property="og:url" content="https://www.ihfc.com.br/{f["arq"]}">
