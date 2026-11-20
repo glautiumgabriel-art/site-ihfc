@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 20/11/2026 14:09
+Atualizado em: 20/11/2026 19:23
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -703,6 +703,8 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 43. [18/11/2026] Detalhe de props (~15,75 s): o papel na mão do Rufo (com cupcake) difere do bilhete azul do balcão (9,75 s). -> Regenerar o plano 14,5-19 s com o bilhete idêntico ao do balcão (bolsa azul, escrita roxa). (fonte: VIRAL-QA critica VILA-AURORA_bilhete-do-acucar_v8.mp4)
 44. [18/11/2026] Entonação e pronúncia do TTS: sem o áudio não confirmei a fala nem a emoção (grito do Abel em 0-2 s, 'Ela esconde alguma coisa' em 17 s). -> Ouvir a locução e conferir palavras e tom (grito do Abel, suspense em 'Ela esconde...'). (fonte: VIRAL-QA critica VILA-AURORA_bilhete-do-acucar_v8.mp4)
 45. [18/11/2026] Duração 39,4 s, abaixo da faixa 45-60 s da receita (aceita pelo teste AA001). Observação, não motivo de reprovação. -> Se ligar as cenas pedir 3-5 s a mais, usar o espaço para o bolo-prova e a frase da pegada, não para encher. (fonte: VIRAL-QA critica VILA-AURORA_bilhete-do-acucar_v8.mp4)
+46. [20/11/2026] Vila Aurora: 4 Reels por dia (fonte: L-1391) — INTENÇÃO: mais volume de Reels
+47. [20/11/2026] Vila: 4 Reels/dia obrigatorio, vigia cobra (fonte: L-1392) — INTENÇÃO: meta fixa de volume
 
 ### Pagina do Dr.
 1. [11/11/2026] Um item por assunto, sem duplicidade; o que foi decidido em um canal fecha em todos. A pagina atualiza so o que mudou e nunca apaga o que o Dr. esta escrevendo. Todo item tem microfone e opcao de lembrar depois. Links de previa sao absolutos e funcionam fora da rede do PC. Conferir a pagina antes de perguntar de novo; texto longo nunca chega cortado. (fonte: L-1128 R1) — INTENÇÃO: Menos pedido repetido ao Dr.
