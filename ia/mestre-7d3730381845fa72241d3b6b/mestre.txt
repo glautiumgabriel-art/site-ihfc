@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 20/11/2026 12:07
+Atualizado em: 20/11/2026 13:15
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -888,6 +888,9 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 50. [18/11/2026] Chrome: KRAKEN CHROME e perfil do Dr. sempre abertos; outros perfis sob demanda e fecham apos uso; logins salvos (fonte: L-1379) — INTENÇÃO: economizar memoria do Chrome
 51. [18/11/2026] o fechar do contas.py nunca encerra o KRAKEN CHROME nem o 9301; confere PID/perfil antes; so perfis sob demanda (fonte: L-1380) — INTENÇÃO: nao derrubar o Chrome do Dr.
 52. [18/11/2026] Codex desligado sem OK do Dr. (fonte: L-1381) — INTENÇÃO: so ChatGPT comum; Codex so com OK dele
+53. [20/11/2026] MausBot comanda em teste; TRIAGEM de reserva (fonte: L-1385) — INTENÇÃO: testar coordenacao pelo MausBot
+54. [20/11/2026] MausBot com acesso total e Codex; so pagamento pergunta (fonte: L-1386) — INTENÇÃO: destravar frentes pelo MausBot
+55. [20/11/2026] Transicao gradual ao MausBot, ele julga pelo relatorio (fonte: L-1387) — INTENÇÃO: migrar frentes so com prova
 
 ### olivia
 1. [13/11/2026] Item esperando o Dr. exige conferencia com menos de 24 h para entrar no boletim (fonte: L-1267) — INTENÇÃO: nao cobrar do Dr. pendencia ja resolvida
@@ -1031,6 +1034,9 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 
 ### video
 1. [20/11/2026] Video do Dr. edita com video-edit-skill (fonte: L-1383) — INTENÇÃO: edicao do video enviado pelo Dr.
+
+### mausbot
+1. [20/11/2026] MausBot autonomo: escolhe IA e tenta logar sozinho (fonte: L-1384) — INTENÇÃO: menos dependencia do Dr.
 
 
 ## DEBATES ABERTOS (leia todas as contribuições do tema e responda AO QUE OS OUTROS DISSERAM; cite pelo menos 1 delas)
