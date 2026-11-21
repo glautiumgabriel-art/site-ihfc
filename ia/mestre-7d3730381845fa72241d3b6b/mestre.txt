@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 21/11/2026 12:12
+Atualizado em: 21/11/2026 12:25
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -835,6 +835,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 75. [17/11/2026] Quedas de voz e pausas: 33-35 s (-21/-27 LUFS) e 45 s (-25 LUFS), com o Trevor mudo sorrindo; fala lenta (~1,9 palavra/s) -> Cortar a pausa ou preencher com uma fala sarcástica curta (≤0,6 s de beat). Acelerar a locução para 2,3-2,8 palavras/s. (fonte: VIRAL-QA critica gta_a2-5-detalhes-trailer_v22_react.mp4)
 76. [17/11/2026] Legenda de 2-3 palavras com quebra em 2 linhas ('O OUTDOOR THE / KEYS', 'NO MEIO DO / TIROTEIO', 'QUAL DESSES VOCÊ / NUNCA TINHA VISTO?') -> Legenda palavra a palavra, uma por vez, com a palavra-gatilho em neon; 'The Keys' junto na mesma linha. (fonte: VIRAL-QA critica gta_a2-5-detalhes-trailer_v22_react.mp4)
 77. [17/11/2026] Tarja 'TREVOR / Repórter oficial do caos' a ~7% da borda esquerda (0,75-1,0 s), colada na borda; a base ~65-100% do quadro fica preta vazia -> Manter a tarja (elemento fixo), movendo a margem para ≥6% com folga, e entrando em 0,0 s. Usar o espaço da base para o trailer maior ou o CTA com 1/2 visíveis. (fonte: VIRAL-QA critica gta_a2-5-detalhes-trailer_v22_react.mp4)
+78. [21/11/2026] Corte de live do GTA leva motion de qualidade, gancho no 1o segundo e ritmo melhor (fonte: L-1398) — INTENÇÃO: corte de live bonito e otimizado
 
 ### biblia
 1. [13/11/2026] Texto biblico: Biblia aberta ao publico, palavras faceis, frase pode mudar sem perder sentido (fonte: L-1264) — INTENÇÃO: falas compreensiveis e sem problema de direito autoral
