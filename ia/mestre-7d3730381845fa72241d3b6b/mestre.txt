@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 21/11/2026 07:42
+Atualizado em: 21/11/2026 09:14
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -1032,6 +1032,8 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 37. [18/11/2026] Volume de áudio (-17.9 LUFS) abaixo do padrão das redes (-14 LUFS). -> Normalizar o áudio para -14 LUFS integrados com picos em -2 dBFS. (fonte: VIRAL-QA critica ihfc_story_horarios_20-11_v8.mp4)
 38. [18/11/2026] Ausência de legenda do post e CTA apenas visual no final. -> Incluir legenda com palavra-chave 'Jequié' e fazer o Dr. falar o CTA 'Comente HORARIO' no fechamento. (fonte: VIRAL-QA critica ihfc_story_horarios_20-11_v8.mp4)
 39. [18/11/2026] anuncio/video da clinica: cena de ~3 s no minimo, sem corte picado; mostrar tambem as versoes 1 e 2 anteriores (fonte: L-1377) — INTENÇÃO: fim do corte picado na clinica
+40. [21/11/2026] Clinica: nunca 'ninguem pode garantir resultado'; dizer o que garantimos sem prometer resultado (fonte: L-1395) — INTENÇÃO: mensagem de confianca sem promessa
+41. [21/11/2026] Sem efeito de linha passando repetido; proximos explicativos com 1-2 clipes curtos de IA (fonte: L-1396) — INTENÇÃO: menos estranheza, mais explicacao visual
 
 ### dr-perfil
 1. [17/11/2026] video do Dr./clinica so segue com camada de luxo (motion, lettering, SFX, grade, preto+dourado); cru nao vai a ele (fonte: L-1358) — INTENÇÃO: edicao de luxo obrigatoria
