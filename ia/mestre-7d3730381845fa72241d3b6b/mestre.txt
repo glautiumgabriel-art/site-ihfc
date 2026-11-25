@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 25/11/2026 01:35
+Atualizado em: 25/11/2026 01:43
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -905,6 +905,8 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 60. [24/11/2026] Matrix substitui o Postador; Codex e Hermes como aliados; religar rotinas so depois de aprimorar (fonte: L-1402) — INTENÇÃO: rotinas voltam melhores e baratas em tokens
 61. [25/11/2026] Exemplo do Dr. e referencia de metodo/qualidade; cada produto tem identidade propria com 2-3 direcoes (fonte: L-1404) — INTENÇÃO: nao copiar visual de um produto em outro
 62. [25/11/2026] Bots externos (Hermes, OpenBot, MausBot) so com modelo explicito nao-Claude, registrado no log (fonte: L-1409) — INTENÇÃO: nao gastar token Claude quando delega a bot
+63. [25/11/2026] Tarefa com mouse persiste: Dr. mexeu junto, esperar mouse parar, novo print e refazer (fonte: L-1410) — INTENÇÃO: automacao de tela resistente ao Dr. mexendo
+64. [25/11/2026] Uma IA na tela por vez com trava de vez; nao abrir janela a frente; Hermes executa tela (fonte: L-1411) — INTENÇÃO: IAs nao competirem pela tela
 
 ### olivia
 1. [13/11/2026] Item esperando o Dr. exige conferencia com menos de 24 h para entrar no boletim (fonte: L-1267) — INTENÇÃO: nao cobrar do Dr. pendencia ja resolvida
