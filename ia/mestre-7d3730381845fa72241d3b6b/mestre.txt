@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 25/11/2026 20:35
+Atualizado em: 25/11/2026 20:38
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -934,6 +934,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 89. [25/11/2026] Dr. permitiu instalar o necessario para as IAs sem pedir OK; fonte oficial, nada pago, senha e paciente com ele (fonte: L-1436) — INTENÇÃO: autonomia para instalar
 90. [25/11/2026] Citacao literal do Dr. repassada pela TRIAGEM vale nas filhas, inclusive download oficial; excecoes: senha, dinheiro, paciente, terceiros (fonte: L-1437) — INTENÇÃO: filhas executam a palavra do Dr.
 91. [25/11/2026] Parear WhatsApp por QR na tela do KRAKEN; codigo so se longe, direto; sem gerar codigo novo enquanto ele digita (fonte: L-1438) — INTENÇÃO: pareamento sem falha
+92. [25/11/2026] Tela de login para o Dr. vem com 1 linha de explicacao (site, conta, para que, o que acontece depois) via TRIAGEM (fonte: L-1439) — INTENÇÃO: Dr. entende cada login pedido
 
 ### olivia
 1. [13/11/2026] Item esperando o Dr. exige conferencia com menos de 24 h para entrar no boletim (fonte: L-1267) — INTENÇÃO: nao cobrar do Dr. pendencia ja resolvida
