@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 25/11/2026 19:29
+Atualizado em: 25/11/2026 19:53
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -924,6 +924,10 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 79. [25/11/2026] Nenhuma voz Kokoro em nenhum canal ou video (fonte: L-1426) — INTENÇÃO: sem voz Kokoro
 80. [25/11/2026] Amostras variam estilo visual/molde, nao so a voz; midia real com credito; checador compara visual (fonte: L-1427) — INTENÇÃO: amostras realmente diferentes
 81. [25/11/2026] Dizer 'sem ganho/nao resolveu' exige trazer o proximo degrau da escada ja em execucao (fonte: L-1428) — INTENÇÃO: nunca parar no sem ganho
+82. [25/11/2026] Nada de monitor virtual (perde quadros); janela de agente em -32000 minimizada; medir quadros do DWM (fonte: L-1429) — INTENÇÃO: Windows suave, Principal livre
+83. [25/11/2026] Sintoma vago: 1 pergunta curta com 2-3 opcoes (pela TRIAGEM) antes de medir (fonte: L-1430) — INTENÇÃO: entender o sintoma antes de investigar
+84. [25/11/2026] Toda licao anota alcance: especifica (caso) ou geral (metodo), com motivo (fonte: L-1431) — INTENÇÃO: nem generalizar demais nem de menos
+85. [25/11/2026] Extrair o porque do pedido e aplicar o porque, nao so a letra; fonte de midia por criterio (fonte: L-1432) — INTENÇÃO: aplicar o objetivo, nao a letra
 
 ### olivia
 1. [13/11/2026] Item esperando o Dr. exige conferencia com menos de 24 h para entrar no boletim (fonte: L-1267) — INTENÇÃO: nao cobrar do Dr. pendencia ja resolvida
