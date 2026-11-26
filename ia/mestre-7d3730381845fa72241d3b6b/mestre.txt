@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 25/11/2026 21:53
+Atualizado em: 25/11/2026 22:04
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -948,6 +948,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 102. [25/11/2026] Hermes cria contas e canais novos sem novo OK; senha, codigo, CAPTCHA e dinheiro com o Dr. (fonte: L-1451) — INTENÇÃO: comecar canais novos sem esperar o Dr.
 103. [25/11/2026] Fechar abas e janelas descartaveis; programa rodando fica escondido; nao conseguiu fechar, pedir ao Hermes (fonte: L-1452) — INTENÇÃO: tela do Dr. limpa
 104. [25/11/2026] Pergunta direta do Dr. = SIM/NAO na 1a linha com prova; sem resposta vai ao livro de pendencias (fonte: L-1453) — INTENÇÃO: nada ficar para tras
+105. [25/11/2026] Usar Codex, Hermes e Gemini Pro sem teto proprio; so cota, RAM/VRAM e vez da tela limitam; geracao ruim vai ao Hermes/Gemini antes do Dr. (fonte: L-1454) — INTENÇÃO: mais producao com menos token do Claude e coisa exata
 
 ### olivia
 1. [13/11/2026] Item esperando o Dr. exige conferencia com menos de 24 h para entrar no boletim (fonte: L-1267) — INTENÇÃO: nao cobrar do Dr. pendencia ja resolvida
