@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 25/11/2026 23:59
+Atualizado em: 26/11/2026 00:11
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -404,6 +404,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 125. [13/11/2026] Atribuir uma fala, achado ou opiniao a uma IA ou pessoa so vale com a mensagem dela como fonte. O que e nosso vai marcado como nosso e nao verificado, e trecho de busca repassado sem leitura e chamado de trecho repassado, nunca de opiniao dela. O boletim do dia atribuiu a Olivia uma ferramenta, um achado e uma opiniao que nao eram dela. O boletim passa a recusar a atribuicao sem a identificacao da mensagem. (fonte: L-1254) — INTENÇÃO: Nenhuma atribuicao falsa a uma IA ou pessoa
 126. [13/11/2026] Tarefa agendada nunca chama python sem caminho completo: no agendador isso cai no atalho da loja de aplicativos e falha calado. Duas tarefas falharam por dias sem aviso, uma delas a renovacao de credenciais de quatro contas. Foram corrigidas com caminho completo e pasta de trabalho, e o auditor diario passa a listar toda tarefa ativa com esse defeito ou com esse erro no ultimo resultado. (fonte: L-1257) — INTENÇÃO: Nenhuma tarefa agendada falha calada
 127. [25/11/2026] L-1159 suspensa so no teste do modo rigoroso; regra dificil nao sai, troca-se a ferramenta (fonte: L-1475)
+128. [26/11/2026] Anuncio/video da clinica ilustrativo, texto curto, area segura, nunca comparar profissionais (fonte: L-1476)
 
 ### dr
 1. [10/11/2026] Ausência de texto no primeiro quadro (0,0s), aparecendo apenas aos 0,25s. -> Inserir o título estático 'COLÁGENO POR DENTRO' já no quadro 0,0s para garantir impacto visual imediato ao rolar o feed. (fonte: VIRAL-QA critica dr-glautium_por-dentro_v3-colageno_previa_v2.mp4)
