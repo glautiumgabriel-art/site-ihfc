@@ -1,7 +1,7 @@
 # ARQUIVO MESTRE DAS IAs — memória comum de Claude, ChatGPT, Gemini, Grok e Manus
 
 Página de texto simples, sem login, em endereço fixo. Serve para que qualquer IA, em qualquer conta, continue de onde a conversa parou. Quem escreve aqui: só o script arquivo_mestre_ias.py, a partir das decisões do conselho. As IAs leem e respondem no chat; a resposta delas vira decisão aqui pelo script.
-Atualizado em: 26/11/2026 18:36
+Atualizado em: 26/11/2026 19:47
 
 ## COMO USAR (leia antes de responder)
 1. Leia esta página inteira antes de responder. Se não conseguiu abrir o endereço, diga isso na primeira linha da resposta.
@@ -419,6 +419,7 @@ ONDE PARAMOS: Auditoria de partida feita em 09/11; reavaliar em 16/11 e 23/11; m
 140. [26/11/2026] Nao criar limite artificial de uso sem conferir o plano; curva semanal e aviso, nao trava (fonte: L-1488)
 141. [26/11/2026] Gemini recusou/trocou a cena: LTX local pelo mesmo frame, conferido contra referencia e roteiro (fonte: L-1490)
 142. [26/11/2026] Estilo aprovado nao muda: corrigir so a cena com erro; amostra nova so em canal sem estilo (fonte: L-1491)
+143. [26/11/2026] Sincronia voz x imagem por correlacao, desvio < 0,1 s; todo trecho com som do tamanho da imagem (fonte: L-1492)
 
 ### dr
 1. [10/11/2026] Ausência de texto no primeiro quadro (0,0s), aparecendo apenas aos 0,25s. -> Inserir o título estático 'COLÁGENO POR DENTRO' já no quadro 0,0s para garantir impacto visual imediato ao rolar o feed. (fonte: VIRAL-QA critica dr-glautium_por-dentro_v3-colageno_previa_v2.mp4)
